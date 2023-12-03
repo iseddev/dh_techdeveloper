@@ -19,7 +19,9 @@ Utilizando el siguiente [figma](https://www.figma.com/file/VfoIoqXwXUo5Gddw9h5M5
    1. Header (logo y título principal)
    2. Datos principales (section)
    3. Formación académica y Experiencia laboral (section)
-   4. Pie de página (footer)  
+   4. Pie de página (footer)
+
+[Solución aquí](./sync/code/index.html)
 
 <br>
 
