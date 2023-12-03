@@ -6,4 +6,6 @@ Utilizando del siguiente [figma](https://www.figma.com/file/E8Orh57Weqm2a4UuU4nm
 
 El proceso de reconocer las diferentes etiquetas o elementos puede ser por fuera del código. Es decir, pueden tomar nota en papel, escribiendo por encima de la imagen si es que la imprimís o simplemente utilizando algún software para poder escribir o dibujar sobre la imagen.
 
-![Diseño propuesto de maquetación](./sync/clase04_design.png)
+[Resultado aquí](./sync/code/index.html)
+
+![Diseño propuesto de maquetación](./clase04_design.png)
