@@ -11,3 +11,7 @@ Prácticas y desafíos
 * [Clase 07 - Modelo de Caja](./clase_07/)
 * [Clase 08 - Flex box](./clase_08/)
 * [Clase 10 - Diseño adaptativo (Responsive Web Design)](./clase_10/)
+* [Clase 11 - Formularios](./clase_11/)
+* [Clase 12 - Pseudoclases y Pseudoelementos](./clase_12/)
+* [Clase 13 - Animaciones](./clase_13/)
+* [Clase 14 - Animaciones II - Proyecto integrador](./clase_14/)
