@@ -1,6 +1,6 @@
 # Desafío Clase 06 (*Complemento Clase 05*)
 
-Desafío:
+## Desafío:
 Utilizando como guía el CV de Batman realizado la clase anterior les proponemos que realicen un CV personal y una página de presentación.
 
 ### La tarea incluirá dos páginas:
