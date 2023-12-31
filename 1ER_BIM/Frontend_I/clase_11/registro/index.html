@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/styles.css">
+  <title>Registrar Héroe</title>
+</head>
+<body>
+
+  <!-- Barra de descuentos -->
+  <div class="top-bar">
+    <div class="discount">
+      <div class="container">
+        <p class="discount-text">Descuentos 20%</p>
+      </div>
+    </div>
+    
+    <!-- Header principal -->
+    <header class="header">
+      <div class="container">
+        <h1 class="header-title">Card super heroes</h1>
+      </div>
+    </header>
+    <nav class="nav">
+      <div class="container">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#">Contacto</a></li>
+          <!-- <li><a class="nav-link" href="./registro">Registrarme</a></li> -->
+          <li><a class="nav-link" href="/">Inicio</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <main>
+    <div class="container d-flex xs-justify-center">
+      <form action="#" method="GET" class="form d-flex xs-justify-center xs-cols-10">
+
+        <!-- FORM HEADER -->
+        <div class="form-item form-header">
+          <h2>Añadir tu super</h2>
+          <p>Agrega tu personaje favorito completando las opciones</p>
+        </div>
+        
+        <!-- INPUT -->
+        <div class="form-item xs-cols-6">
+          <label for="name" class="d-block">*Nombre</label>
+          <input type="text" id="name" name="name" required class="input-field">
+        </div>
+
+        <!-- SELECT/OPTIONS -->
+        <div class="form-item xs-cols-6">
+          <label for="specie" class="d-block">*Especie</label>
+          <select name="specie" id="specie" required class="input-field">
+            <!-- <option value="empty" selected disabled></option> -->
+            <option value="empty" selected disabled>Especie</option>
+            <option value="human">Humano</option>
+            <option value="animal">Animal</option>
+            <option value="et">Extraterrestre</option>
+            <option value="fire">Fuego</option>
+            <option value="water">Agua</option>
+            <option value="air">Aire</option>
+            <option value="unknown">Desconocido</option>
+          </select>
+        </div>
+
+        <!-- DATE -->
+        <div class="form-item xs-cols-6">
+          <label for="date" class="d-block">Fecha</label>
+          <input type="date" name="date" id="date" class="input-field">
+        </div>
+        
+        <!-- FILE -->
+        <div class="form-item xs-cols-6">
+          <label for="file" class="d-block">Agregar foto</label>
+          <input type="file" name="file" id="file" class="input-file">
+        </div>
+
+        <!-- TEXTAREA -->
+        <div class="form-item xs-cols-6">
+          <textarea name="description" id="description" placeholder="Descripción"></textarea>
+        </div>
+
+        <!-- CHECKBOXES AND RADIOBUTTONS -->
+        <div class="form-item xs-cols-6">
+          <!-- CHECKBOXES -->
+          <div class="checkboxes">
+            <h3 class="form-subtitle">Poderes</h3>
+            <div class="checkbox-container">
+              <input type="checkbox" name="power" id="fly" value="fly">
+              <label for="fly">Volar</label>
+            </div>
+            <div class="checkbox-container">
+              <input type="checkbox" name="power" id="intelligence" value="intelligence">
+              <label for="intelligence">Superinteligencia</label>
+            </div>
+            <div class="checkbox-container">
+              <input type="checkbox" name="power" id="laser-sight" value="laser-sigth">
+              <label for="laser-sight">Vista de rayo láser</label>
+            </div>
+            <div class="checkbox-container">
+              <input type="checkbox" name="power" id="big-money" value="big-money">
+              <label for="big-money">Billetera Gorda</label>
+            </div>
+          </div>
+          <hr>
+          <!-- RADIOBUTTONS -->
+          <div>
+            <h3 class="form-subtitle">Tipo de personaje</h3>
+            <div class="radiobutton-container">
+              <input type="radio" name="character" id="hero" value="hero">
+              <label for="hero">Héroe / Heroína</label>
+            </div>
+            <div class="radiobutton-container">
+              <input type="radio" name="character" id="villain" value="hero">
+              <label for="villain">Villano / Villana</label>
+            </div>
+          </div>
+        </div>
+
+        <button type="submit" class="form-submit">Añadir</button>
+      </form>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container d-flex footer-content">
+      <p class="footer-text">Todos los derechos reservados a <span class="footer-front">front end 1</span></p>
+      <img class="footer-icon" src="../img/github.png" alt="Logo Github">
+    </div>
+  </footer>
+</body>
+</html>

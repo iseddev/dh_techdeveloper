@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  
+  <!-- Estilos CSS -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Práctica C11S | Formularios</title>
+</head>
+<body>
+  
+  <!-- Barra de descuentos -->
+  <div class="top-bar">
+    <div class="discount">
+      <div class="container">
+        <p class="discount-text">Descuentos 20%</p>
+      </div>
+    </div>
+    
+    <!-- Header principal -->
+    <header class="header">
+      <div class="container">
+        <h1 class="header-title">Card super heroes</h1>
+      </div>
+    </header>
+    <nav class="nav">
+      <div class="container">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#">Contacto</a></li>
+          <li><a class="nav-link" href="./registro">Registrar Héroe</a></li>
+          <!-- <li><a class="nav-link" href="#">Ingresar</a></li> -->
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <main>
+    <!-- Propiedad flex al contenedor de las cards-->
+    <div class="container d-flex">
+
+      <!-- Cada item flexible será una card -->
+
+      <!-- ##### BATMAN ##### -->
+      <div class="flex-item md-cols-6 lg-cols-4 xl-cols-3">
+        <!-- Div contenedor para card -->
+        <div class="card-container">
+    
+          <!-- Div para background, foto de heroe y corazon de card -->
+          <div class="card-bg batman-bg">
+            <img class="card-heart" src="./img/heart.png" alt="Corazón me gusta">
+            <img class="card-photo" src="./img/batman.png" alt="Foto superheroe">
+          </div>
+    
+          <!-- Div para contenido de card-->
+          <div class="card-content">
+            <!-- Título de card -->
+            <h2 class="card-title">Batman</h2>
+            <!-- Contenido de card -->
+            <p class="card-text">Batman (conocido inicialmente como Bat-Man) es un personaje creado por los estadounidenses Bob Kane y Bill Finger, y propiedad de DC Comics. Apareció por primera vez en la historia titulada «El caso del sindicato químico» de la revista Detective Comics N.º 27, lanzada por la editorial National Publications el 30/3/1939.</p>
+            <!-- Boton de CTA de card -->
+            <a class="button" href="#">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ##### WONDER WOMAN ##### -->
+      <div class="flex-item md-cols-6 lg-cols-4 xl-cols-3">
+        <!-- Div contenedor para card -->
+        <div class="card-container">
+          <!-- Div para background, foto de heroe y corazon de card -->
+          <div class="card-bg wonder-bg">
+            <img class="card-heart" src="./img/heart.png" alt="Corazón me gusta">
+            <img class="card-photo" src="./img/wonder.png" alt="Foto superheroe">
+          </div>
+          <!-- Div para contenido de card-->
+          <div class="card-content">
+            <!-- Título de card -->
+            <h2 class="card-title">Mujer Maravilla</h2>
+            <!-- Contenido de card -->
+            <p class="card-text">Es una superheroína creada por William Moulton Marston para la editorial DC Comics. Es una princesa guerrera de las Amazonas, pueblo ficticio basado en el de las amazonas de la mitología griega. En su tierra natal es conocida como la princesa Diana de Temiscira pero fuera de esta utiliza la identidad secreta de Diana Prince.</p>
+            <!-- Boton de CTA de card -->
+            <a class="button" href="#">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ##### SUPERMAN ##### -->
+      <div class="flex-item md-cols-6 lg-cols-4 xl-cols-3">
+        <!-- Div contenedor para card -->
+        <div class="card-container">
+          <!-- Div para background, foto de heroe y corazon de card -->
+          <div class="card-bg superman-bg">
+            <img class="card-heart" src="./img/heart.png" alt="Corazón me gusta">
+            <img class="card-photo" src="./img/superman.png" alt="Foto superheroe">
+          </div>
+          <!-- Div para contenido de card-->
+          <div class="card-content">
+            <!-- Título de card -->
+            <h2 class="card-title">Superman</h2>
+            <!-- Contenido de card -->
+            <p class="card-text">Es un superhéroe que apareció por primera vez en los cómics estadounidenses publicados por DC Comics. ​El personaje fue creado por el escritor estadounidense Jerry Siegel y el artista canadiense Joe Shuster en 1933 cuando ambos se encontraban viviendo en Cleveland, Ohio.</p>
+            <!-- Boton de CTA de card -->
+            <a class="button" href="#">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ##### HARLEY QUINN ##### -->
+      <div class="flex-item md-cols-6 lg-cols-4 xl-cols-3">
+        <!-- Div contenedor para card -->
+        <div class="card-container">
+          <!-- Div para background, foto de heroe y corazon de card -->
+          <div class="card-bg harley-bg">
+            <img class="card-heart" src="./img/heart.png" alt="Corazón me gusta">
+            <img class="card-photo" src="./img/harley.png" alt="Foto superheroe">
+          </div>
+          <!-- Div para contenido de card-->
+          <div class="card-content">
+            <!-- Título de card -->
+            <h2 class="card-title">Harley Quinn</h2>
+            <!-- Contenido de card -->
+            <p class="card-text"><p class="card-text">Harley Quinn es un personaje ficticio creado por los estadounidenses Paul Dini y Bruce Timm para la editorial DC Comics. Quinn hizo su debut en el vigésimo-segundo episodio de Batman: la serie animada, «El favor del Joker», en septiembre de 1992 y se convirtió en una villana recurrente en la serie</p>
+            <!-- Boton de CTA de card -->
+            <a class="button" href="#">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ##### BATMAN ##### -->
+      <div class="flex-item md-cols-6 lg-cols-4 xl-cols-3">
+        <!-- Div contenedor para card -->
+        <div class="card-container">
+    
+          <!-- Div para background, foto de heroe y corazon de card -->
+          <div class="card-bg batman-bg">
+            <img class="card-heart" src="./img/heart.png" alt="Corazón me gusta">
+            <img class="card-photo" src="./img/batman.png" alt="Foto superheroe">
+          </div>
+    
+          <!-- Div para contenido de card-->
+          <div class="card-content">
+            <!-- Título de card -->
+            <h2 class="card-title">Batman</h2>
+            <!-- Contenido de card -->
+            <p class="card-text">Batman (conocido inicialmente como Bat-Man) es un personaje creado por los estadounidenses Bob Kane y Bill Finger, y propiedad de DC Comics. Apareció por primera vez en la historia titulada «El caso del sindicato químico» de la revista Detective Comics N.º 27, lanzada por la editorial National Publications el 30/3/1939.</p>
+            <!-- Boton de CTA de card -->
+            <a class="button" href="#">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ##### WONDER WOMAN ##### -->
+      <div class="flex-item md-cols-6 lg-cols-4 xl-cols-3">
+        <!-- Div contenedor para card -->
+        <div class="card-container">
+          <!-- Div para background, foto de heroe y corazon de card -->
+          <div class="card-bg wonder-bg">
+            <img class="card-heart" src="./img/heart.png" alt="Corazón me gusta">
+            <img class="card-photo" src="./img/wonder.png" alt="Foto superheroe">
+          </div>
+          <!-- Div para contenido de card-->
+          <div class="card-content">
+            <!-- Título de card -->
+            <h2 class="card-title">Mujer Maravilla</h2>
+            <!-- Contenido de card -->
+            <p class="card-text">Es una superheroína creada por William Moulton Marston para la editorial DC Comics. Es una princesa guerrera de las Amazonas, pueblo ficticio basado en el de las amazonas de la mitología griega. En su tierra natal es conocida como la princesa Diana de Temiscira pero fuera de esta utiliza la identidad secreta de Diana Prince.</p>
+            <!-- Boton de CTA de card -->
+            <a class="button" href="#">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ##### SUPERMAN ##### -->
+      <div class="flex-item md-cols-6 lg-cols-4 xl-cols-3">
+        <!-- Div contenedor para card -->
+        <div class="card-container">
+          <!-- Div para background, foto de heroe y corazon de card -->
+          <div class="card-bg superman-bg">
+            <img class="card-heart" src="./img/heart.png" alt="Corazón me gusta">
+            <img class="card-photo" src="./img/superman.png" alt="Foto superheroe">
+          </div>
+          <!-- Div para contenido de card-->
+          <div class="card-content">
+            <!-- Título de card -->
+            <h2 class="card-title">Superman</h2>
+            <!-- Contenido de card -->
+            <p class="card-text">Es un superhéroe que apareció por primera vez en los cómics estadounidenses publicados por DC Comics. ​El personaje fue creado por el escritor estadounidense Jerry Siegel y el artista canadiense Joe Shuster en 1933 cuando ambos se encontraban viviendo en Cleveland, Ohio.</p>
+            <!-- Boton de CTA de card -->
+            <a class="button" href="#">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ##### HARLEY QUINN ##### -->
+      <div class="flex-item md-cols-6 lg-cols-4 xl-cols-3">
+        <!-- Div contenedor para card -->
+        <div class="card-container">
+          <!-- Div para background, foto de heroe y corazon de card -->
+          <div class="card-bg harley-bg">
+            <img class="card-heart" src="./img/heart.png" alt="Corazón me gusta">
+            <img class="card-photo" src="./img/harley.png" alt="Foto superheroe">
+          </div>
+          <!-- Div para contenido de card-->
+          <div class="card-content">
+            <!-- Título de card -->
+            <h2 class="card-title">Harley Quinn</h2>
+            <!-- Contenido de card -->
+            <p class="card-text">Harley Quinn es un personaje ficticio creado por los estadounidenses Paul Dini y Bruce Timm para la editorial DC Comics. Quinn hizo su debut en el vigésimo-segundo episodio de Batman: la serie animada, «El favor del Joker», en septiembre de 1992 y se convirtió en una villana recurrente en la serie</p>
+            <!-- Boton de CTA de card -->
+            <a class="button" href="#">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container d-flex footer-content">
+      <p class="footer-text">Todos los derechos reservados a <span class="footer-front">front end 1</span></p>
+      <img class="footer-icon" src="./img/github.png" alt="Logo Github">
+    </div>
+  </footer>
+</body>
+</html>
