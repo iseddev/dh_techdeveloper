@@ -7,7 +7,6 @@
 
 .u-navbar {
   position: relative;
-  height: var(--nav-height);
   background-color: var(--nav-bg-color);
 }
 
