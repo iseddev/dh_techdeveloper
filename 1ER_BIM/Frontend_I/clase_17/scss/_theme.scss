@@ -1,0 +1,25 @@
+.btn {
+  display: inline-block;
+  position: relative;
+  color: $black-color;
+  background-color: $bg-primary;
+  padding: 1.4rem 2rem;
+  text-transform: capitalize;
+  border-radius: .4rem;
+  border: dashed 1px $black-color;
+}
+
+.icon {
+  @extend %rounded;
+  position: relative;
+  width: $icon-width;
+  height: $icon-height;
+  background-color: $bg-body;
+  @include rounded-bg();
+
+  .icon-img {
+    padding: .8rem;
+    width: $icon-width;
+    height: $icon-height;
+  }
+}

@@ -1,0 +1,42 @@
+.cards { margin-bottom: 4rem; }
+
+.card {
+  @extend %card;
+  z-index: -1;
+
+  &-num {
+    @extend %rounded;
+    position: relative;
+    width: 3.6rem;
+    height: 3.6rem;
+    background-color: $bg-body;
+    font-size: 1.6rem;
+    border: 1px solid $black-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include rounded-bg();
+  }
+
+  &-content {
+    position: relative;
+    padding: 1rem;
+  }
+
+  &-title {
+    @extend %title;
+    font-size: 1.4rem;
+    font-family: $arial-font;
+    text-transform: capitalize;
+
+    @include title-bg(8%, 40%);
+  }
+
+  &-details {
+    font-size: 1.1rem;
+    letter-spacing: .03rem;
+    line-height: 1.4rem;
+  }
+
+}
