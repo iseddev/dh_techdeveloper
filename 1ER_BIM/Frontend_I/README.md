@@ -15,3 +15,7 @@ Prácticas y desafíos
 * [Clase 12 - Pseudoclases y Pseudoelementos](./clase_12/)
 * [Clase 13 - Animaciones](./clase_13/)
 * [Clase 14 - Animaciones II - Proyecto integrador](./clase_14/)
+* [Clase 15 - CSS Grid](./clase_15/)
+* [Clase 16 - Preprocesadores CSS => SASS](./clase_16/)
+* [Clase 17 - Preprocesadores CSS => SASS (II)](./clase_17/)
+* [Clase 18 - Frameworks y librerias CSS => Bootstrap](./clase_18/)
