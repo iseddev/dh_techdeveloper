@@ -1,0 +1,206 @@
+/* 
+COLORS
+#D1891C => Discount bar bg
+#00669F => Blue bg
+#F3F3F3 => Card content bg
+#333333 => Discount and card content font color
+#F3F3F3 => Button font color
+#FFF9F9 => Footer font color
+*/
+
+/* 
+MEDIA QUERIES
+0-480px
+481-768px
+769-1279px
++1280px
+*/
+
+/* Reseteo básico inicial */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, p, a { font-weight: 400; }
+
+a { text-decoration: none; }
+
+/* Mobile first | Diseño desde 0px hasta 480px */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.top-bar {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  z-index: 77777;
+}
+
+.discount {
+  width: 100%;
+  height: auto;
+  background-color: #D1891C;
+  padding: .2rem 0;
+  font-size: 1.2rem;
+}
+
+.discount-text { font-size: 1.2rem }
+
+.header {
+  font-size: 1.2rem;
+  color: #FFF;
+  background-color: #00669F;
+  text-transform: capitalize;
+  padding: 1rem 0;
+  margin-bottom: 1.6rem;
+}
+
+.header-title { font-size: 1.8rem; }
+
+main { padding-top: 9rem; }
+
+.card-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-radius: 1.5rem 1.5rem 0 0;
+  box-shadow: 0 4px 4px rgba(0 0 0 / .25);
+  background-color: #F3F3F3;
+  margin-bottom: 3rem;
+}
+
+/* BACKGROUND para cada super heroe */
+.batman-bg { background-image: url(../img/batman_bg.jpg); }
+.wonder-bg { background-image: url(../img/wonder_bg.jpg); }
+.superman-bg { background-image: url(../img/superman_bg.jpg); }
+.harley-bg { background-image: url(../img/harley_bg.jpg); }
+
+.card-bg {
+  position: relative;
+  width: inherit;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+
+.card-photo {
+  position: absolute;
+  width: 10rem;
+  bottom: -5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card-heart {
+  position: absolute;
+  width: 2rem;
+  top: 1rem;
+  left: 1rem;
+}
+
+.card-content {
+  width: 100%;
+  padding: 6rem 1rem 2.6rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  margin-bottom: 1.6rem;
+}
+
+.button {
+  display: inline-block;
+  background-color: #00669F;
+  color: #F3F3F3;
+  padding: 1rem 3rem;
+}
+
+/* Layout flexbox para distribuir las cards */
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.flex-item {
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.footer {
+  width: 100%;
+  height: 6rem;
+  background-color: #00669F;
+  text-align: center;
+  align-self: flex-end;
+}
+
+.footer-content {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  font-size: 1.1rem;
+  color: #FFF;
+}
+
+.footer-text { width: 100%; }
+
+.footer-front { text-transform: uppercase; }
+
+.footer-icon {
+  position: static;
+  width: 7rem;
+  cursor: pointer;
+}
+
+/* Breakpoint 481px hasta 768px <=> Dispositivos móviles medianos | Tablets orientación vertical */
+@media screen and (min-width: 640px) {
+  .md-cols-6 { width: 50%; }
+  .card-container {min-height: 660px;}
+  .footer-icon {
+    position: absolute;
+    right: 1rem;
+  }
+}
+
+/* Breakpoint 769px hasta 1399px <=> PC | Tablets orientación horizontal */
+@media screen and (min-width: 1024px) { .lg-cols-4 { width: 33.3333%; } }
+
+/* Breakpoint 1280px y superiores <=> Dispositivos pantallas grandes */
+@media screen and (min-width: 1440px) {
+  .container { max-width: 1400px; }
+  .xl-cols-3 { width: 25%; }
+}
