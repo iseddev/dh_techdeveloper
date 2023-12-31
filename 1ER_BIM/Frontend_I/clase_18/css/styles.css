@@ -3,6 +3,8 @@
   --nav-bg-color: #6B4E71;
   --intro-bg-color: #C2B2B4;
   --nav-height: 6rem;
+  --white: #FFF;
+  --dark: #2C3E51;
 }
 
 .u-navbar {
@@ -17,11 +19,20 @@
 .main {
   min-height: calc(100vh - var(--nav-height));
   height: 100%;
-  background-color: var(--intro-bg-color);
   padding-top: 2rem;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
+}
+
+.main, .about {
+  background-color: var(--intro-bg-color);
+  color: var(--white);
+}
+
+.portfolio, .contact {
+  background-color: var(--white);
+  color: var(--dark);
 }
 
 .main-avatar {
@@ -50,7 +61,7 @@
   position: absolute;
   width: 6rem;
   height: 3px;
-  background-color: white;
+  background-color: currentColor;
   top: 50%;
   border-radius: 3px;
 }
@@ -61,4 +72,8 @@
 
 .main-icon-star:after {
   left: 3rem;
+}
+
+.section {
+  padding: 4rem;
 }
