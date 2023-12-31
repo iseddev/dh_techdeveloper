@@ -10,3 +10,4 @@ Prácticas y desafíos
 * [Clase 06 - Propiedades CSS](./clase_06/)
 * [Clase 07 - Modelo de Caja](./clase_07/)
 * [Clase 08 - Flex box](./clase_08/)
+* [Clase 10 - Diseño adaptativo (Responsive Web Design)](./clase_10/)
