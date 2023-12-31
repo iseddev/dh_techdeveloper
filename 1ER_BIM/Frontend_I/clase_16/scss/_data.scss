@@ -1,0 +1,29 @@
+.data {
+
+  &-header, &-content {
+    display: block;
+    width: 100%;
+  }
+
+  &-header { background-color: $second-volor; }
+  &-content { padding: 1.2rem 0; }
+
+  &-item {
+    margin-left: 1rem;
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: .4rem;
+  }
+
+  &-title {
+    color: $first-color;
+    font-size: $fs-subtitle;
+    letter-spacing: $title-spacing;
+    text-transform: uppercase;
+    padding: .3rem 0;
+  }
+  
+  &-details { margin-bottom: .6rem; }
+
+  &-year { vertical-align: top; }
+}

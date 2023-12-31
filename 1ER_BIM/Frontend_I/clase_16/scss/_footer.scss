@@ -1,0 +1,14 @@
+.footer {
+  width: 100%;
+  position: relative;
+  background-color: $first-color;
+  padding: .6rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: $white;
+  text-transform: uppercase;
+  column-gap: 1.4rem;
+  font-size: 1.25rem;
+  align-self: flex-end;
+}
