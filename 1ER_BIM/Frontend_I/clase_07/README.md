@@ -1,4 +1,4 @@
-# Desaf+io Clase 07 C7S - FrontEnd I
+# Desafío Clase 07
 
 ## Desafío:
 
