@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Tipografía desde GoogleFonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Pizza&Front</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="dark-bg">
+    <!-- Contenedor ###flex-box### -->
+    <div class="container space-between">
+      <!-- Logo / ##flex-item## -->
+      <div class="brand">
+        <img src="./img/logo.svg" alt="Logo pizza&front">
+        <h1 class="brand-name"><span class="green">pizza</span>&<span class="red">front</span></h1>
+      </div>
+      <!-- Menu navegación / ##flex-item## -->
+      <nav>
+        <ul class="nav-list align-center">
+          <li><a class="nav-link" href="/">Home</a></li>
+          <li><a class="nav-link" href="/">Ranking</a></li>
+          <li><a class="nav-link" href="/">Promoción</a></li>
+          <li><a class="nav-link" href="/">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <!-- Contenido principal -->
+  <main>
+    <!-- Contenedor ##flex-box## -->
+    <div class="container delivery">
+      <!-- Imagen delivery / ##flex-item## -->
+      <div class="md-50 delivery-free">
+        <h2 class="title red">Envío gratis <span class="white">comprando</span> 2 pizzas</h2>
+      </div>
+      <!-- Contenido delivery / ##flex-item## -->
+      <div class="md-50 delivery-podium space-around">
+        <h2 class="title podium-title red">Podio de pizzas</h2>
+        <div class="podium-content align-center">
+          <div class="podium-top5 md-50 align-center">
+            <h3>Pizzas top 5</h3>
+            <ol>
+              <li>Muzzarella</li>
+              <li>Hawaiana</li>
+              <li>Muzzarella J&Morron</li>
+              <li>Fugazzeta</li>
+              <li>Clabresa</li>
+            </ol>
+          </div>
+          <div class="podium-img justify-center md-50">
+            <img src="./img/pizza_falling.jpg" alt="Platillo pizza">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="dark-bg">
+    <!-- Footer / ###flex-box### -->
+    <div class="container space-between">
+      <!-- Menu navegación footer / ##flex-item## -->
+      <nav>
+        <ul>
+          <li class="footer-li"><a class="nav-link" href="/">Home</a></li>
+          <li class="footer-li"><a class="nav-link" href="/">Contacto</a></li>
+          <li class="footer-li"><a class="nav-link" href="/">Ranking</a></li>
+          <li class="footer-li"><a class="nav-link" href="/">Promoción</a></li>
+        </ul>
+      </nav>
+      <!-- Logo / ##flex-item## -->
+      <div class="brand">
+        <img src="./img/logo.svg" alt="Logo pizza&front">
+        <h1 class="brand-name"><span class="green">pizza</span>&<span class="red">front</span></h1>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F3F3F3;
+}
+
+ul { list-style: none; }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header, main, footer { width: 100%; }
+
+header {
+  color: #FFF;
+  padding: 10px 0;
+  max-height: 100px;
+  height: 100%;
+}
+
+/* Flexbox */
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.item {
+  width: 100%;
+}
+
+.space-between { justify-content: space-between; }
+.space-around { justify-content: space-around; }
+.align-center { align-items: center; }
+.justify-center { justify-content: center; }
+.md-50 { width: 50%; }
+
+
+/* Estilos generales */
+.red {  color: #FC200C }
+.green { color: #39B24A }
+.white { color: #FFF }
+.title { font-size: 24px; }
+.dark-bg { background-color: #222222; }
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand-name {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-left: 10px;
+  color: #FFF
+}
+
+.nav-list {
+  height: 100%;
+  display: flex;
+}
+
+.nav-link {
+  color: #FFF;
+  text-decoration: none;
+  margin-left: 13px;
+}
+
+main { margin: auto 0; }
+
+.delivery {
+  height: 350px;
+  box-shadow: 0 1px 10px rgba(34 34 34 / .4);
+}
+
+.delivery-free {
+  height: 100%;
+  background-image: url("../img/delivery.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 20px;
+}
+
+.delivery-podium {
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+}
+
+.podium-title {
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+}
+
+.podium-content {
+  width: 100%;
+  display: flex;
+  padding: 1rem 0;
+}
+
+.podium-top5 {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+}
+
+.podium-top5 h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.podium-top5 li { margin-bottom: 10px; }
+
+.podium-img { display: flex; }
+
+footer {
+  align-self: flex-end;
+  padding: 1rem 0;
+}
+
+.footer-li { margin-bottom: 12px; }
+
+.podium-top5 li:last-child,
+.footer-li:last-child { margin-bottom: 0; }
