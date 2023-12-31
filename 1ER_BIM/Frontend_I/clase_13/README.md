@@ -7,7 +7,7 @@ En esta oportunidad, utilizaremos un proyecto base y realizaremos las modificaci
 ![Proyecto base](./img/referenciaAcrtividad.gif)
 
 Utilizaremos el proyecto base para maquetar un sitio teniendo en cuenta los siguientes pasos:
-1. CreaEnlaces de menú
+1. Crea enlaces de menú
 2. Menú íconos sociales
 3. Aplicar animaciones en:
    * Botones de Redes Sociales
