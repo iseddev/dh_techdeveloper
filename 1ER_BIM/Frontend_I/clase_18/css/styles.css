@@ -1,0 +1,65 @@
+/* Navigation bar */
+:root{
+  --nav-bg-color: #6B4E71;
+  --intro-bg-color: #C2B2B4;
+  --nav-height: 6rem;
+}
+
+.u-navbar {
+  position: relative;
+  height: var(--nav-height);
+  background-color: var(--nav-bg-color);
+}
+
+.u-navbar-menu {
+  background-color: var(--nav-bg-color);
+}
+
+.main {
+  min-height: calc(100vh - var(--nav-height));
+  height: 100%;
+  background-color: var(--intro-bg-color);
+  padding-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.main-avatar {
+  width: 14rem;
+}
+
+.main-title {
+  font-size: 4rem;
+}
+
+.main-icon-star {
+  display: inline-block;
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+}
+
+.main-icon-star > svg {
+  width: inherit;
+  height: inherit;
+}
+
+.main-icon-star:before,
+.main-icon-star:after {
+  content: "";
+  position: absolute;
+  width: 6rem;
+  height: 3px;
+  background-color: white;
+  top: 50%;
+  border-radius: 3px;
+}
+
+.main-icon-star:before {
+  right: 3rem;
+}
+
+.main-icon-star:after {
+  left: 3rem;
+}
