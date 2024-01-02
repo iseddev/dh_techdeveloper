@@ -7,6 +7,11 @@
   --dark: #2C3E51;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .u-navbar {
   position: relative;
   background-color: var(--nav-bg-color);
@@ -75,5 +80,47 @@
 }
 
 .section {
-  padding: 4rem;
+  padding: 5rem 0;
+}
+
+.portfolio-card {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: .6rem;
+  overflow: hidden;
+}
+
+.portfolio-card::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(75, 75, 75, 0.6);
+  transition: top .3s ease-in-out;
+}
+
+.portfolio-card::after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/plus.png");
+  background-size: cover;
+  background-position: center;
+  width: 6rem;
+  height: 6rem;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%);
+  transition: top .3s ease-in-out;
+}
+
+.portfolio-card:hover::before {
+  top: 0;
+}
+
+.portfolio-card:hover::after {
+  top: 35%;
 }
