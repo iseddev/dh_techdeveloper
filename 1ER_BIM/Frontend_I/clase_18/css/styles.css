@@ -12,6 +12,11 @@ img {
   height: auto;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .u-navbar {
   position: relative;
   background-color: var(--nav-bg-color);
@@ -122,4 +127,11 @@ img {
 
 .portfolio-card:hover::after {
   top: 35%;
+}
+
+.about-btn {
+  display: inline;
+  padding: 1rem 1.4rem;
+  border: 1px solid var(--white);
+  border-radius: .3rem;
 }
