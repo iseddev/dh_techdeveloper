@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+  <!-- Header y Navegación -->
   <header>
     <nav class="navbar navbar-expand-lg text-uppercase fw-bold py-xl-4 u-navbar" data-bs-theme="dark">
       <div class="container">
@@ -36,6 +37,7 @@
       </div>
     </nav>
   </header>
+  <!-- Contenido principal/presentación -->
   <main class="main">
     <div class="container">
       <div class="row">
@@ -66,41 +68,180 @@
           </span>
         </div>
       </div>
+      <!-- Cards -->
       <div class="row text-black">
         <div class="col-md-6 col-lg-4 mb-4">
           <div class="text-center pb-5 portfolio-card">
             <img src="./img/lemon-pie.jpeg" alt="Lemon pie" class="card-img">
             <h3 class="fw-bold">Lemon Pie</h3>
+            <div class="card-overlay" data-bs-toggle="modal" data-bs-target="#lemonPie">
+              <img src="./img/plus.png" alt="Plus icon">
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="lemonPie" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog card-modal-container">
+              <div class="modal-content card-modal">
+                <div class="modal-body">
+                  <div class="text-center pb-5 portfolio-card portfolio-card-modal">
+                    <div class="card-modal-header">
+                      <h3 class="fw-bold">Lemon Pie</h3>
+                      <button type="button" class="btn-close card-modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <img src="./img/lemon-pie.jpeg" alt="Lemon pie" class="card-modal-img">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat repudiandae doloribus iusto eaque odit, rerum velit est praesentium doloremque animi in id natus ex, itaque cumque accusantium, ad qui illum?</p>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <a href="#" type="button" class="btn btn-light-grey" data-bs-dismiss="modal">X Visitar sitio</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-4 mb-4">
           <div class="text-center pb-5 portfolio-card">
             <img src="./img/CVBatman.png" alt="Batman avatar" class="card-img">
             <h3 class="fw-bold">CV Batman</h3>
+            <div class="card-overlay" data-bs-toggle="modal" data-bs-target="#cvBatman">
+              <img src="./img/plus.png" alt="Plus icon">
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="cvBatman" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog card-modal-container">
+              <div class="modal-content card-modal">
+                <div class="modal-body">
+                  <div class="text-center pb-5 portfolio-card portfolio-card-modal">
+                    <div class="card-modal-header">
+                      <h3 class="fw-bold">CV Batman</h3>
+                      <button type="button" class="btn-close card-modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <img src="./img/CVBatman.png" alt="Batman avatar"" class="card-modal-img">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat repudiandae doloribus iusto eaque odit, rerum velit est praesentium doloremque animi in id natus ex, itaque cumque accusantium, ad qui illum?</p>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <a href="#" type="button" class="btn btn-light-grey" data-bs-dismiss="modal">X Visitar sitio</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-4 mb-4">
           <div class="text-center pb-5 portfolio-card">
             <img src="./img/super.png" alt="Super splat" class="card-img">
             <h3 class="fw-bold">Súpers</h3>
+            <div class="card-overlay" data-bs-toggle="modal" data-bs-target="#supers">
+              <img src="./img/plus.png" alt="Plus icon">
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="supers" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog card-modal-container">
+              <div class="modal-content card-modal">
+                <div class="modal-body">
+                  <div class="text-center pb-5 portfolio-card portfolio-card-modal">
+                    <div class="card-modal-header">
+                      <h3 class="fw-bold">Súpers</h3>
+                      <button type="button" class="btn-close card-modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <img src="./img/super.png" alt="Super splat" class="card-modal-img">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat repudiandae doloribus iusto eaque odit, rerum velit est praesentium doloremque animi in id natus ex, itaque cumque accusantium, ad qui illum?</p>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <a href="#" type="button" class="btn btn-light-grey" data-bs-dismiss="modal">X Visitar sitio</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-4 mb-4">
           <div class="text-center pb-5 portfolio-card">
             <img src="./img/petshop.jpeg" alt="Petshop logo" class="card-img">
             <h3 class="fw-bold">Pet Shop</h3>
+            <div class="card-overlay" data-bs-toggle="modal" data-bs-target="#petShop">
+              <img src="./img/plus.png" alt="Plus icon">
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="petShop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog card-modal-container">
+              <div class="modal-content card-modal">
+                <div class="modal-body">
+                  <div class="text-center pb-5 portfolio-card portfolio-card-modal">
+                    <div class="card-modal-header">
+                      <h3 class="fw-bold">Pet Shop</h3>
+                      <button type="button" class="btn-close card-modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <img src="./img/petshop.jpeg" alt="Petshop logo" class="card-modal-img">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat repudiandae doloribus iusto eaque odit, rerum velit est praesentium doloremque animi in id natus ex, itaque cumque accusantium, ad qui illum?</p>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <a href="#" type="button" class="btn btn-light-grey" data-bs-dismiss="modal">X Visitar sitio</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-4 mb-4">
           <div class="text-center pb-5 portfolio-card">
             <img src="./img/piza.jpeg" alt="Pizza logo" class="card-img">
             <h3 class="fw-bold">Pizzería</h3>
+            <div class="card-overlay" data-bs-toggle="modal" data-bs-target="#pizzeria">
+              <img src="./img/plus.png" alt="Plus icon">
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="pizzeria" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog card-modal-container">
+              <div class="modal-content card-modal">
+                <div class="modal-body">
+                  <div class="text-center pb-5 portfolio-card portfolio-card-modal">
+                    <div class="card-modal-header">
+                      <h3 class="fw-bold">Pizzería</h3>
+                      <button type="button" class="btn-close card-modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <img src="./img/piza.jpeg" alt="Pizza logo" class="card-modal-img">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat repudiandae doloribus iusto eaque odit, rerum velit est praesentium doloremque animi in id natus ex, itaque cumque accusantium, ad qui illum?</p>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <a href="#" type="button" class="btn btn-light-grey" data-bs-dismiss="modal">X Visitar sitio</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-4 mb-4">
           <div class="text-center pb-5 portfolio-card">
             <img src="./img/gameshop.jpeg" alt="GameShop logo" class="card-img">
             <h3 class="fw-bold">Game Shop</h3>
+            <div class="card-overlay" data-bs-toggle="modal" data-bs-target="#gameShop">
+              <img src="./img/plus.png" alt="Plus icon">
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="gameShop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog card-modal-container">
+              <div class="modal-content card-modal">
+                <div class="modal-body">
+                  <div class="text-center pb-5 portfolio-card portfolio-card-modal">
+                    <div class="card-modal-header">
+                      <h3 class="fw-bold">Game Shop</h3>
+                      <button type="button" class="btn-close card-modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <img src="./img/gameshop.jpeg" alt="GameShop logo" class="card-modal-img">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat repudiandae doloribus iusto eaque odit, rerum velit est praesentium doloremque animi in id natus ex, itaque cumque accusantium, ad qui illum?</p>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <a href="#" type="button" class="btn btn-light-grey" data-bs-dismiss="modal">X Visitar sitio</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
