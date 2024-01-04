@@ -129,9 +129,25 @@ a {
   top: 35%;
 }
 
-.about-btn {
+.btn {
   display: inline;
-  padding: 1rem 1.4rem;
-  border: 1px solid var(--white);
+  padding: .8rem 1.4rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  color: black;
   border-radius: .3rem;
+  background-color: inherit;
+}
+
+.btn-outlined-white {
+  color: var(--white);
+  border-color: var(--white);
+  background-color: transparent;
+}
+.btn-light-grey {
+  color: var(--white);
+  border-color: transparent;
+  background-color: var(--intro-bg-color);
+
 }

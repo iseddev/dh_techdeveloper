@@ -127,7 +127,7 @@
       </div>
       <div class="row">
         <div class="col-12 text-center">
-          <a class="about-btn" role="button" href="#">
+          <a class="btn btn-outlined-white" role="button" href="#">
             <img src="./img/download.png" alt="Download icon">
             Descargar CV
           </a>
@@ -141,13 +141,36 @@
   <section class="section contact" id="contact">
     <div class="container">
       <div class="row">
-        <div class="col-12 text-center">
+        <div class="col-12 text-center mb-5">
           <h2 class="fw-bolder fs-1 text-uppercase">Contactame</h2>
           <span class="main-icon-star">
             <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z" stroke-width="0" fill="currentColor" /></svg>
           </span>
         </div>
       </div>
+      <form class="row g-3 fw-semibold fs-5 text-secondary justify-content-center">
+        <div class="col-md-8">
+          <div class="col-12">
+            <label for="inputUserName" class="form-label">Nombre Completo</label>
+            <input type="text" class="form-control" id="inputUserName">
+          </div>
+          <div class="col-12">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-12">
+            <label for="inputPhoneNumber" class="form-label">´Número de Teléfono</label>
+            <input type="text" class="form-control" id="inputPhoneNumber">
+          </div>
+          <div class="col-12 mb-4">
+            <label for="textArea" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="textArea" style="height: 140px; resize:none"></textarea>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-light-grey">Send</button>
+          </div>
+        </div>
+      </form>
     </div>
   </section>
 
