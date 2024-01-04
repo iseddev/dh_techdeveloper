@@ -3,5 +3,5 @@
 Dentro de esta especialidad, se cursaran las siguientes asignaturas:
 
 1. [Frontend 1](./Frontend_I/)
-2. [Introducción a la Informática](./Introducción_a_la_Informática/)
-3. [Metodologías de Trabajo](./Metodologías_de_Trabajo/)
+2. [Introducción a la Informática](./Introduccion_a_la_Informatica/)
+3. [Metodologías de Trabajo](./Metodologias_de_Trabajo/)
