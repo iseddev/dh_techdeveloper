@@ -173,7 +173,7 @@ a {
   font-size: .8rem;
 }
 
-.row svg {
+.social-link {
   width: 3rem;
   height: 3rem;
   padding: .8rem;
@@ -181,4 +181,13 @@ a {
   border-radius: 50%;
   margin: 0 .4rem;
   margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icon {
+  width: 1.4rem;
+  height: auto;
 }
