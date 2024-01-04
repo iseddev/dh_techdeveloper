@@ -4,7 +4,9 @@
   --intro-bg-color: #C2B2B4;
   --nav-height: 6rem;
   --white: #FFF;
+  --light-blue: #53687E;
   --dark: #2C3E51;
+  --dark-blue: #1A252F;
 }
 
 img {
@@ -149,5 +151,34 @@ a {
   color: var(--white);
   border-color: transparent;
   background-color: var(--intro-bg-color);
+}
 
+.footer-details,
+.footer-copy {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 5rem 0;
+}
+
+.footer-details {
+  background-color: var(--light-blue);
+}
+
+.footer-copy {
+  padding: 1rem 0;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  font-size: .8rem;
+}
+
+.row svg {
+  width: 3rem;
+  height: 3rem;
+  padding: .8rem;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  margin: 0 .4rem;
+  margin-bottom: 1rem;
 }
