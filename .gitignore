@@ -1,5 +1,4 @@
-token.txt
-
+*.txt
 *.zip
 *.rar
 *.pdf
