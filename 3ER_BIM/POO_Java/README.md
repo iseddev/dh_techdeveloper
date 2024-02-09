@@ -1,7 +1,5 @@
 # Programación Orientada a Objetos con Java
 
-Este es un repositorio donde se detallan las actividades realizadas en la asginatura de POO cpn Java.  
-
 Se agregan cada una de las actividades realizadas en cada clase, tanto los ejercicios realizadas durante la clases *presenciales* (en vivo), como los ejercicios propuestos en las clases *virtuales*.
 
 Acceso a las carpetas y los archivos com los ejercicios realizados:
