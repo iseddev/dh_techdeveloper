@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8c13dd3-051f-4139-bea0-309f56a6247a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_03/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_03/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_03/sync/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_03/sync/code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_04/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_04/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_04/sync/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_04/sync/code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_05/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_05/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_05/sync/code/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_05/sync/code/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_05/sync/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_05/sync/code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_06/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_06/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_06/sync/code/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_06/sync/code/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_06/sync/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_06/sync/code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_06/sync/code/sobremi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_06/sync/code/sobremi/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_07/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_07/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_07/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_07/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_07/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_07/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_08/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_08/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_08/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_08/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_08/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_08/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_10/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_10/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_10/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_10/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_10/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_10/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_11/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_11/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_11/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_11/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_11/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_11/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_11/registro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_11/registro/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_12/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_12/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_12/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_12/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_12/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_12/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_12/registro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_12/registro/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_13/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_13/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_13/css/style_base.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_13/css/style_base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_13/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_13/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_14/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_14/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_14/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_14/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_14/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_14/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_15/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_15/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_15/puzzle_grid/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_15/puzzle_grid/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_15/puzzle_grid/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_15/puzzle_grid/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_16/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_16/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_16/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_16/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_16/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_16/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_16/scss/_data.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_16/scss/_data.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_16/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_16/scss/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_16/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_16/scss/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_16/scss/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_16/scss/_layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_16/scss/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_16/scss/_reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_16/scss/_theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_16/scss/_theme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_16/scss/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_16/scss/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_16/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_16/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/scss/_banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/scss/_banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/scss/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/scss/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/scss/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/scss/_cards.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/scss/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/scss/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/scss/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/scss/_layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/scss/_placeholders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/scss/_placeholders.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/scss/_theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/scss/_theme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/scss/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/scss/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_17/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_18/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_18/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_18/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_18/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_18/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/clase_18/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/proyecto_integrador/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/proyecto_integrador/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/proyecto_integrador/images/logo_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/proyecto_integrador/images/logo_white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/proyecto_integrador/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Frontend_I/proyecto_integrador/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Introduccion_a_la_Informatica/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Introduccion_a_la_Informatica/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/Metodologias_de_Trabajo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/Metodologias_de_Trabajo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ER_BIM/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../1ER_BIM/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_04/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_04/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_04/code/mario.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_04/code/mario.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_04/code/reto_clase04.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_04/code/reto_clase04.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_04/code/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_04/code/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_05/reto_clase05.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_05/reto_clase05.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_06/reto_clase06.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_06/reto_clase06.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_07/reto_clase07.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_07/reto_clase07.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_08/reto_clase08.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_08/reto_clase08.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_09/bonus_reto_clase09.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_09/bonus_reto_clase09.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_09/reto_clase09.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_09/reto_clase09.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_10/extra.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_10/extra.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_10/integracion_I.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_10/integracion_I.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_11/extras_I.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_11/extras_I.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_11/extras_II.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_11/extras_II.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_11/integracion_II.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_11/integracion_II.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_12_Parcial/parcial.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_12_Parcial/parcial.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_13/matriz.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_13/matriz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_13/mesa_trabajo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_13/mesa_trabajo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_13/numero_mayor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_13/numero_mayor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_13/numero_mayor_arr.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_13/numero_mayor_arr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_13/numero_mayor_v2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_13/numero_mayor_v2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_14/mesa_trabajo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_14/mesa_trabajo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_15/bubble_sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_15/bubble_sort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_15/mesa_trabajo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_15/mesa_trabajo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_16/bubble_sort_personas.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_16/bubble_sort_personas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_16/mesa_trabajo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_16/mesa_trabajo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_17_Final/examen_final.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_17_Final/examen_final.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_18/filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_18/filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_18/forEach.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_18/forEach.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_18/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_18/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_18/reduce.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/Programacion_Imperativa/clase_18/reduce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2DO_BIM/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2DO_BIM/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_01/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_01/Clase_01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_01/src/presencial/Automovil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_01/src/presencial/Ave.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_01/src/presencial/Caballo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_01/src/presencial/Gato.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_01/src/presencial/Perro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_01/src/presencial/Pez.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_01/src/presencial/Tortuga.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_01/src/virtual/EsDivisible.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_02/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_02/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_02/Clase_02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_02/src/presencial/Ejercicio1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_02/src/presencial/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_02/src/presencial/MesaTrabajo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_02/src/presencial/MesaTrabajo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_02/src/presencial/MesaTrabajo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_02/src/virtual/ArraysEjemplo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_02/src/virtual/CompararTextos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_02/src/virtual/EsDivisible.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_02/src/virtual/LeerDatos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_02/src/virtual/NumeroMayor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_03/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_03/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_03/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_03/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_03/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase_03/Clase_03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2e1XyotIiIfEATuFOp0YvDUK0T1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-78a6f59c" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8c13dd3-051f-4139-bea0-309f56a6247a" name="Changes" comment="" />
+      <created>1711073322743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711073322743</updated>
+    </task>
+    <servers />
+  </component>
+</project>
