@@ -7,8 +7,9 @@
 
 **/2DO_BIM/DesarrolloProfesional_2023
 **/2DO_BIM/ProgramacionImperativa/node_modules
+**/2DO_BIM/ProgramacionImperativa/package-lock.json
+**/2DO_BIM/ProgramacionImperativa/package.json
+
 **/4TO_BIM/Infraestructura_I
-*package-lock.json
-*package.json
 
 .vscode
