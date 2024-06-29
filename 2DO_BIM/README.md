@@ -2,5 +2,5 @@
 
 De**tro de este segundo bimestre, se cursan las siguientes asignaturas:**
 
-1. [Bases de Datos 1](Bases_de_Datos_1/)
+1. [Bases de Datos 1](BasesDatos_I/)
 2. [Programación Imperativa (con JS)](ProgramacionImperativa/)
