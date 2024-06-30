@@ -1,7 +1,7 @@
 -- Vamos a practicar sobre consultas SELECT, enfocándonos en distintos tipos de JOINS.
 -- Tips:
 -- * Cada enunciado se corresponde con una consulta SELECT.
--- * Recordá ir guardando las consultas. SQL.
+-- * Recordar ir guardando las consultas. SQL.
 
 -- Reportes parte I - Repasamos INNER JOIN
 -- Realizar una consulta de la facturación de e-market. Incluir la siguiente información:
