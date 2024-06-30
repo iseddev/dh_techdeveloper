@@ -26,6 +26,6 @@ INNER JOIN actors ON actor_id = actors.id;
 
 -- 4. Crear un listado a partir de la tabla de películas, mostrar un reporte de la
 -- cantidad de películas por nombre de género.
-SELECT genres.id AS ID, name AS Género, COUNT(genre_id) AS "Cantida películas" FROM genres
+SELECT genres.id AS ID, name AS Género, COUNT(genre_id) AS "Cantidad películas" FROM genres
 INNER JOIN movies ON genre_id = genres.id
 GROUP BY genre_id;

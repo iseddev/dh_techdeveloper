@@ -1,7 +1,8 @@
 USE movies_db;
 
 -- ##### >>TABLE REFERENCE<< #####
--- EJEMPLOS CLASE ASINCRÓNICA
+-- EJEMPLOS CLASE VIRTUAL
+
 -- Referenciación muchos--muchos (N:M)
 SELECT title, first_name, last_name
 FROM movies, actor_movie, actors
@@ -14,7 +15,7 @@ FROM movies
 INNER JOIN actor_movie ON movie_id = movies.id
 INNER JOIN actors ON actor_id = actors.id;
 
--- Ejercicios clase asincrónica
+-- Ejercicios clase virtual
 USE musimundos;
 
 SELECT * FROM canciones, generos
@@ -22,19 +23,22 @@ WHERE canciones.compositor = "Willie Dixon"
 AND generos.nombre = "Blues";
 
 
--- ##### JOINS ##### 
+-- ##### JOINS #####
+
 -- INNER JOIN, LEFT JOIN y RIGHT JOIN
 SELECT * FROM canciones
 INNER JOIN generos ON canciones.compositor = "Willie Dixon" AND generos.nombre = "Blues";
 
 -- ##### DISTINCT #####
 USE movies_db;
+
 -- EJERCICIO EJEMPLO
 SELECT first_name, last_name
 FROM movies
 INNER JOIN actor_movie ON movie_id = movies.id
 INNER JOIN actors ON actor_id = actors.id
 WHERE title LIKE "Harry%";
+
 -- APLICANDO DISTINCT => Elimina duplicados **exactamente** iguales
 SELECT DISTINCT first_name, last_name
 FROM movies
@@ -45,11 +49,13 @@ WHERE title LIKE "Harry%";
 -- ##### FUNCIONES DE ALTERACIÓN #####
 USE movies_db;
 SELECT first_name, last_name FROM actors;
+
 -- CONCAT()
 SELECT CONCAT(first_name, " ", last_name) AS "Nombre completo" FROM actors;
 
 -- COALESCE()
 SELECT title, COALESCE(name, "Sin género") FROM movies
+
 -- INNER JOIN genres ON genres_id = genres.id
 LEFT JOIN genres ON genre_id = genres.id;
 
@@ -59,12 +65,12 @@ SELECT title, DATEDIFF(NOW(), release_date) AS "Días desde estreno" FROM movies
 -- DATE_ADD("date", INTERVAL "num", format(seconds, minutes, hours, day, etc))
 SELECT title, release_date FROM movies;
 SELECT title, DATE_ADD(release_date, INTERVAL "3" DAY) FROM movies;
-SELECT title, release_date, DATE_ADD(release_date, INTERVAL "3" DAY) AS "Mas 3 dias" FROM movies;
+SELECT title, release_date, DATE_ADD(release_date, INTERVAL "3" DAY) AS "Mas 3 días" FROM movies;
 
 -- DATE_SUB("date", INTERVAL "num", format(seconds, minutes, hours, day, etc))
 SELECT title, release_date FROM movies;
 SELECT title, DATE_SUB(release_date, INTERVAL "3" DAY) FROM movies;
-SELECT title, release_date, DATE_SUB(release_date, INTERVAL "3" DAY) AS "Menos 3 dias" FROM movies;
+SELECT title, release_date, DATE_SUB(release_date, INTERVAL "3" DAY) AS "Menos 3 días" FROM movies;
 
 -- DATEFORMAT() [minúsculas => Formato "corto"; MAYÚSCULAS => Formato "largo"]
 SELECT title, DATE_FORMAT(release_date, "%d/%m/%y") FROM movies;

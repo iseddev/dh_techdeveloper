@@ -2,7 +2,7 @@
 -- ############### Consignas ###############
 -- #########################################
 
--- Vamos a practicar sobre consultas SELECT, enfocándonos en GROUP BY, HAVING y DISTINTC.
+-- Vamos a practicar sobre consultas SELECT, enfocándonos en GROUP BY, HAVING y DISTINCT.
 USE emarket;
 
 -- ***** Clientes *****
@@ -21,7 +21,7 @@ SELECT SUM(transporte) AS "Total facturado" FROM facturas;
 -- 2) ¿Cuál es el total de transporte por EnvioVia (empresa de envío)?
 SELECT EnvioVia AS "ID Empresa Envío", COUNT(EnvioVia) AS "Total envíos" FROM facturas GROUP BY EnvioVia;
 
--- 3) Calcular la cantidad de facturas por cliente. Ordenar descendentemente por cantidad de facturas.
+-- 3) Calcular la cantidad de facturas por cliente. Ordenar descendente por cantidad de facturas.
 SELECT NombreEnvio AS nombre_cliente, COUNT(FacturaID) AS total_facturas FROM facturas
 GROUP BY nombre_cliente ORDER BY total_facturas DESC;
 

@@ -1,3 +1,5 @@
+USE musimundos;
+
 -- ¿Qué consulta debemos hacer para mostrar todos los registros de la tabla “autor”,
 -- incluso aquellos que no tienen un libro asignado dentro de nuestra BD?
 SELECT * FROM libro l -- Seleccionamos todo de la tabla libro
