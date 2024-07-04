@@ -1,5 +1,7 @@
 *.txt
 *.pdf
+*.xlsx
+*.docx
 *.zip
 *.rar
 *.mwb.bak
