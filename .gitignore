@@ -5,6 +5,10 @@
 *.zip
 *.rar
 *.mwb.bak
+*.iml
+
+**/out
+**/.idea
 
 **/1ER_BIM/IntroduccionInformatica
 
