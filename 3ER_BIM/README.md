@@ -1,4 +1,4 @@
-# Tercer Bimestre de la especialdiad **Certified Tech Developer** por [DigitalHouse](https://www.digitalhouse.com/productos/programacion/certified-tech-developer)
+# Tercer Bimestre de la especialidad **Certified Tech Developer** por [DigitalHouse](https://www.digitalhouse.com/productos/programacion/certified-tech-developer)
 
 **Dentro de este tercer bimestre, se cursan las siguientes asignaturas:**
 
