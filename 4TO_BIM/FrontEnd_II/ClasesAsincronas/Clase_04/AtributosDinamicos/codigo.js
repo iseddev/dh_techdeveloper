@@ -11,8 +11,8 @@ d.querySelector("h1").classList.remove("titulo-feo")
 
 //4- Chequear si el link a youtube posee o no el atributo href
 const hasHref = d.querySelector("#link_youtube").hasAttribute("href")
-console.log(`Youtube link has href? ${hasHref}`)
+console.log(`Has Youtube link the href attribute? ${hasHref}`)
 
-//5- Obtener el href del link a wikipedia y mostrarlo por consola
+//5- Obtener el href del link a Wikipedia y mostrarlo por consola
 const wikiHref = d.querySelector("#link_wikipedia").getAttribute("href")
 console.log(wikiHref)
