@@ -19,8 +19,10 @@ const scopeLet = () => {
     let y = 20
     console.log(y)
   }
+  //Esto tira error porque no está al alcance
   // console.log(y)
 }
+
 scopeLet()
 
 let condition = false
