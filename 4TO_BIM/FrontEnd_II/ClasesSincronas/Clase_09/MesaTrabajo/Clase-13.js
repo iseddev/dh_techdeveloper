@@ -136,7 +136,7 @@ formulario.addEventListener('submit', function (evento) {
 /* -------------------------------------------------------------------------- */
 /*                [5] FUNCIÓN: Formulario completado con éxito                */
 /* -------------------------------------------------------------------------- */
-// Esta función se va a encargar de realizar la redirección cuando el formulario se complete correctamente.
+// Esta función se va a encargar de realizar la re-dirección cuando el formulario se complete correctamente.
 // Para eso deberá cumplir con los siguientes requerimientos.
 
 function navegarPaginaExito() {
@@ -145,18 +145,17 @@ function navegarPaginaExito() {
     //   ########## Desarrollar la función aquí ##########
     
     const btnSubmit = document.querySelector('button[type="submit"]')
+
     // 1 - Deshabilitar el botón del formulario.
     btnSubmit.disabled = true
 
-    // 2 - Esperar 3 segundos para redireccionar a la página de
+    // 2 - Esperar 3 segundos para re-direccionar a la página de
     const tiempoEspera = 3000
+    setTimeout(() => { window.location.href = 'usuario.html' }, tiempoEspera)
 
     // 3 - Durante ese tiempo el botón deshabilitado debe mostrar el texto: "Cargando..."
     btnSubmit.textContent = "Cargando..."
 
-    setTimeout(() => {
-        window.location.href = 'usuario.html'
-    }, tiempoEspera)
 
     // 4 - Cuando vaya a la página de 'usuario.html' NO se debe permitir que mediante el botón de "Atrás"(la flechita del navegador) el usuario vuelva a index.
     window.history.replaceState(null, '', 'usuario.html')
