@@ -89,7 +89,7 @@ window.addEventListener("load", () => {
   const endpoint = "https://jsonplaceholder.typicode.com/posts"
   // Creamos un objeto con los datos que queremos enviar
   const data = {
-    title: "Este es mi titulo",
+    title: "Titulo enviado desde Postman",
     body: "Tiene todo este contenido",
     userId: 11,
   }
