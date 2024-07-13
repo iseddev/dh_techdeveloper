@@ -78,9 +78,7 @@ const listadoComentarios = [
 	}
 ]
 
-// Tenemos un listado de comentarios como punto de partida. Esto van a funcionar como registros en una base de datos.
-// Vamos a simular conectarnos con una API para recuperar los comentarios y verlos en pantalla.
-
+// Tenemos un listado de comentarios como punto de partida. Esto van a funcionar como registros en una base de datos. Vamos a simular conectarnos con una API para recuperar los comentarios y verlos en pantalla.
 
 /* -------------------------------------------------------------------------- */
 /*                      [1] FUNCION: Escuchamos el click                      */
@@ -127,8 +125,9 @@ function renderizarElementos(listado){
 	// ########## desarrollar la funcion 👇 ##########
 	// 3- En el HTML hay un comentario creado, el mismo debe ser eliminado de ahí, pero hay que respetar esa estructura de etiquetas para el resto de los comentarios.
 	const divPosts = document.querySelector('.comentarios')
-	const currentPost = document.querySelector('.comentario')
-	divPosts.removeChild(currentPost)
+	divPosts.innerHTML = ""
+	// const currentPost = document.querySelector('.comentario')
+	// divPosts.removeChild(currentPost)
 	
 	// 4- Para el renderizado podemos utilizar .forEach(), pero se valora también intentar llegar al mismo resultado utilizando .map()
 	// listado.forEach( post => {
