@@ -140,23 +140,24 @@ formulario.addEventListener('submit', function (evento) {
 // Para eso deberá cumplir con los siguientes requerimientos.
 
 function navegarPaginaExito() {
-    localStorage.setItem('user', JSON.stringify(estadoUsuario))
+	
+	localStorage.setItem('user', JSON.stringify(estadoUsuario))
 
-    //   ########## Desarrollar la función aquí ##########
-    
-    const btnSubmit = document.querySelector('button[type="submit"]')
+	//   ########## Desarrollar la función aquí ##########
 
-    // 1 - Deshabilitar el botón del formulario.
-    btnSubmit.disabled = true
+	const btnSubmit = document.querySelector('button[type="submit"]')
 
-    // 2 - Esperar 3 segundos para re-direccionar a la página de
-    const tiempoEspera = 3000
-    setTimeout(() => { window.location.href = 'usuario.html' }, tiempoEspera)
+	// 1 - Deshabilitar el botón del formulario.
+	btnSubmit.disabled = true
 
-    // 3 - Durante ese tiempo el botón deshabilitado debe mostrar el texto: "Cargando..."
-    btnSubmit.textContent = "Cargando..."
+	// 2 - Esperar 3 segundos para re-direccionar a la página de
+	const tiempoEspera = 3000
+	setTimeout(() => { window.location.href = 'usuario.html' }, tiempoEspera)
+
+	// 3 - Durante ese tiempo el botón deshabilitado debe mostrar el texto: "Cargando..."
+	btnSubmit.textContent = "Cargando..."
 
 
-    // 4 - Cuando vaya a la página de 'usuario.html' NO se debe permitir que mediante el botón de "Atrás"(la flechita del navegador) el usuario vuelva a index.
-    window.history.replaceState(null, '', 'usuario.html')
+	// 4 - Cuando vaya a la página de 'usuario.html' NO se debe permitir que mediante el botón de "Atrás"(la flechita del navegador) el usuario vuelva a index.
+	window.history.replaceState(null, '', 'usuario.html')
 }
