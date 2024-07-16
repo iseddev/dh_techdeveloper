@@ -19,15 +19,26 @@ function hideSpinner(body, form) {
   const spinnerContainer = document.querySelector(".spinner-container")
   // Removemos el contenedor del spinner del HTML
   body.removeChild(spinnerContainer)
+  form.classList.remove("hidden")
   return
 }
 
 
 // /* ---------------------- Skeleton ---------------------- */
 
-const renderizarSkeleton = (cantidad, contenedor) => {
-  
-  const contenedorTareas = document.querySelector(contenedor)
+const renderizarSkeleton = (total, container) => {
 
-  // const skeletons
+  const tasksContainer = document.querySelector(container)
+  const skeletons = Array.from({ length: total })
+  skeletons.forEach(() => {
+    const template = `
+      <li class="skeleton-container ${container.replace(".", "")}-child">
+        <div class="skeleton-card">
+          <p class="skeleton-text"></p>
+          <p class="skeleton-text"></p>
+        </div>
+      </li>
+    `
+    tasksContainer.innerHTML += template
+  })
 }

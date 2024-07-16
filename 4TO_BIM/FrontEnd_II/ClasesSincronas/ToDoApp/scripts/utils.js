@@ -1,27 +1,20 @@
-/* ---------------------------------- texto --------------------------------- */
-function validarTexto(texto) {
-    
-}
+// #####################################
+// ########## Clase 17 - Live ##########
+// #####################################
 
-function normalizarTexto(texto) {
-    
-}
+const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g
+/* ---------------------------------- texto --------------------------------- */
+const validarTexto = text => text.length >= 3
+const normalizarTexto = text => text.trim().toLowerCase()
 
 /* ---------------------------------- email --------------------------------- */
-function validarEmail(email) {
-    
-}
-
-function normalizarEmail(email) {
-    
-}
+const validarEmail = email => emailRegex.test(email)
+const normalizarEmail = email => email.trim().toLowerCase()
 
 /* -------------------------------- password -------------------------------- */
-function validarContrasenia(contrasenia) {
-    
-}
+const validarContrasenia = password => password.length >= 6
+const compararContrasenias = (pass_1, pass_2) => pass_1 === pass_2
 
-function compararContrasenias(contrasenia_1, contrasenia_2) {
-    
-}
-
+// #########################################
+// ########## FIN Clase 17 - Live ##########
+// #########################################

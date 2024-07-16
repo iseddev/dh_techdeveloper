@@ -16,6 +16,18 @@ window.addEventListener('load', function () {
   /* -------------------------------------------------------------------------- */
   form.addEventListener("submit", e => {
     e.preventDefault()
+    
+    // #####################################
+    // ########## Clase 17 - Live ##########
+    // #####################################
+    if (!validarEmail(email.value)) {
+      alert("Alguno de los datos es incorrecto")
+      return
+    }
+    // #########################################
+    // ########## FIN Clase 17 - Live ##########
+    // #########################################
+
     showSpinner(body, form)
     const data = {
       email: email.value,

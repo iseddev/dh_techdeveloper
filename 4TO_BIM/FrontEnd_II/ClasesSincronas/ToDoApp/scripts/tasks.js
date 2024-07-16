@@ -15,8 +15,16 @@ window.addEventListener("load", function () {
   const userEndpoint = "https://todo-api.digitalhouse.com/v1/users/getMe"
   const tasksEndpoint = "https://todo-api.digitalhouse.com/v1/tasks"
 
+  // #####################################
+  // ########## Clase 17 - Live ##########
+  // #####################################
+  renderizarSkeleton(2, ".tareas-pendientes")
+  renderizarSkeleton(2, ".tareas-terminadas")
   obtenerNombreUsuario()
-  consultarTareas()
+  setTimeout(() => consultarTareas(), 2000)
+  // #########################################
+  // ########## FIN Clase 17 - Live ##########
+  // #########################################
   
   /* -------------------------------------------------------------------------- */
   /*                          FUNCIÓN 1 - Cerrar sesión                         */
@@ -88,7 +96,10 @@ window.addEventListener("load", function () {
     }
     fetch(tasksEndpoint, settings)
       .then(res => res.json())
-      .then(() => consultarTareas())
+      .then(() => {
+        inputNuevaTarea.value = ""
+        consultarTareas()
+      })
       .catch(err => console.log(err))
   })
   // #############################################################
