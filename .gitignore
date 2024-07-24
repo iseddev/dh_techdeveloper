@@ -11,6 +11,8 @@
 **/.idea
 **/node_modules
 
+**/sources
+
 **/1ER_BIM/IntroduccionInformatica
 
 **/2DO_BIM/DesarrolloProfesional_2023
