@@ -9,27 +9,11 @@ public class Empleado {
         this.numeroDeCuenta = numeroDeCuenta;
     }
 
-    public String getNombre() {
-        return nombre;
-    }
+    public String getNombre() { return nombre; }
+    public String getApellido() { return apellido; }
+    public String getNumeroDeCuenta() { return numeroDeCuenta; }
 
-    public String getApellido() {
-        return apellido;
-    }
-
-    public String getNumeroDeCuenta() {
-        return numeroDeCuenta;
-    }
-
-    public void setNoombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
-    }
-
-    public void setNumeroDeCuenta(String numeroDeCuenta) {
-        this.numeroDeCuenta = numeroDeCuenta;
-    }
+    public void setNoombre(String nombre) { this.nombre = nombre; }
+    public void setApellido(String apellido) { this.apellido = apellido; }
+    public void setNumeroDeCuenta(String numeroDeCuenta) { this.numeroDeCuenta = numeroDeCuenta; }
 }
