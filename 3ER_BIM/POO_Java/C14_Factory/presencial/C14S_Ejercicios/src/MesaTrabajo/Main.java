@@ -1,19 +1,18 @@
 package MesaTrabajo;
 
-import java.util.List;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("********** Creando Productos **********");
 
-        // Creamos "fabrica", que es una instancia del "fabricador"(creador) de instancias de nuestra "fábrica": ProductoFactory
+        // Creamos la "fabrica", que es una instancia de la Clase "ProductoFactory".
         ProductoFactory fabrica = new ProductoFactory();
-        // Utilizando la instanciación anterior
+
+        // Utilizando la instanciación anterior para crear cada producto
         Producto pelota01 = fabrica.crearProducto("pelotafutbol");
         Producto pelota02 = fabrica.crearProducto("pelotatenis");
         Producto caja01 = fabrica.crearProducto("CAJA10X10");
 
-        // Sin la instanciación de ProductoFactory
+        // Usando directamente ProductoFactory
         Producto pelota03 = ProductoFactory.crearProducto("pelotaFUTBOL");
         Producto pelota04 = ProductoFactory.crearProducto("PELOTAtenis");
         Producto caja02 = ProductoFactory.crearProducto("caja10X10");

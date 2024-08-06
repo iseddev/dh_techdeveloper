@@ -9,7 +9,7 @@ public class Pelota implements Producto{
     // Constructor para instanciar a esta Clase
     public Pelota(double radio) { this.radio = radio; }
 
-    // Sobre escritura del método calcularEspacio() implementado desde Producto con la lógica propia para calcular el volúmen de un círculo
+    // Sobre escritura del método calcularEspacio() implementado desde la interfaz Producto con la lógica propia para calcular el volúmen de una esfera (balón)
     @Override
     public double calcularEspacio() { return 4 * Math.PI * Math.pow(radio, 3) / 3; }
 

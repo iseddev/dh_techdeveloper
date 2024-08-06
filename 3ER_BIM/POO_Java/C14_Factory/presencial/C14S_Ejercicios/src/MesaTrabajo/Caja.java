@@ -13,7 +13,7 @@ public class Caja implements Producto{
         this.altura = altura;
     }
 
-    // Sobre escritura del método calcularEspacio() implementado desde Producto con la lógica propia para calcular el volúmen de una caja
+    // Sobre escritura del método calcularEspacio() implementado desde la interfaz Producto con la lógica propia para calcular el volúmen de un cubo (caja)
     @Override
     public double calcularEspacio() { return longitud * ancho * altura; }
 
