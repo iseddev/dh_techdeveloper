@@ -32,12 +32,13 @@ class LiquidadorTest {
         assertEquals(respuestaEsperada, calcular);
     }
 
+    // ##### Mesa de Trabajo #####
     /*
     CASO 2: Debería emitir un documento digital cuando es un empleado contratado.
-    ● Dado: Una empleada contratada, Pompilia Pompini, con 120 horas trabajadas y una tarifa de 7 por hora.
-    ● Cuando: Intento calcular la liquidación.
-    ● Entonces: Obtengo el mensaje “La liquidación generada es un documento digital. Saldo a liquidar: 840”.
-    * */
+        ● Dado: Una empleada contratada, Pompilia Pompini, con 120 horas trabajadas y una tarifa de 7 por hora.
+        ● Cuando: Intento calcular la liquidación.
+        ● Entonces: Obtengo el mensaje “La liquidación generada es un documento digital. Saldo a liquidar: 840”.
+    */
     @Test
     public void CasoDos() {
         // Arrange
@@ -55,9 +56,9 @@ class LiquidadorTest {
 
     /*
     CASO 3: El liquidador debería arrojar un mensaje de error cuando no es posible calcular la liquidación.
-    ● Dados: Un liquidador de empleado efectivo y una empleada contratada, Pompilia Pompini.
-    ● Cuando: Intento calcular la liquidación.
-    ● Entonces: Obtengo el mensaje “La liquidación no pudo ser calculada”.
+        ● Dados: Un liquidador de empleado efectivo y una empleada contratada, Pompilia Pompini.
+        ● Cuando: Intento calcular la liquidación.
+        ● Entonces: Obtengo el mensaje “La liquidación no pudo ser calculada”.
     */
     @Test
     public void CasoTres() {

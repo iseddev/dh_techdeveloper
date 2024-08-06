@@ -1,6 +1,6 @@
 package Presencial01;
 
-public class Empleado {
+public abstract class Empleado {
     private String nombre, apellido, numeroDeCuenta;
 
     public Empleado(String nombre, String apellido, String numeroDeCuenta) {
@@ -13,7 +13,7 @@ public class Empleado {
     public String getApellido() { return apellido; }
     public String getNumeroDeCuenta() { return numeroDeCuenta; }
 
-    public void setNoombre(String nombre) { this.nombre = nombre; }
+    public void setNombre(String nombre) { this.nombre = nombre; }
     public void setApellido(String apellido) { this.apellido = apellido; }
     public void setNumeroDeCuenta(String numeroDeCuenta) { this.numeroDeCuenta = numeroDeCuenta; }
 }
