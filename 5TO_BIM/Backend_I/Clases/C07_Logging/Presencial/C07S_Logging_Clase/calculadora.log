@@ -1,0 +1,24 @@
+[2024-08-07 23:57:22] [ INFO ] [Calculadora:11] LOGGER: Ejecución del programa principal
+[2024-08-07 23:57:22] [ INFO ] [Division:9] LOGGER: Se inicia el método calcularDivisión de la Clase Division
+[2024-08-07 23:57:22] [ WARN ] [Division:11] LOGGER: Se está intentando dividir entre CERO...
+[2024-08-07 23:57:22] [ ERROR] [Calculadora:14] LOGGER: Se produjo un error: ArithmeticException => No es posible hacer una división entre CERO!!!
+[2024-08-07 23:57:23] [ INFO ] [Calculadora:19] LOGGER: Ejecución del programa principal
+[2024-08-07 23:57:23] [ INFO ] [Division:9] LOGGER: Se inicia el método calcularDivisión de la Clase Division
+[2024-08-07 23:57:23] [ INFO ] [Division:15] LOGGER: Se reliza la división exitosamente
+[2024-08-07 23:58:07] [ INFO ] [Calculadora:11] LOGGER: Ejecución del programa principal
+[2024-08-07 23:58:07] [ INFO ] [Division:9] LOGGER: Se inicia el método calcularDivisión de la Clase Division
+[2024-08-07 23:58:07] [ WARN ] [Division:11] LOGGER: Se está intentando dividir entre CERO...
+[2024-08-07 23:58:07] [ ERROR] [Calculadora:14] LOGGER: Se produjo un error: ArithmeticException => No es posible hacer una división entre CERO!!!
+[2024-08-07 23:58:27] [ INFO ] [Calculadora:19] LOGGER: Ejecución del programa principal
+[2024-08-07 23:58:27] [ INFO ] [Division:9] LOGGER: Se inicia el método calcularDivisión de la Clase Division
+[2024-08-07 23:58:27] [ INFO ] [Division:15] LOGGER: Se reliza la división exitosamente
+[2024-08-07 23:58:36] [ INFO ] [Calculadora:19] LOGGER: Ejecución del programa principal
+[2024-08-07 23:58:36] [ INFO ] [Division:9] LOGGER: Se inicia el método calcularDivisión de la Clase Division
+[2024-08-07 23:58:36] [ INFO ] [Division:15] LOGGER: Se reliza la división exitosamente
+[2024-08-07 23:58:44] [ INFO ] [Calculadora:11] LOGGER: Ejecución del programa principal
+[2024-08-07 23:58:44] [ INFO ] [Division:9] LOGGER: Se inicia el método calcularDivisión de la Clase Division
+[2024-08-07 23:58:44] [ WARN ] [Division:11] LOGGER: Se está intentando dividir entre CERO...
+[2024-08-07 23:58:44] [ ERROR] [Calculadora:14] LOGGER: Se produjo un error: ArithmeticException => No es posible hacer una división entre CERO!!!
+[2024-08-07 23:58:44] [ INFO ] [Calculadora:19] LOGGER: Ejecución del programa principal
+[2024-08-07 23:58:44] [ INFO ] [Division:9] LOGGER: Se inicia el método calcularDivisión de la Clase Division
+[2024-08-07 23:58:44] [ INFO ] [Division:15] LOGGER: Se reliza la división exitosamente

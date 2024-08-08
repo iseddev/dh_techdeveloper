@@ -1,0 +1,30 @@
+[2024-08-08 01:54:48] [ INFO ] [Leon:25] El León Mufasa está corriendo
+[2024-08-08 01:54:48] [ INFO ] [Leon:33] El León Mufasa tiene más de 10 años y es un León ALFA
+[2024-08-08 01:54:48] [ INFO ] [Leon:25] El León Simba está corriendo
+[2024-08-08 01:54:48] [ ERROR] [Leon:29] La edad no puede ser negativa
+[2024-08-08 01:54:48] [ ERROR] [Main:28] La edad del León Simba es incorrecta
+java.lang.Exception: La edad del León Simba es incorrecta
+	at Leon.esMayorA10(Leon.java:30)
+	at Main.main(Main.java:18)
+[2024-08-08 01:56:19] [ INFO ] [Tigre:22] El Tigre Tony está corriendo
+[2024-08-08 01:56:19] [ INFO ] [Tigre:22] El Tigre Pepe está corriendo
+[2024-08-08 01:56:19] [ ERROR] [Tigre:27] La edad no puede ser negativa
+[2024-08-08 01:56:19] [ ERROR] [Main:28] La edad del Tigre Pepe es incorrecta
+java.lang.Exception: La edad del Tigre Pepe es incorrecta
+	at Tigre.esMayorA10(Tigre.java:28)
+	at Main.main(Main.java:26)
+[2024-08-08 01:57:10] [ INFO ] [Leon:25] El León Mufasa está corriendo
+[2024-08-08 01:57:10] [ INFO ] [Leon:33] El León Mufasa tiene más de 10 años y es un León ALFA
+[2024-08-08 01:57:10] [ INFO ] [Tigre:22] El Tigre Tony está corriendo
+[2024-08-08 01:59:23] [ INFO ] [Leon:25] El León Simba está corriendo
+[2024-08-08 01:59:23] [ ERROR] [Leon:29] La edad no puede ser negativa
+[2024-08-08 01:59:23] [ ERROR] [Main:27] La edad del León Simba es incorrecta
+java.lang.Exception: La edad del León Simba es incorrecta
+	at Leon.esMayorA10(Leon.java:30)
+	at Main.main(Main.java:17)
+[2024-08-08 01:59:46] [ INFO ] [Tigre:22] El Tigre Pepe está corriendo
+[2024-08-08 01:59:46] [ ERROR] [Tigre:27] La edad no puede ser negativa
+[2024-08-08 01:59:46] [ ERROR] [Main:27] La edad del Tigre Pepe es incorrecta
+java.lang.Exception: La edad del Tigre Pepe es incorrecta
+	at Tigre.esMayorA10(Tigre.java:28)
+	at Main.main(Main.java:25)

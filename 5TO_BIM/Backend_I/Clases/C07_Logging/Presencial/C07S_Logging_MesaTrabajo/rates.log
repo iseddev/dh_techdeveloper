@@ -1,0 +1,16 @@
+[2024-08-08 01:22:11] [ INFO ] [ListaPromedio:16] La lista es mayor que 5
+[2024-08-08 01:22:11] [ INFO ] [ListaPromedio:16] La lista es mayor que 5
+[2024-08-08 01:22:11] [ INFO ] [ListaPromedio:19] La lista es mayor que 10
+[2024-08-08 01:22:11] [ ERROR] [ListaPromedio:9] La lista es igual a cero
+[2024-08-08 01:22:11] [ ERROR] [Main:17] Se produjo una excepción: 
+java.lang.Exception: La lista es igual a cero
+	at ListaPromedio.procesarLista(ListaPromedio.java:10)
+	at Main.main(Main.java:15)
+[2024-08-08 01:23:33] [ INFO ] [ListaPromedio:15] La lista es mayor que 5
+[2024-08-08 01:23:33] [ INFO ] [ListaPromedio:15] La lista es mayor que 5
+[2024-08-08 01:23:33] [ INFO ] [ListaPromedio:16] La lista es mayor que 10
+[2024-08-08 01:23:33] [ ERROR] [ListaPromedio:9] La lista es igual a cero
+[2024-08-08 01:23:33] [ ERROR] [Main:17] Se produjo una excepción: 
+java.lang.Exception: La lista es igual a cero
+	at ListaPromedio.procesarLista(ListaPromedio.java:10)
+	at Main.main(Main.java:15)
