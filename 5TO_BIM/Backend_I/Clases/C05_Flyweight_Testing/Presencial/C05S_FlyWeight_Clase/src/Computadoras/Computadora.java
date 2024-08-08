@@ -14,7 +14,7 @@ public class Computadora {
         this.ram = ram;
         this.modelo = modelo;
         this.discoDuro = discoDuro;
-        // Al momento de instnciar esta clase
+        // Al momento de instanciar esta clase
         contador++;
         System.out.println("Computadora creada, contador = " + contador);
     }
