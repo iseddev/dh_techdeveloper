@@ -1,0 +1,194 @@
+[2024-08-08 17:21:59] [ INFO ] [MedicamentosDAOH2:19] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 17:21:59] [ INFO ] [MedicamentosDAOH2:43] Medicamento guardado en la BD: Paracetamol
+[2024-08-08 17:23:36] [ INFO ] [MedicamentosDAOH2:19] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 17:23:36] [ INFO ] [MedicamentosDAOH2:43] Medicamento guardado en la BD: Paracetamol
+[2024-08-08 17:45:29] [ INFO ] [CrearRegistroJdbcH2:19] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 17:45:29] [ INFO ] [CrearRegistroJdbcH2:43] Medicamento guardado en la BD: Paracetamol
+[2024-08-08 23:14:47] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 23:14:47] [ INFO ] [LogicaCRUD:42] Medicamento guardado en la BD: Paracetamol
+[2024-08-08 23:16:45] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 23:16:46] [ INFO ] [LogicaCRUD:42] Medicamento guardado en la BD: Paracetamol
+[2024-08-08 23:16:46] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-08 23:17:34] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 23:17:34] [ INFO ] [LogicaCRUD:42] Medicamento guardado en la BD: Paracetamol
+[2024-08-08 23:17:34] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-08 23:18:12] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 23:18:12] [ INFO ] [LogicaCRUD:42] Medicamento guardado en la BD: Paracetamol
+[2024-08-08 23:18:13] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-08 23:18:34] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 23:18:34] [ INFO ] [LogicaCRUD:42] Medicamento guardado en la BD: Paracetamol
+[2024-08-08 23:18:34] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-08 23:20:55] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 23:20:55] [ INFO ] [LogicaCRUD:42] Medicamento guardado en la BD: Paracetamol
+[2024-08-08 23:20:55] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-08 23:22:09] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 23:22:09] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-08 23:22:09] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
+[2024-08-08 23:22:09] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-08 23:48:27] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 23:48:28] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-08 23:48:28] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
+[2024-08-08 23:48:28] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-08 23:48:59] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 23:48:59] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-08 23:48:59] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
+[2024-08-08 23:48:59] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-08 23:49:52] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 23:49:52] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-08 23:49:52] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
+[2024-08-08 23:49:52] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-08 23:55:25] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 23:55:25] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-08 23:55:25] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
+[2024-08-08 23:55:25] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-08 23:55:49] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 23:55:49] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-08 23:55:49] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
+[2024-08-08 23:55:49] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-08 23:56:16] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 23:56:16] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-08 23:56:16] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
+[2024-08-08 23:56:17] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-08 23:56:56] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 23:56:56] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-08 23:56:56] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
+[2024-08-08 23:56:57] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-08 23:57:22] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 23:57:22] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-08 23:57:22] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
+[2024-08-08 23:57:23] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-08 23:57:40] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 23:57:40] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-08 23:57:40] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
+[2024-08-08 23:57:40] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-08 23:58:39] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 23:58:39] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-08 23:58:39] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
+[2024-08-08 23:58:40] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-08 23:59:17] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 23:59:17] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-08 23:59:17] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
+[2024-08-08 23:59:17] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-08 23:59:37] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 23:59:37] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-08 23:59:37] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
+[2024-08-08 23:59:38] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-08 23:59:58] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-08 23:59:58] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-08 23:59:58] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
+[2024-08-08 23:59:58] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:00:09] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:00:09] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-09 00:00:09] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:00:09] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:00:20] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:00:20] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-09 00:00:20] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:00:21] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:05:04] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:05:04] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-09 00:05:04] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:06:14] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:06:14] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-09 00:06:14] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:06:56] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:06:56] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-09 00:07:20] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:07:20] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-09 00:11:57] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:11:57] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-09 00:12:36] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:12:36] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-09 00:14:49] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:14:49] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
+[2024-08-09 00:14:49] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:16:24] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:16:57] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:23:31] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:23:31] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
+[2024-08-09 00:23:31] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:23:50] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:23:50] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
+[2024-08-09 00:23:50] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:23:50] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:24:51] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:24:52] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
+[2024-08-09 00:24:52] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:24:52] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:25:17] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:25:17] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
+[2024-08-09 00:25:17] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:25:17] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:26:16] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:26:16] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
+[2024-08-09 00:26:16] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:26:17] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:29:12] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:29:13] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
+[2024-08-09 00:29:13] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:29:13] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:34:03] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:34:03] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
+[2024-08-09 00:34:03] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:34:03] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:34:03] [ INFO ] [LogicaCRUD:91] Medicamento localizado en la BD: Paracetamol
+[2024-08-09 00:34:38] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:34:38] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
+[2024-08-09 00:34:38] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:34:38] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:34:38] [ INFO ] [LogicaCRUD:91] Medicamento localizado en la BD: Paracetamol
+[2024-08-09 00:36:56] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:36:56] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
+[2024-08-09 00:36:56] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:36:56] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:36:56] [ INFO ] [LogicaCRUD:92] Medicamento localizado en la BD: Paracetamol
+[2024-08-09 00:37:52] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:37:52] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
+[2024-08-09 00:37:52] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:37:53] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:37:53] [ INFO ] [LogicaCRUD:92] Medicamento localizado en la BD: Paracetamol
+[2024-08-09 00:42:09] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:42:09] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
+[2024-08-09 00:42:09] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:42:10] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:42:10] [ INFO ] [LogicaCRUD:90] Medicamento localizado por el id = 1en la BD
+[2024-08-09 00:42:57] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:42:57] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
+[2024-08-09 00:42:57] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:42:57] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:42:58] [ INFO ] [LogicaCRUD:90] Medicamento localizado por el id = 1en la BD
+[2024-08-09 00:43:13] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:43:13] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
+[2024-08-09 00:43:13] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:43:13] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:44:14] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:44:14] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
+[2024-08-09 00:44:14] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:44:14] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:45:31] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:45:31] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
+[2024-08-09 00:45:31] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:45:31] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:46:37] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:46:37] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
+[2024-08-09 00:46:37] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:46:37] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:48:47] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:48:47] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
+[2024-08-09 00:48:47] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:48:47] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:48:47] [ INFO ] [LogicaCRUD:93] Medicamento con el id = 2NO fue localizado en la BD
+[2024-08-09 00:49:57] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:49:57] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
+[2024-08-09 00:49:57] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:49:57] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:49:57] [ INFO ] [LogicaCRUD:90] Medicamento localizado con el id >>> 1 <<< en la BD
+[2024-08-09 00:49:57] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:49:57] [ INFO ] [LogicaCRUD:93] Medicamento con el id = 2NO fue localizado en la BD
+[2024-08-09 00:52:46] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
+[2024-08-09 00:52:46] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
+[2024-08-09 00:52:46] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
+[2024-08-09 00:52:46] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:52:46] [ INFO ] [LogicaCRUD:91] Medicamento localizado con el id >>> 1 <<< en la BD
+[2024-08-09 00:52:46] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
+[2024-08-09 00:52:46] [ INFO ] [LogicaCRUD:94] Medicamento con el id = 2NO fue localizado en la BD
