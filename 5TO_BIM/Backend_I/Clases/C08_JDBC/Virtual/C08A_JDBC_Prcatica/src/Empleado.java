@@ -2,6 +2,13 @@ import java.sql.*;
 
 public class Empleado {
 
+  // Solicitud de conexión a la BD
+  private static Connection getConnection() throws ClassNotFoundException, SQLException {
+    Class.forName("org.h2.Driver");
+    String url = "jdbc:h2:./PacienteBD";
+    return DriverManager.getConnection(url, "sa", "");
+  }
+
   public static void main(String[] args) {
 
     // Creamos una conexión en null
@@ -12,15 +19,15 @@ public class Empleado {
 
       // Conexión a la BD mediante el método estático getConnection() desarrollado fuera de este Main
       connection = getConnection();
+      System.out.println("Conexión exitosa a la BD");
 
       // Vamoa a crear una "orden" que será la que ejecutaremos dentro de la BD
       Statement statement = connection.createStatement();
 
       // Definimos una orden DROP-CREATE que se ejecutará para el manejo inicial de la Tabla
       // En este caso vamos a definir el id(PRIMARY KEY) de forma manual
-      statement.execute("DROP TABLE IF EXISTS empleados; " +
-          "CREATE TABLE empleados (" +
-          "ID INT PRIMARY KEY, " +
+      statement.execute("DROP TABLE IF EXISTS empleados; CREATE TABLE empleados " +
+          "(ID INT PRIMARY KEY, " +
           "EDAD INT NOT NULL, " +
           "EMPRESA VARCHAR(100) NOT NULL, " +
           "FECHA_INGRESO VARCHAR(20) NOT NULL)");
@@ -51,18 +58,10 @@ public class Empleado {
       // Usamos try/catch para validar que el cierre de la conexión haya sido exitosa
       try {
         assert connection != null;
-        System.out.println("Cerrando conexión a BD...");
         connection.close();
-        System.out.println("Conexión a BD cerrada...");
+        System.out.println("Conexión a la BD cerrada");
       }
       catch (Exception e) { System.out.println(e.getMessage()); }
     }
-  }
-
-  // Solicitud de conexión a la BD
-  private static Connection getConnection() throws ClassNotFoundException, SQLException {
-    Class.forName("org.h2.Driver");
-    String url = "jdbc:h2:../../../../h2/bin"; // Ruta al archivo .jar
-    return DriverManager.getConnection(url, "sa", "");
   }
 }
