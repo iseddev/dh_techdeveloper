@@ -2,43 +2,45 @@ import java.sql.*;
 
 public class Odontologos {
 
+  // Método para conectarnos a la BD
+  private static Connection getConnection() throws Exception {
+    Class.forName("org.h2.Driver");
+    return DriverManager.getConnection("jdbc:h2:./OdontologoBD", "sa", "");
+  }
+
   // Se crean las instrucciones necesarias para crear la tabla requerida
-  private static final String DROP_CREATE = "DROP TABLE IF EXISTS odontologos; " +
-      "CREATE TABLE odontologos (" +
-      "ID INT PRIMARY KEY," +
-      "APELLIDO VARCHAR(100) NOT NULL," +
-      "NOMBRE VARCHAR(100) NOT NULL," +
+  private static final String CREATE_TABLE = "DROP TABLE IF EXISTS odontologo; CREATE TABLE odontologo " +
+      "(ID INT PRIMARY KEY, " +
+      "APELLIDO VARCHAR(100) NOT NULL, " +
+      "NOMBRE VARCHAR(100) NOT NULL, " +
       "MATRICULA VARCHAR(100) NOT NULL)";
 
-  private static final String SLQ_INSERT = "INSERT INTO odontologos VALUES (?,?,?,?)";
-  private static final String SQL_SELECT_ALL = "SELECT * FROM odontologos";
-  private static final String SQL_UPDATE = "UPDATE odontologos SET MATRICULA=? WHERE ID=?";
+  private static final String SLQ_INSERT = "INSERT INTO odontologo VALUES (?,?,?,?)";
+  private static final String SQL_SELECT_ALL = "SELECT * FROM odontologo";
+  private static final String SQL_UPDATE = "UPDATE odontologo SET MATRICULA=? WHERE ID=?";
 
   public static void main(String[] args) {
     // Inicialización dela conexión en null
     Connection connection = null;
-
     try {
-
       // NOS CONECTAMOS A LA BD
       connection = getConnection();
-      System.out.println("CONEXIÓN EXITOSA");
+      System.out.println("Conexión exitosa a la BD");
 
-      //CREAR LA TABLA
+      // CREAR LA TABLA
       Statement statement = connection.createStatement();
-      statement.execute(DROP_CREATE);
+      statement.execute(CREATE_TABLE);
 
       //INSERTAR VALORES -> DE FORMA DINÁMICA -> PREPARED STATEMENT
-      PreparedStatement psSqlInsert = connection.prepareStatement(SLQ_INSERT);
-      psSqlInsert.setInt(1,1);
-      psSqlInsert.setString(2, "Doe");
-      psSqlInsert.setString(3, "John");
-      psSqlInsert.setString(4, "ABCD1234");
+      PreparedStatement psInsert = connection.prepareStatement(SLQ_INSERT);
+      psInsert.setInt(1,1);
+      psInsert.setString(2, "Doe");
+      psInsert.setString(3, "John");
+      psInsert.setString(4, "ABCD1234");
+
+      psInsert.execute();
 
       // GUARDAMOS LOS DATOS DE LA BD EN JAVA
-      psSqlInsert.execute();
-
-      // Obtenemos los registros existentes en la tabla
       ResultSet allRecords = statement.executeQuery(SQL_SELECT_ALL);
 
       // Recorremos los resultados obtenidos y los imprimimos por pantalla
@@ -56,7 +58,7 @@ public class Odontologos {
 
       // Realizamos un UPDATE de forma dinaḿica
       PreparedStatement psSqlUpdate = connection.prepareStatement(SQL_UPDATE);
-      // Establecemos los cambios para nuetro primer parámetro("paramterIndex = 1") => MATRICULA=?
+      // Establecemos los cambios para nuestro primer parámetro("paramterIndex = 1") => MATRICULA=?
       psSqlUpdate.setString(1,  "DCBA4321");
       // Establecemos el valor para nuestro segundo parámetro("parameterIndex = 2") => WHERE ID=?
       psSqlUpdate.setInt(2, 1);
@@ -64,7 +66,7 @@ public class Odontologos {
       psSqlUpdate.execute();
 
       // Forzamos un error (Exception) para validar que no se apliquen los cambios realizados anteriormente
-      // int excepcionForzada = 1/0;
+//       int excepcionForzada = 1/0;
 
       // Enviamos los cambios para que sean "commiteados" en la tabla
       connection.commit();
@@ -72,26 +74,26 @@ public class Odontologos {
       // UNA BUENA PRÁCTICA
       connection.setAutoCommit(true);
     } catch (Exception e) {
-      try { connection.rollback(); } // SE ARROJA LA EXCEPCIÓN Y SE EJECUTA EL ROLLBACK
+      try { connection.rollback(); } // SI EXISTE UNA EXCEPCIÓN, SE EJECUTA EL ROLLBACK
       catch (Exception ex) { ex.printStackTrace(); }
-      e.printStackTrace();
+      e.printStackTrace(); // Mensaje con el error "cachado" al intentar conectarse o realizar actualizaciones en la BD
     } finally {
       try {
         connection.close();
-        System.out.println("CONEXIÓN CERRADA");
+        System.out.println("Conexión a la BD cerrada");
       } catch (Exception e) { e.getMessage(); }
     }
 
-    //----------------------------------------------------------------------------------------------------
+    // --------------------------------------------------
     // Volver a conectarnos para validar si se aplicaron o no los cambios ejecutados
     try {
       connection = getConnection();
-      System.out.println("CONEXIÓN EXITOSA");
+      System.out.println("Conexión exitosa a la BD");
 
       Statement statement = connection.createStatement();
       ResultSet allRecords = statement.executeQuery(SQL_SELECT_ALL);
 
-      System.out.println("===== Datos despues de actualizar matrícula =====");
+      System.out.println("===== Datos después de actualizar la matrícula =====");
 
       while (allRecords.next()) {
         System.out.println("Id: " + allRecords.getInt(1) +
@@ -100,17 +102,13 @@ public class Odontologos {
             "\nMatrícula: " + allRecords.getString(4));
       }
 
-    } catch (Exception exception) { exception.printStackTrace(); } finally {
+    }
+    catch (Exception exception) { exception.printStackTrace(); }
+    finally {
       try {
         connection.close();
-        System.out.println("CONEXIÓN CERRADA");
+        System.out.println("Conexión a la BD cerrada");
       } catch (Exception e) { e.getMessage(); }
     }
-  }
-
-  // Método para conectarnos a la BD
-  private static Connection getConnection() throws Exception {
-    Class.forName("org.h2.Driver");
-    return DriverManager.getConnection("jdbc:h2:../../../../h2/bin", "sa", "");
   }
 }
