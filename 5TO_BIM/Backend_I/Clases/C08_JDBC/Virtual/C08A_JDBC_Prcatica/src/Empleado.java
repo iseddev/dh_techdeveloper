@@ -5,7 +5,7 @@ public class Empleado {
   // Solicitud de conexión a la BD
   private static Connection getConnection() throws ClassNotFoundException, SQLException {
     Class.forName("org.h2.Driver");
-    String url = "jdbc:h2:./PacienteBD";
+    String url = "jdbc:h2:./EmpleadoBD";
     return DriverManager.getConnection(url, "sa", "");
   }
 
