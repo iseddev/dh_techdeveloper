@@ -6,30 +6,47 @@ import java.time.LocalDate;
 
 public class Main {
   public static void main(String[] args) {
+
     BD.crearTabla(); // La tabla se va a crear una sola vez
 
-    Paciente paciente1 = new Paciente("Erica","Mar", "Colombia", "123", LocalDate.of(2024,03,03));
+    Paciente erica = new Paciente(
+        "Erica",
+        "Mar",
+        "Colombia",
+        "123",
+        LocalDate.of(2024,03,03));
 
     PacienteServicio servicio = new PacienteServicio();
 
-    servicio.insertarRegistro(paciente1);
+    servicio.insertarRegistro(erica);
 
     System.out.println("Este es el paciente original");
-    System.out.println(paciente1.toString());
+    System.out.println(erica);
 
-    paciente1.setNombre("Daniela");
-    servicio.updateRegistro(paciente1);
+    erica.setNombre("Daniela");
+    servicio.updateRegistro(erica);
 
     System.out.println("Este es el paciente modificado");
-    System.out.println(paciente1.toString());
+    System.out.println(erica);
 
-    Paciente paciente2 = new Paciente("Bruno", "Apellido", "Colombia", "123", LocalDate.of(2024,03,03));
+    Paciente bruno = new Paciente("Bruno", "Apellido", "Colombia", "123", LocalDate.of(2024,03,03));
+    servicio.insertarRegistro(bruno);
 
-    Paciente paciente3 = new Paciente("Israel", "Apellido", "Colombia", "123", LocalDate.of(2024,03,03));
-
-    servicio.insertarRegistro(paciente2);
-    servicio.insertarRegistro(paciente3);
+    Paciente israel = new Paciente("Israel", "Apellido", "Colombia", "123", LocalDate.of(2024,03,03));
+    servicio.insertarRegistro(israel);
 
     servicio.consultarTodos();
+
+    servicio.consultarPorId(2);
+
+    servicio.eliminarPaciente(2);
+
+    servicio.consultarTodos();
+
+    Paciente john = new Paciente("John", "Doe", "USA", "JD123", LocalDate.of(2022, 05, 10));
+    servicio.insertarRegistro(john);
+    servicio.consultarPorId(2);
+    servicio.consultarPorId(4);
+    servicio.eliminarPaciente(2);
   }
 }

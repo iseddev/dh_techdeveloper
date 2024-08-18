@@ -2,16 +2,16 @@ package dao;
 
 import java.util.List;
 
-public interface Idao<T> {
+public interface IDao<T> {
 
   // Insertar registro => CREATE
-  T insertarRegistro(T t);
+  T insertRegistro(T t);
   // Consultar todos => READ
-  List<T> consultarTodos();
+  List<T> selectTodos();
   // Consultar por Id => READ
-  T consultarPorId(Integer id);
+  T selectPorId(Integer id);
   // Actualizar un registro => UPDATE
-  T actalizarRegistro(T t);
+  T updateRegistro(T t);
   // Eliminar un registro => DELETE
-  void eliminarPorId(Integer id);
+  void deletePorId(Integer id);
 }

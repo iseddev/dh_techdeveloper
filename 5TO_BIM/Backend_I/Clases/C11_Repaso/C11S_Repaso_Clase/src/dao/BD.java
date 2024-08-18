@@ -7,13 +7,13 @@ import java.sql.Statement;
 
 public class BD {
 
-  private static final String PATH = "jdbc:h2:../../../../../h2/bin";
+  private static final String PATH = "jdbc:h2:./Pacientes";
   private static final String USER = "sa";
   private static final String PSWD = "";
 
   public static Connection getConnectiom() throws ClassNotFoundException, SQLException {
     Class.forName("org.h2.Driver");
-    return DriverManager.getConnection(PATH,USER, PSWD);
+    return DriverManager.getConnection(PATH, USER, PSWD);
   }
 
   private static final String CREATE_TABLE = "DROP TABLE IF EXISTS PACIENTES; CREATE TABLE PACIENTES " +
@@ -30,15 +30,18 @@ public class BD {
 
     try {
       connection = getConnectiom();
-      System.out.println("===== CONEXIÓN EXITOSA, SE CREARÁ UNA TABLA =====");
-
+      System.out.println("===== CONEXIÓN EXITOSA A LA BD =====");
       Statement statement = connection.createStatement();
       statement.execute(CREATE_TABLE);
-    } catch (Exception e) { e.printStackTrace(); }
+      System.out.println("***** Creación exitosa de la tabla PACIENTES en la BD");
+    } catch (Exception e) {
+      System.out.println("ERROR: No fue posible conectarse a la BD...");
+      e.printStackTrace();
+    }
     finally {
       try {
         connection.close();
-        System.out.println("===== TABLA CREADA EXITOSAMENTE, CONEXIÓN CERRADA =====");
+        System.out.println("===== SE CERRÓ LA CONEXIÓN A LA BD =====");
       } catch (Exception ex) { ex.printStackTrace();}
     }
   }

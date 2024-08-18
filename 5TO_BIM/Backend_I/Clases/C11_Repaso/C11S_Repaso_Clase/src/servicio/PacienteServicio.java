@@ -1,6 +1,6 @@
 package servicio;
 
-import dao.Idao;
+import dao.IDao;
 import dao.implementacion.ImplementacionDaoH2;
 import modelo.Paciente;
 
@@ -8,19 +8,19 @@ import java.util.List;
 
 public class PacienteServicio {
 
-  private Idao<Paciente> iDao;
+  private IDao<Paciente> IDao;
 
-  public PacienteServicio() { this.iDao = new ImplementacionDaoH2(); }
+  public PacienteServicio() { this.IDao = new ImplementacionDaoH2(); }
 
-  public  Paciente insertarRegistro(Paciente paciente) { return  iDao.insertarRegistro(paciente); }
+  public  Paciente insertarRegistro(Paciente paciente) { return  IDao.insertRegistro(paciente); }
 
-  public List<Paciente> consultarTodos() { return iDao.consultarTodos(); }
+  public List<Paciente> consultarTodos() { return IDao.selectTodos(); }
 
-  public Paciente consultarPorId(Integer id) { return iDao.consultarPorId(id); }
+  public Paciente consultarPorId(Integer id) { return IDao.selectPorId(id); }
 
   public Paciente updateRegistro(Paciente paciente) {
-    return iDao.actalizarRegistro(paciente);
+    return IDao.updateRegistro(paciente);
   }
 
-  public void eliminarPaciente(Integer id) { iDao.eliminarPorId(id); }
+  public void eliminarPaciente(Integer id) { IDao.deletePorId(id); }
 }
