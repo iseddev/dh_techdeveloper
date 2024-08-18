@@ -1,26 +1,31 @@
 import dao.BD;
-import modelo.Medicamento;
-import servicio.MedicamentoService;
+import model.Medicamento;
+import service.MedicamentoService;
 
 public class Main {
 
   public static void main(String[] args) {
 
-    // Crear un medicamento y lo vamos a persistir
-    MedicamentoService medicamentoService = new MedicamentoService();
+    // Instanciamos un atributo de la Clase MedicamentoService para poder implementar la lógica requerida (que ya existe dentro de MedicamentoService)
+    MedicamentoService service = new MedicamentoService();
 
     // Creación de la tabla
     BD.createTable();
 
-    // Creamos un medicamento
-    Medicamento paracetamol = new Medicamento(11, 11, "Paracetamol", "Pfizer", 120.50);
+    // Creamos un medicamento para poderlo persistir
+    Medicamento paracetamol = new Medicamento("Paracetamol", "Pfizer", 11, 120.50, 11);
 
-    // Creamos el registro de "paracetamol" en la tabla
-    medicamentoService.createRecordService(paracetamol);
+    // Insertamos(guardamos) el objeto "paracetamol" como un registro en la tabla
+    service.insertMedicamento(paracetamol);
 
-    // Mesa de trabajo
+    // #################### Mesa de trabajo ####################
     // Buscamos medicamento por Id
-    medicamentoService.buscarId(1);
-    medicamentoService.buscarId(2);
+    System.out.println("##### Datos del medicamento con ID 1 #####\n" + service.selectById(1));
+
+    service.selectById(2);
+
+    Medicamento aspirina = new Medicamento("Aspirina", "Bayer", 50,190.20, 32);
+    service.insertMedicamento(aspirina);
+    System.out.println("##### Datos del medicamento con ID 2 #####\n" + service.selectById(2));
   }
 }

@@ -1,194 +1,205 @@
-[2024-08-08 17:21:59] [ INFO ] [MedicamentosDAOH2:19] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 17:21:59] [ INFO ] [MedicamentosDAOH2:43] Medicamento guardado en la BD: Paracetamol
-[2024-08-08 17:23:36] [ INFO ] [MedicamentosDAOH2:19] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 17:23:36] [ INFO ] [MedicamentosDAOH2:43] Medicamento guardado en la BD: Paracetamol
-[2024-08-08 17:45:29] [ INFO ] [CrearRegistroJdbcH2:19] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 17:45:29] [ INFO ] [CrearRegistroJdbcH2:43] Medicamento guardado en la BD: Paracetamol
-[2024-08-08 23:14:47] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 23:14:47] [ INFO ] [LogicaCRUD:42] Medicamento guardado en la BD: Paracetamol
-[2024-08-08 23:16:45] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 23:16:46] [ INFO ] [LogicaCRUD:42] Medicamento guardado en la BD: Paracetamol
-[2024-08-08 23:16:46] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-08 23:17:34] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 23:17:34] [ INFO ] [LogicaCRUD:42] Medicamento guardado en la BD: Paracetamol
-[2024-08-08 23:17:34] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-08 23:18:12] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 23:18:12] [ INFO ] [LogicaCRUD:42] Medicamento guardado en la BD: Paracetamol
-[2024-08-08 23:18:13] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-08 23:18:34] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 23:18:34] [ INFO ] [LogicaCRUD:42] Medicamento guardado en la BD: Paracetamol
-[2024-08-08 23:18:34] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-08 23:20:55] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 23:20:55] [ INFO ] [LogicaCRUD:42] Medicamento guardado en la BD: Paracetamol
-[2024-08-08 23:20:55] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-08 23:22:09] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 23:22:09] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-08 23:22:09] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
-[2024-08-08 23:22:09] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-08 23:48:27] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 23:48:28] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-08 23:48:28] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
-[2024-08-08 23:48:28] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-08 23:48:59] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 23:48:59] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-08 23:48:59] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
-[2024-08-08 23:48:59] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-08 23:49:52] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 23:49:52] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-08 23:49:52] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
-[2024-08-08 23:49:52] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-08 23:55:25] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 23:55:25] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-08 23:55:25] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
-[2024-08-08 23:55:25] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-08 23:55:49] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 23:55:49] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-08 23:55:49] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
-[2024-08-08 23:55:49] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-08 23:56:16] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 23:56:16] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-08 23:56:16] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
-[2024-08-08 23:56:17] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-08 23:56:56] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 23:56:56] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-08 23:56:56] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
-[2024-08-08 23:56:57] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-08 23:57:22] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 23:57:22] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-08 23:57:22] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
-[2024-08-08 23:57:23] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-08 23:57:40] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 23:57:40] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-08 23:57:40] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
-[2024-08-08 23:57:40] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-08 23:58:39] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 23:58:39] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-08 23:58:39] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
-[2024-08-08 23:58:40] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-08 23:59:17] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 23:59:17] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-08 23:59:17] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
-[2024-08-08 23:59:17] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-08 23:59:37] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 23:59:37] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-08 23:59:37] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
-[2024-08-08 23:59:38] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-08 23:59:58] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-08 23:59:58] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-08 23:59:58] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
-[2024-08-08 23:59:58] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:00:09] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:00:09] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-09 00:00:09] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:00:09] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:00:20] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:00:20] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-09 00:00:20] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:00:21] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:05:04] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:05:04] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-09 00:05:04] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:06:14] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:06:14] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-09 00:06:14] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:06:56] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:06:56] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-09 00:07:20] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:07:20] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-09 00:11:57] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:11:57] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-09 00:12:36] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:12:36] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-09 00:14:49] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:14:49] [ INFO ] [LogicaCRUD:42] ID guardado en la BD: 1
-[2024-08-09 00:14:49] [ INFO ] [LogicaCRUD:43] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:16:24] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:16:57] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:23:31] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:23:31] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
-[2024-08-09 00:23:31] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:23:50] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:23:50] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
-[2024-08-09 00:23:50] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:23:50] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:24:51] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:24:52] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
-[2024-08-09 00:24:52] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:24:52] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:25:17] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:25:17] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
-[2024-08-09 00:25:17] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:25:17] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:26:16] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:26:16] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
-[2024-08-09 00:26:16] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:26:17] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:29:12] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:29:13] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
-[2024-08-09 00:29:13] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:29:13] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:34:03] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:34:03] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
-[2024-08-09 00:34:03] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:34:03] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:34:03] [ INFO ] [LogicaCRUD:91] Medicamento localizado en la BD: Paracetamol
-[2024-08-09 00:34:38] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:34:38] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
-[2024-08-09 00:34:38] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:34:38] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:34:38] [ INFO ] [LogicaCRUD:91] Medicamento localizado en la BD: Paracetamol
-[2024-08-09 00:36:56] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:36:56] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
-[2024-08-09 00:36:56] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:36:56] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:36:56] [ INFO ] [LogicaCRUD:92] Medicamento localizado en la BD: Paracetamol
-[2024-08-09 00:37:52] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:37:52] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
-[2024-08-09 00:37:52] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:37:53] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:37:53] [ INFO ] [LogicaCRUD:92] Medicamento localizado en la BD: Paracetamol
-[2024-08-09 00:42:09] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:42:09] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
-[2024-08-09 00:42:09] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:42:10] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:42:10] [ INFO ] [LogicaCRUD:90] Medicamento localizado por el id = 1en la BD
-[2024-08-09 00:42:57] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:42:57] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
-[2024-08-09 00:42:57] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:42:57] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:42:58] [ INFO ] [LogicaCRUD:90] Medicamento localizado por el id = 1en la BD
-[2024-08-09 00:43:13] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:43:13] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
-[2024-08-09 00:43:13] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:43:13] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:44:14] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:44:14] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
-[2024-08-09 00:44:14] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:44:14] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:45:31] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:45:31] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
-[2024-08-09 00:45:31] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:45:31] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:46:37] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:46:37] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
-[2024-08-09 00:46:37] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:46:37] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:48:47] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:48:47] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
-[2024-08-09 00:48:47] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:48:47] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:48:47] [ INFO ] [LogicaCRUD:93] Medicamento con el id = 2NO fue localizado en la BD
-[2024-08-09 00:49:57] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:49:57] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
-[2024-08-09 00:49:57] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:49:57] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:49:57] [ INFO ] [LogicaCRUD:90] Medicamento localizado con el id >>> 1 <<< en la BD
-[2024-08-09 00:49:57] [ INFO ] [LogicaCRUD:63] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:49:57] [ INFO ] [LogicaCRUD:93] Medicamento con el id = 2NO fue localizado en la BD
-[2024-08-09 00:52:46] [ INFO ] [LogicaCRUD:18] Comenzamos la CREACIÓN del registro de un medicamento
-[2024-08-09 00:52:46] [ INFO ] [LogicaCRUD:41] ID guardado en la BD: 1
-[2024-08-09 00:52:46] [ INFO ] [LogicaCRUD:42] NOMBRE guardado en la BD: Paracetamol
-[2024-08-09 00:52:46] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:52:46] [ INFO ] [LogicaCRUD:91] Medicamento localizado con el id >>> 1 <<< en la BD
-[2024-08-09 00:52:46] [ INFO ] [LogicaCRUD:64] Comenzamos la BÚSQUEDA de un registro por Id
-[2024-08-09 00:52:46] [ INFO ] [LogicaCRUD:94] Medicamento con el id = 2NO fue localizado en la BD
+[2024-08-18 01:23:18] [ INFO ] [MedicamentoDAOH2:18] Inicia la creación(insert) de un medicamento en la tabla
+[2024-08-18 01:23:18] [ INFO ] [MedicamentoDAOH2:25] Conexión exitosa a la BD, se creará un nuevo registro
+[2024-08-18 01:23:18] [ INFO ] [MedicamentoDAOH2:38] Ejecución correcta de la creación/inserción de un registro en la tabla
+[2024-08-18 01:23:18] [ INFO ] [MedicamentoDAOH2:45] Id autoincremental asignado correctamente al registro creado, ID = 1
+[2024-08-18 01:23:19] [ INFO ] [MedicamentoDAOH2:55] Creación exitosa de un nuevo registro, se cierra conexión a BD
+[2024-08-18 01:23:19] [ INFO ] [MedicamentoDAOH2:72] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:23:19] [ INFO ] [MedicamentoDAOH2:79] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:23:19] [ INFO ] [MedicamentoDAOH2:88] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:23:19] [ INFO ] [MedicamentoDAOH2:92] Registro con el ID = 1 fue localizado en la tabla
+[2024-08-18 01:23:19] [ INFO ] [MedicamentoDAOH2:105] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:25:13] [ INFO ] [MedicamentoDAOH2:18] Inicia la creación(insert) de un medicamento en la tabla
+[2024-08-18 01:25:13] [ INFO ] [MedicamentoDAOH2:25] Conexión exitosa a la BD, se creará un nuevo registro
+[2024-08-18 01:25:13] [ INFO ] [MedicamentoDAOH2:38] Ejecución correcta de la creación/inserción de un registro en la tabla
+[2024-08-18 01:25:13] [ INFO ] [MedicamentoDAOH2:45] Id autoincremental asignado correctamente al registro creado, ID = 1
+[2024-08-18 01:25:13] [ INFO ] [MedicamentoDAOH2:55] Creación exitosa de un nuevo registro, se cierra conexión a BD
+[2024-08-18 01:25:13] [ INFO ] [MedicamentoDAOH2:72] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:25:13] [ INFO ] [MedicamentoDAOH2:79] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:25:13] [ INFO ] [MedicamentoDAOH2:88] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:25:13] [ INFO ] [MedicamentoDAOH2:92] Registro con el ID = 1 fue localizado en la tabla
+[2024-08-18 01:25:14] [ INFO ] [MedicamentoDAOH2:105] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:25:14] [ INFO ] [MedicamentoDAOH2:72] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:25:14] [ INFO ] [MedicamentoDAOH2:79] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:25:14] [ INFO ] [MedicamentoDAOH2:88] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:25:14] [ INFO ] [MedicamentoDAOH2:92] Registro con el ID = 1 fue localizado en la tabla
+[2024-08-18 01:25:14] [ INFO ] [MedicamentoDAOH2:105] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:25:14] [ INFO ] [MedicamentoDAOH2:72] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:25:14] [ INFO ] [MedicamentoDAOH2:79] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:25:14] [ INFO ] [MedicamentoDAOH2:88] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:25:14] [ WARN ] [MedicamentoDAOH2:95] Medicamento con el id = 2NO fue localizado en la tabla
+[2024-08-18 01:25:15] [ INFO ] [MedicamentoDAOH2:105] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:29:21] [ INFO ] [MedicamentoDAOH2:18] Inicia la creación(insert) de un medicamento en la tabla
+[2024-08-18 01:29:21] [ INFO ] [MedicamentoDAOH2:25] Conexión exitosa a la BD, se creará un nuevo registro
+[2024-08-18 01:29:21] [ INFO ] [MedicamentoDAOH2:38] Ejecución correcta de la creación/inserción de un registro en la tabla
+[2024-08-18 01:29:21] [ INFO ] [MedicamentoDAOH2:45] Id autoincremental asignado correctamente al registro creado, ID = 1
+[2024-08-18 01:29:22] [ INFO ] [MedicamentoDAOH2:55] Creación exitosa de un nuevo registro, se cierra conexión a BD
+[2024-08-18 01:29:22] [ INFO ] [MedicamentoDAOH2:72] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:29:22] [ INFO ] [MedicamentoDAOH2:79] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:29:22] [ INFO ] [MedicamentoDAOH2:88] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:29:22] [ INFO ] [MedicamentoDAOH2:92] Registro con el ID = 1 fue localizado en la tabla
+[2024-08-18 01:29:22] [ INFO ] [MedicamentoDAOH2:105] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:29:22] [ INFO ] [MedicamentoDAOH2:72] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:29:22] [ INFO ] [MedicamentoDAOH2:79] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:29:22] [ INFO ] [MedicamentoDAOH2:88] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:29:22] [ WARN ] [MedicamentoDAOH2:95] Medicamento con el id = 2 NO fue localizado en la tabla
+[2024-08-18 01:29:22] [ INFO ] [MedicamentoDAOH2:105] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:29:22] [ INFO ] [MedicamentoDAOH2:18] Inicia la creación(insert) de un medicamento en la tabla
+[2024-08-18 01:29:22] [ INFO ] [MedicamentoDAOH2:25] Conexión exitosa a la BD, se creará un nuevo registro
+[2024-08-18 01:29:22] [ INFO ] [MedicamentoDAOH2:38] Ejecución correcta de la creación/inserción de un registro en la tabla
+[2024-08-18 01:29:22] [ INFO ] [MedicamentoDAOH2:45] Id autoincremental asignado correctamente al registro creado, ID = 2
+[2024-08-18 01:29:22] [ INFO ] [MedicamentoDAOH2:55] Creación exitosa de un nuevo registro, se cierra conexión a BD
+[2024-08-18 01:29:22] [ INFO ] [MedicamentoDAOH2:72] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:29:22] [ INFO ] [MedicamentoDAOH2:79] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:29:22] [ INFO ] [MedicamentoDAOH2:88] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:29:22] [ INFO ] [MedicamentoDAOH2:92] Registro con el ID = 2 fue localizado en la tabla
+[2024-08-18 01:29:22] [ INFO ] [MedicamentoDAOH2:105] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:32:47] [ INFO ] [MedicamentoImplDAOH2:18] Inicia la creación(insert) de un medicamento en la tabla
+[2024-08-18 01:32:47] [ INFO ] [MedicamentoImplDAOH2:25] Conexión exitosa a la BD, se creará un nuevo registro
+[2024-08-18 01:32:47] [ INFO ] [MedicamentoImplDAOH2:38] Ejecución correcta de la creación/inserción de un registro en la tabla
+[2024-08-18 01:32:47] [ INFO ] [MedicamentoImplDAOH2:44] Id autoincremental asignado correctamente al registro creado, ID = 1
+[2024-08-18 01:32:48] [ INFO ] [MedicamentoImplDAOH2:54] Creación exitosa de un nuevo registro, se cierra conexión a BD
+[2024-08-18 01:32:48] [ INFO ] [MedicamentoImplDAOH2:71] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:32:48] [ INFO ] [MedicamentoImplDAOH2:78] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:32:48] [ INFO ] [MedicamentoImplDAOH2:87] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:32:48] [ INFO ] [MedicamentoImplDAOH2:91] Registro con el ID = 1 fue localizado en la tabla
+[2024-08-18 01:32:48] [ INFO ] [MedicamentoImplDAOH2:109] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:32:48] [ INFO ] [MedicamentoImplDAOH2:71] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:32:48] [ INFO ] [MedicamentoImplDAOH2:78] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:32:48] [ INFO ] [MedicamentoImplDAOH2:87] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:32:48] [ WARN ] [MedicamentoImplDAOH2:99] Medicamento con el id = 2 NO fue localizado en la tabla
+[2024-08-18 01:32:49] [ INFO ] [MedicamentoImplDAOH2:109] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:32:49] [ INFO ] [MedicamentoImplDAOH2:18] Inicia la creación(insert) de un medicamento en la tabla
+[2024-08-18 01:32:49] [ INFO ] [MedicamentoImplDAOH2:25] Conexión exitosa a la BD, se creará un nuevo registro
+[2024-08-18 01:32:49] [ INFO ] [MedicamentoImplDAOH2:38] Ejecución correcta de la creación/inserción de un registro en la tabla
+[2024-08-18 01:32:49] [ INFO ] [MedicamentoImplDAOH2:44] Id autoincremental asignado correctamente al registro creado, ID = 2
+[2024-08-18 01:32:49] [ INFO ] [MedicamentoImplDAOH2:54] Creación exitosa de un nuevo registro, se cierra conexión a BD
+[2024-08-18 01:32:49] [ INFO ] [MedicamentoImplDAOH2:71] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:32:49] [ INFO ] [MedicamentoImplDAOH2:78] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:32:49] [ INFO ] [MedicamentoImplDAOH2:87] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:32:49] [ INFO ] [MedicamentoImplDAOH2:91] Registro con el ID = 2 fue localizado en la tabla
+[2024-08-18 01:32:49] [ INFO ] [MedicamentoImplDAOH2:109] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:33:15] [ INFO ] [MedicamentoImplDAOH2:18] Inicia la creación(insert) de un medicamento en la tabla
+[2024-08-18 01:33:15] [ INFO ] [MedicamentoImplDAOH2:25] Conexión exitosa a la BD, se creará un nuevo registro
+[2024-08-18 01:33:15] [ INFO ] [MedicamentoImplDAOH2:38] Ejecución correcta de la creación/inserción de un registro en la tabla
+[2024-08-18 01:33:15] [ INFO ] [MedicamentoImplDAOH2:44] Id autoincremental asignado correctamente al registro creado, ID = 1
+[2024-08-18 01:33:15] [ INFO ] [MedicamentoImplDAOH2:54] Creación exitosa de un nuevo registro, se cierra conexión a BD
+[2024-08-18 01:33:15] [ INFO ] [MedicamentoImplDAOH2:71] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:33:15] [ INFO ] [MedicamentoImplDAOH2:78] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:33:16] [ INFO ] [MedicamentoImplDAOH2:87] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:33:16] [ INFO ] [MedicamentoImplDAOH2:91] Registro con el ID = 1 fue localizado en la tabla
+[2024-08-18 01:33:16] [ INFO ] [MedicamentoImplDAOH2:109] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:33:16] [ INFO ] [MedicamentoImplDAOH2:71] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:33:16] [ INFO ] [MedicamentoImplDAOH2:78] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:33:16] [ INFO ] [MedicamentoImplDAOH2:87] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:33:16] [ WARN ] [MedicamentoImplDAOH2:99] Medicamento con el id = 2 NO fue localizado en la tabla
+[2024-08-18 01:33:17] [ INFO ] [MedicamentoImplDAOH2:109] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:33:17] [ INFO ] [MedicamentoImplDAOH2:18] Inicia la creación(insert) de un medicamento en la tabla
+[2024-08-18 01:33:17] [ INFO ] [MedicamentoImplDAOH2:25] Conexión exitosa a la BD, se creará un nuevo registro
+[2024-08-18 01:33:17] [ INFO ] [MedicamentoImplDAOH2:38] Ejecución correcta de la creación/inserción de un registro en la tabla
+[2024-08-18 01:33:17] [ INFO ] [MedicamentoImplDAOH2:44] Id autoincremental asignado correctamente al registro creado, ID = 2
+[2024-08-18 01:33:17] [ INFO ] [MedicamentoImplDAOH2:54] Creación exitosa de un nuevo registro, se cierra conexión a BD
+[2024-08-18 01:33:17] [ INFO ] [MedicamentoImplDAOH2:71] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:33:17] [ INFO ] [MedicamentoImplDAOH2:78] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:33:17] [ INFO ] [MedicamentoImplDAOH2:87] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:33:17] [ INFO ] [MedicamentoImplDAOH2:91] Registro con el ID = 2 fue localizado en la tabla
+[2024-08-18 01:33:17] [ INFO ] [MedicamentoImplDAOH2:109] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:33:48] [ INFO ] [MedicamentoImplDAOH2:18] Inicia la creación(insert) de un medicamento en la tabla
+[2024-08-18 01:33:48] [ INFO ] [MedicamentoImplDAOH2:25] Conexión exitosa a la BD, se creará un nuevo registro
+[2024-08-18 01:33:48] [ INFO ] [MedicamentoImplDAOH2:38] Ejecución correcta de la creación/inserción de un registro en la tabla
+[2024-08-18 01:33:48] [ INFO ] [MedicamentoImplDAOH2:44] Id autoincremental asignado correctamente al registro creado, ID = 1
+[2024-08-18 01:33:48] [ INFO ] [MedicamentoImplDAOH2:54] Creación exitosa de un nuevo registro, se cierra conexión a BD
+[2024-08-18 01:33:48] [ INFO ] [MedicamentoImplDAOH2:71] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:33:48] [ INFO ] [MedicamentoImplDAOH2:78] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:33:48] [ INFO ] [MedicamentoImplDAOH2:87] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:33:48] [ INFO ] [MedicamentoImplDAOH2:91] Registro con el ID = 1 fue localizado en la tabla
+[2024-08-18 01:33:48] [ INFO ] [MedicamentoImplDAOH2:110] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:33:48] [ INFO ] [MedicamentoImplDAOH2:71] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:33:48] [ INFO ] [MedicamentoImplDAOH2:78] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:33:48] [ INFO ] [MedicamentoImplDAOH2:87] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:33:48] [ WARN ] [MedicamentoImplDAOH2:100] Medicamento con el id = 2 NO fue localizado en la tabla
+[2024-08-18 01:33:49] [ INFO ] [MedicamentoImplDAOH2:110] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:33:49] [ INFO ] [MedicamentoImplDAOH2:18] Inicia la creación(insert) de un medicamento en la tabla
+[2024-08-18 01:33:49] [ INFO ] [MedicamentoImplDAOH2:25] Conexión exitosa a la BD, se creará un nuevo registro
+[2024-08-18 01:33:49] [ INFO ] [MedicamentoImplDAOH2:38] Ejecución correcta de la creación/inserción de un registro en la tabla
+[2024-08-18 01:33:49] [ INFO ] [MedicamentoImplDAOH2:44] Id autoincremental asignado correctamente al registro creado, ID = 2
+[2024-08-18 01:33:49] [ INFO ] [MedicamentoImplDAOH2:54] Creación exitosa de un nuevo registro, se cierra conexión a BD
+[2024-08-18 01:33:49] [ INFO ] [MedicamentoImplDAOH2:71] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:33:49] [ INFO ] [MedicamentoImplDAOH2:78] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:33:49] [ INFO ] [MedicamentoImplDAOH2:87] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:33:49] [ INFO ] [MedicamentoImplDAOH2:91] Registro con el ID = 2 fue localizado en la tabla
+[2024-08-18 01:33:50] [ INFO ] [MedicamentoImplDAOH2:110] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:34:06] [ INFO ] [MedicamentoImplDAOH2:18] Inicia la creación(insert) de un medicamento en la tabla
+[2024-08-18 01:34:06] [ INFO ] [MedicamentoImplDAOH2:25] Conexión exitosa a la BD, se creará un nuevo registro
+[2024-08-18 01:34:06] [ INFO ] [MedicamentoImplDAOH2:38] Ejecución correcta de la creación/inserción de un registro en la tabla
+[2024-08-18 01:34:06] [ INFO ] [MedicamentoImplDAOH2:44] Id autoincremental asignado correctamente al registro creado, ID = 1
+[2024-08-18 01:34:06] [ INFO ] [MedicamentoImplDAOH2:54] Creación exitosa de un nuevo registro, se cierra conexión a BD
+[2024-08-18 01:34:06] [ INFO ] [MedicamentoImplDAOH2:71] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:34:06] [ INFO ] [MedicamentoImplDAOH2:78] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:34:06] [ INFO ] [MedicamentoImplDAOH2:87] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:34:06] [ INFO ] [MedicamentoImplDAOH2:91] Registro con el ID = 1 fue localizado en la tabla
+[2024-08-18 01:34:06] [ INFO ] [MedicamentoImplDAOH2:110] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:34:06] [ INFO ] [MedicamentoImplDAOH2:71] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:34:06] [ INFO ] [MedicamentoImplDAOH2:78] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:34:06] [ INFO ] [MedicamentoImplDAOH2:87] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:34:06] [ WARN ] [MedicamentoImplDAOH2:100] Medicamento con el id = 2 NO fue localizado en la tabla
+[2024-08-18 01:34:07] [ INFO ] [MedicamentoImplDAOH2:110] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:34:07] [ INFO ] [MedicamentoImplDAOH2:18] Inicia la creación(insert) de un medicamento en la tabla
+[2024-08-18 01:34:07] [ INFO ] [MedicamentoImplDAOH2:25] Conexión exitosa a la BD, se creará un nuevo registro
+[2024-08-18 01:34:07] [ INFO ] [MedicamentoImplDAOH2:38] Ejecución correcta de la creación/inserción de un registro en la tabla
+[2024-08-18 01:34:07] [ INFO ] [MedicamentoImplDAOH2:44] Id autoincremental asignado correctamente al registro creado, ID = 2
+[2024-08-18 01:34:07] [ INFO ] [MedicamentoImplDAOH2:54] Creación exitosa de un nuevo registro, se cierra conexión a BD
+[2024-08-18 01:34:07] [ INFO ] [MedicamentoImplDAOH2:71] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:34:07] [ INFO ] [MedicamentoImplDAOH2:78] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:34:07] [ INFO ] [MedicamentoImplDAOH2:87] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:34:07] [ INFO ] [MedicamentoImplDAOH2:91] Registro con el ID = 2 fue localizado en la tabla
+[2024-08-18 01:34:07] [ INFO ] [MedicamentoImplDAOH2:110] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:34:38] [ INFO ] [MedicamentoImplDAOH2:18] Inicia la creación(insert) de un medicamento en la tabla
+[2024-08-18 01:34:38] [ INFO ] [MedicamentoImplDAOH2:25] Conexión exitosa a la BD, se creará un nuevo registro
+[2024-08-18 01:34:38] [ INFO ] [MedicamentoImplDAOH2:38] Ejecución correcta de la creación/inserción de un registro en la tabla
+[2024-08-18 01:34:38] [ INFO ] [MedicamentoImplDAOH2:44] Id autoincremental asignado correctamente al registro creado, ID = 1
+[2024-08-18 01:34:38] [ INFO ] [MedicamentoImplDAOH2:54] Creación exitosa de un nuevo registro, se cierra conexión a BD
+[2024-08-18 01:34:38] [ INFO ] [MedicamentoImplDAOH2:71] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:34:38] [ INFO ] [MedicamentoImplDAOH2:78] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:34:39] [ INFO ] [MedicamentoImplDAOH2:87] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:34:39] [ INFO ] [MedicamentoImplDAOH2:91] Registro con el ID = 1 fue localizado en la tabla
+[2024-08-18 01:34:39] [ INFO ] [MedicamentoImplDAOH2:110] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:34:39] [ INFO ] [MedicamentoImplDAOH2:71] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:34:39] [ INFO ] [MedicamentoImplDAOH2:78] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:34:39] [ INFO ] [MedicamentoImplDAOH2:87] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:34:39] [ WARN ] [MedicamentoImplDAOH2:100] Medicamento con el id = 2 NO fue localizado en la tabla
+[2024-08-18 01:34:39] [ INFO ] [MedicamentoImplDAOH2:110] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:34:39] [ INFO ] [MedicamentoImplDAOH2:18] Inicia la creación(insert) de un medicamento en la tabla
+[2024-08-18 01:34:39] [ INFO ] [MedicamentoImplDAOH2:25] Conexión exitosa a la BD, se creará un nuevo registro
+[2024-08-18 01:34:39] [ INFO ] [MedicamentoImplDAOH2:38] Ejecución correcta de la creación/inserción de un registro en la tabla
+[2024-08-18 01:34:39] [ INFO ] [MedicamentoImplDAOH2:44] Id autoincremental asignado correctamente al registro creado, ID = 2
+[2024-08-18 01:34:40] [ INFO ] [MedicamentoImplDAOH2:54] Creación exitosa de un nuevo registro, se cierra conexión a BD
+[2024-08-18 01:34:40] [ INFO ] [MedicamentoImplDAOH2:71] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:34:40] [ INFO ] [MedicamentoImplDAOH2:78] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:34:40] [ INFO ] [MedicamentoImplDAOH2:87] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:34:40] [ INFO ] [MedicamentoImplDAOH2:91] Registro con el ID = 2 fue localizado en la tabla
+[2024-08-18 01:34:40] [ INFO ] [MedicamentoImplDAOH2:110] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:34:54] [ INFO ] [MedicamentoImplDAOH2:18] Inicia la creación(insert) de un medicamento en la tabla
+[2024-08-18 01:34:54] [ INFO ] [MedicamentoImplDAOH2:25] Conexión exitosa a la BD, se creará un nuevo registro
+[2024-08-18 01:34:54] [ INFO ] [MedicamentoImplDAOH2:38] Ejecución correcta de la creación/inserción de un registro en la tabla
+[2024-08-18 01:34:54] [ INFO ] [MedicamentoImplDAOH2:44] Id autoincremental asignado correctamente al registro creado, ID = 1
+[2024-08-18 01:34:54] [ INFO ] [MedicamentoImplDAOH2:54] Creación exitosa de un nuevo registro, se cierra conexión a BD
+[2024-08-18 01:34:54] [ INFO ] [MedicamentoImplDAOH2:71] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:34:54] [ INFO ] [MedicamentoImplDAOH2:78] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:34:54] [ INFO ] [MedicamentoImplDAOH2:87] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:34:54] [ INFO ] [MedicamentoImplDAOH2:91] Registro con el ID = 1 fue localizado en la tabla
+[2024-08-18 01:34:55] [ INFO ] [MedicamentoImplDAOH2:110] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:34:55] [ INFO ] [MedicamentoImplDAOH2:71] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:34:55] [ INFO ] [MedicamentoImplDAOH2:78] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:34:55] [ INFO ] [MedicamentoImplDAOH2:87] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:34:55] [ WARN ] [MedicamentoImplDAOH2:100] Medicamento con el id = 2 NO fue localizado en la tabla
+[2024-08-18 01:34:55] [ INFO ] [MedicamentoImplDAOH2:110] Consulta exitosa del registro por Id, se cierra conexión a la BD
+[2024-08-18 01:34:55] [ INFO ] [MedicamentoImplDAOH2:18] Inicia la creación(insert) de un medicamento en la tabla
+[2024-08-18 01:34:55] [ INFO ] [MedicamentoImplDAOH2:25] Conexión exitosa a la BD, se creará un nuevo registro
+[2024-08-18 01:34:55] [ INFO ] [MedicamentoImplDAOH2:38] Ejecución correcta de la creación/inserción de un registro en la tabla
+[2024-08-18 01:34:55] [ INFO ] [MedicamentoImplDAOH2:44] Id autoincremental asignado correctamente al registro creado, ID = 2
+[2024-08-18 01:34:56] [ INFO ] [MedicamentoImplDAOH2:54] Creación exitosa de un nuevo registro, se cierra conexión a BD
+[2024-08-18 01:34:56] [ INFO ] [MedicamentoImplDAOH2:71] Iniciamos la búsqueda(select) de un registro por Id
+[2024-08-18 01:34:56] [ INFO ] [MedicamentoImplDAOH2:78] Conexión exitosa a la BD, se buscará un registro por Id
+[2024-08-18 01:34:56] [ INFO ] [MedicamentoImplDAOH2:87] Ejecución correcta de la búsqueda de un registro por Id
+[2024-08-18 01:34:56] [ INFO ] [MedicamentoImplDAOH2:91] Registro con el ID = 2 fue localizado en la tabla
+[2024-08-18 01:34:56] [ INFO ] [MedicamentoImplDAOH2:110] Consulta exitosa del registro por Id, se cierra conexión a la BD

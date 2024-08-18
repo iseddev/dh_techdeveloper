@@ -2,18 +2,11 @@ package dao;
 
 public interface IDAO<T> {
 
-  // Esta interfaz es donde determinaremos la "lógica de negocio", es decir, donde definiremos los procesos a ejecutar sobre nuestra base de datos y que deberan ser implemnetados con su propia lógica en
+  // Esta interfaz contendrá la firma de los métodos de las operaciones CRUD que requiere nuestra lógica del negocio
+  // C - Create <=> R - Read <=> U - Update <=> D - Delete
 
-  // De forma general, aquíe es donde se definen las implementaciones CRUD:
-  // C => CREATE
-  // R => READ
-  // U => UPDATE
-  // D => DELETE
+  T insert(T t); // Create
 
-  // CREATE
-  T guardarRegistro(T t);
-
-  // Mesa de trabajo
-  // READ
-  T buscarPorId(Integer id);
+  // #################### Mesa de trabajo ####################
+  T selectById(Integer id); // Read
 }

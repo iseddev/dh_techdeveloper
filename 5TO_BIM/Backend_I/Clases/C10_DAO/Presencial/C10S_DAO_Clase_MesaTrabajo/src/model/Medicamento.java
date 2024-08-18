@@ -1,16 +1,20 @@
-package modelo;
+package model;
 
 public class Medicamento {
-  private Integer id, codigo, cantidad;
-  private String nombre, laboratorio;
-  private Double precio;
 
-  public Medicamento(Integer codigo, Integer cantidad, String nombre, String laboratorio, Double precio) {
-    this.codigo = codigo;
-    this.cantidad = cantidad;
+  private Integer id;
+  private String nombre;
+  private String laboratorio;
+  private Integer cantidad;
+  private Double precio;
+  private Integer codigo;
+
+  public Medicamento(String nombre, String laboratorio, Integer cantidad, Double precio, Integer codigo) {
     this.nombre = nombre;
     this.laboratorio = laboratorio;
+    this.cantidad = cantidad;
     this.precio = precio;
+    this.codigo = codigo;
   }
 
   public Integer getId() { return id; }
@@ -26,4 +30,9 @@ public class Medicamento {
   public void setNombre(String nombre) { this.nombre = nombre; }
   public void setLaboratorio(String laboratorio) { this.laboratorio = laboratorio; }
   public void setPrecio(Double precio) { this.precio = precio; }
+
+  @Override
+  public String toString() {
+    return "Medicamento{" + "id=" + id + ", nombre='" + nombre + '\'' + ", laboratorio='" + laboratorio + '\'' + ", cantidad=" + cantidad + ", precio=" + precio + ", codigo=" + codigo + '}';
+  }
 }
