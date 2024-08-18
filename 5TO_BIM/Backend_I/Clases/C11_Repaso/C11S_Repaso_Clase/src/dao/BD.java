@@ -1,21 +1,29 @@
 package dao;
 
+import org.apache.log4j.Logger;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.SQLException;
 import java.sql.Statement;
 
 public class BD {
 
-  private static final String PATH = "jdbc:h2:./Pacientes";
-  private static final String USER = "sa";
-  private static final String PSWD = "";
+  private static final Logger LOGGER = Logger.getLogger(BD.class);
 
-  public static Connection getConnectiom() throws ClassNotFoundException, SQLException {
-    Class.forName("org.h2.Driver");
-    return DriverManager.getConnection(PATH, USER, PSWD);
+  // ============================================================
+  private static final String H2_DRIVER = "org.h2.Driver";
+  private static final String BD_PATH_NAME = "jdbc:h2:./paciente_bd";
+  private static final String BD_USER = "sa";
+  private static final String BD_PSWD = "";
+
+  public static Connection getConnection() throws Exception {
+    Class.forName(H2_DRIVER);
+    return DriverManager.getConnection(BD_PATH_NAME, BD_USER, BD_PSWD);
   }
+  // ============================================================
 
+
+  // ============================================================
   private static final String CREATE_TABLE = "DROP TABLE IF EXISTS PACIENTES; CREATE TABLE PACIENTES " +
       "(ID INT AUTO_INCREMENT PRIMARY KEY, " +
       "NOMBRE VARCHAR(100) NOT NULL, " +
@@ -23,26 +31,32 @@ public class BD {
       "DOMICILIO VARCHAR(100) NOT NULL, " +
       "DNI VARCHAR(100) NOT NULL, " +
       "FECHA_ALTA DATE NOT NULL)";
+  // ============================================================
 
+
+  // ============================================================
   public static void crearTabla() {
 
     Connection connection = null;
 
     try {
-      connection = getConnectiom();
-      System.out.println("===== CONEXIÓN EXITOSA A LA BD =====");
+      connection = getConnection();
+      LOGGER.info("Inicia conexión a la BD, se creará una tabla");
       Statement statement = connection.createStatement();
       statement.execute(CREATE_TABLE);
-      System.out.println("***** Creación exitosa de la tabla PACIENTES en la BD");
     } catch (Exception e) {
-      System.out.println("ERROR: No fue posible conectarse a la BD...");
+      LOGGER.error("*** No fue posible conectarse a la BD ***");
       e.printStackTrace();
     }
     finally {
       try {
         connection.close();
-        System.out.println("===== SE CERRÓ LA CONEXIÓN A LA BD =====");
-      } catch (Exception ex) { ex.printStackTrace();}
+        LOGGER.info("Creación exitosa de la tabla, se cerró la conexión a la BD");
+      } catch (Exception ex) {
+        LOGGER.error("*** No fue posible cerrar la conexión a la BD ***");
+        ex.printStackTrace();
+      }
     }
   }
+  // ============================================================
 }

@@ -1,9 +1,10 @@
-package modelo;
+package model;
 
 import java.time.LocalDate;
 
 public class Paciente {
 
+  // De cada paciente se almacenan: nombre, apellido, domicilio, DNI y fecha de alta.
   private Integer id;
   private String nombre, apellido, domicilio, dni;
   private LocalDate fechaAlta;
@@ -48,6 +49,6 @@ public class Paciente {
         ", domicilio='" + domicilio + '\'' +
         ", dni='" + dni + '\'' +
         ", fechaAlta=" + fechaAlta +
-        '}';
+        "}\n";
   }
 }

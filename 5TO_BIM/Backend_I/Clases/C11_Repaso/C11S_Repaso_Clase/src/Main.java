@@ -1,6 +1,6 @@
 import dao.BD;
-import modelo.Paciente;
-import servicio.PacienteServicio;
+import model.Paciente;
+import service.PacienteServicio;
 
 import java.time.LocalDate;
 
@@ -8,45 +8,38 @@ public class Main {
   public static void main(String[] args) {
 
     BD.crearTabla(); // La tabla se va a crear una sola vez
-
-    Paciente erica = new Paciente(
-        "Erica",
-        "Mar",
-        "Colombia",
-        "123",
-        LocalDate.of(2024,03,03));
-
     PacienteServicio servicio = new PacienteServicio();
 
-    servicio.insertarRegistro(erica);
+    Paciente erica = new Paciente( "Erica", "Mar", "Colombia", "EM123", LocalDate.of(2024,03,03));
+    servicio.insertRegistro(erica);
 
-    System.out.println("Este es el paciente original");
+    System.out.println(">>>>> Este es el paciente original <<<<<");
     System.out.println(erica);
 
     erica.setNombre("Daniela");
     servicio.updateRegistro(erica);
-
-    System.out.println("Este es el paciente modificado");
+    System.out.println(">>>>> Este es el paciente actualizado <<<<<");
     System.out.println(erica);
 
-    Paciente bruno = new Paciente("Bruno", "Apellido", "Colombia", "123", LocalDate.of(2024,03,03));
-    servicio.insertarRegistro(bruno);
+    Paciente bruno = new Paciente("Bruno", "Mars", "Colombia", "BM123", LocalDate.of(2024,03,03));
+    servicio.insertRegistro(bruno);
 
-    Paciente israel = new Paciente("Israel", "Apellido", "Colombia", "123", LocalDate.of(2024,03,03));
-    servicio.insertarRegistro(israel);
+    Paciente john = new Paciente("John", "Doe", "USA", "JD123", LocalDate.of(2024,03,03));
+    servicio.insertRegistro(john);
 
-    servicio.consultarTodos();
+    System.out.println(servicio.selectTodos());
+    System.out.println(servicio.selectPorId(2));
 
-    servicio.consultarPorId(2);
+    Paciente elena = new Paciente("Elena", "Doe", "USA", "ED123", LocalDate.of(2022, 05, 10));
+    servicio.insertRegistro(elena);
 
-    servicio.eliminarPaciente(2);
+    System.out.println(servicio.selectPorId(4));
+    servicio.deletePorId(2);
+    System.out.println(servicio.selectTodos());
 
-    servicio.consultarTodos();
-
-    Paciente john = new Paciente("John", "Doe", "USA", "JD123", LocalDate.of(2022, 05, 10));
-    servicio.insertarRegistro(john);
-    servicio.consultarPorId(2);
-    servicio.consultarPorId(4);
-    servicio.eliminarPaciente(2);
+    elena.setDomicilio("JPN");
+    elena.setApellido("Smith");
+    servicio.updateRegistro(elena);
+    System.out.println(servicio.selectPorId(4));
   }
 }

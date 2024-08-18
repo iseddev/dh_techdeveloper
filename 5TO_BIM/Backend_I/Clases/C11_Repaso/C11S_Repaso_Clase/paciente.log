@@ -1,0 +1,468 @@
+[2024-08-18 03:57:31] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 03:57:32] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 03:57:32] [ INFO ] [PacienteImplDaoH2:154] Se inicia conexión a la BD, se actualizará un registro
+[2024-08-18 03:57:32] [ INFO ] [PacienteImplDaoH2:167] Ejecución de la actualización sobre el registro con el ID = 1
+[2024-08-18 03:57:32] [ ERROR] [PacienteImplDaoH2:183] *** No fue posible conectarse a la BD ***
+[2024-08-18 03:57:33] [ INFO ] [PacienteImplDaoH2:189] Actualización exitosa, se cerró conexión a la BD
+[2024-08-18 03:57:33] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 03:57:33] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 03:57:33] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 03:57:33] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 03:57:33] [ INFO ] [PacienteImplDaoH2:74] Inicia coenxión a la BD, se conaultarán todos los registros
+[2024-08-18 03:57:34] [ INFO ] [PacienteImplDaoH2:96] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 03:57:34] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 03:57:34] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 03:57:34] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 03:57:34] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 03:57:35] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 03:57:35] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 03:57:35] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 03:57:35] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 03:57:35] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 03:57:35] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 03:57:36] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 03:57:36] [ INFO ] [PacienteImplDaoH2:208] Se inició conexión a la BD, se eliminará un registro por Id
+[2024-08-18 03:57:36] [ INFO ] [PacienteImplDaoH2:216] Se ejecutó proceso de eliminación del registro con ID = 2
+[2024-08-18 03:57:36] [ INFO ] [PacienteImplDaoH2:231] Se eliminó exitosamente el registro con ID = 2, se cerró la conexión a la BD
+[2024-08-18 04:01:35] [ INFO ] [BD:44] Inicia conexión a la BD, se creará una tabla
+[2024-08-18 04:01:35] [ INFO ] [BD:54] Creación exitosa de la tabla, se cerró la conexión a la BD
+[2024-08-18 04:01:35] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:01:35] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:01:35] [ INFO ] [PacienteImplDaoH2:154] Se inicia conexión a la BD, se actualizará un registro
+[2024-08-18 04:01:35] [ INFO ] [PacienteImplDaoH2:167] Ejecución de la actualización sobre el registro con el ID = 1
+[2024-08-18 04:01:35] [ ERROR] [PacienteImplDaoH2:183] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:01:35] [ INFO ] [PacienteImplDaoH2:189] Actualización exitosa, se cerró conexión a la BD
+[2024-08-18 04:01:35] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:01:36] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:01:36] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:01:36] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:01:36] [ INFO ] [PacienteImplDaoH2:74] Inicia coenxión a la BD, se conaultarán todos los registros
+[2024-08-18 04:01:37] [ INFO ] [PacienteImplDaoH2:96] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:01:37] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:01:37] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:01:37] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:01:37] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:01:38] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:01:38] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:01:38] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:01:38] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:01:38] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:01:39] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:01:39] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:01:39] [ INFO ] [PacienteImplDaoH2:208] Se inició conexión a la BD, se eliminará un registro por Id
+[2024-08-18 04:01:39] [ INFO ] [PacienteImplDaoH2:216] Se ejecutó proceso de eliminación del registro con ID = 2
+[2024-08-18 04:01:39] [ INFO ] [PacienteImplDaoH2:231] Se eliminó exitosamente el registro con ID = 2, se cerró la conexión a la BD
+[2024-08-18 04:04:53] [ INFO ] [BD:44] Inicia conexión a la BD, se creará una tabla
+[2024-08-18 04:04:53] [ INFO ] [BD:54] Creación exitosa de la tabla, se cerró la conexión a la BD
+[2024-08-18 04:04:53] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:04:53] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:04:54] [ INFO ] [PacienteImplDaoH2:154] Se inicia conexión a la BD, se actualizará un registro
+[2024-08-18 04:04:54] [ INFO ] [PacienteImplDaoH2:167] Ejecución de la actualización sobre el registro con el ID = 1
+[2024-08-18 04:04:54] [ ERROR] [PacienteImplDaoH2:180] No se aplicó ningún cambio en el registro con el ID = 1
+[2024-08-18 04:04:54] [ ERROR] [PacienteImplDaoH2:183] *** Se cerró la conexión a la BD ***
+[2024-08-18 04:04:54] [ INFO ] [PacienteImplDaoH2:189] Actualización exitosa, se cerró conexión a la BD
+[2024-08-18 04:04:54] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:04:54] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:04:54] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:04:55] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:04:55] [ INFO ] [PacienteImplDaoH2:74] Inicia coenxión a la BD, se conaultarán todos los registros
+[2024-08-18 04:04:55] [ INFO ] [PacienteImplDaoH2:96] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:04:55] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:04:55] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:04:56] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:04:56] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:04:56] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:04:56] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:04:56] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:04:56] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:04:56] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:04:56] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:04:57] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:04:57] [ INFO ] [PacienteImplDaoH2:208] Se inició conexión a la BD, se eliminará un registro por Id
+[2024-08-18 04:04:57] [ INFO ] [PacienteImplDaoH2:216] Se ejecutó proceso de eliminación del registro con ID = 2
+[2024-08-18 04:04:57] [ INFO ] [PacienteImplDaoH2:231] Se eliminó exitosamente el registro con ID = 2, se cerró la conexión a la BD
+[2024-08-18 04:06:23] [ INFO ] [BD:44] Inicia conexión a la BD, se creará una tabla
+[2024-08-18 04:06:23] [ INFO ] [BD:54] Creación exitosa de la tabla, se cerró la conexión a la BD
+[2024-08-18 04:06:23] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:06:24] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:06:24] [ INFO ] [PacienteImplDaoH2:154] Se inicia conexión a la BD, se actualizará un registro
+[2024-08-18 04:06:24] [ INFO ] [PacienteImplDaoH2:167] Ejecución de la actualización sobre el registro con el ID = 1
+[2024-08-18 04:06:24] [ ERROR] [PacienteImplDaoH2:180] No se aplicó ningún cambio en el registro con el ID = 1
+[2024-08-18 04:06:24] [ ERROR] [PacienteImplDaoH2:183] *** Se cerró la conexión a la BD ***
+[2024-08-18 04:06:24] [ INFO ] [PacienteImplDaoH2:189] Actualización exitosa, se cerró conexión a la BD
+[2024-08-18 04:06:24] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:06:25] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:06:25] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:06:25] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:06:25] [ INFO ] [PacienteImplDaoH2:74] Inicia coenxión a la BD, se conaultarán todos los registros
+[2024-08-18 04:06:25] [ INFO ] [PacienteImplDaoH2:96] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:06:25] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:06:25] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:06:26] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:06:26] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:06:26] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:06:26] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:06:26] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:06:26] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:06:26] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:06:26] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:06:27] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:06:27] [ INFO ] [PacienteImplDaoH2:208] Se inició conexión a la BD, se eliminará un registro por Id
+[2024-08-18 04:06:27] [ INFO ] [PacienteImplDaoH2:216] Se ejecutó proceso de eliminación del registro con ID = 2
+[2024-08-18 04:06:27] [ INFO ] [PacienteImplDaoH2:231] Se eliminó exitosamente el registro con ID = 2, se cerró la conexión a la BD
+[2024-08-18 04:08:19] [ INFO ] [BD:44] Inicia conexión a la BD, se creará una tabla
+[2024-08-18 04:08:20] [ INFO ] [BD:54] Creación exitosa de la tabla, se cerró la conexión a la BD
+[2024-08-18 04:08:20] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:08:20] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:08:20] [ INFO ] [PacienteImplDaoH2:154] Se inicia conexión a la BD, se actualizará un registro
+[2024-08-18 04:08:20] [ INFO ] [PacienteImplDaoH2:167] Ejecución de la actualización sobre el registro con el ID = 1
+[2024-08-18 04:08:20] [ ERROR] [PacienteImplDaoH2:179] No se aplicó ningún cambio en el registro con el ID = 1
+[2024-08-18 04:08:20] [ ERROR] [PacienteImplDaoH2:182] *** Se cerró la conexión a la BD ***
+[2024-08-18 04:08:20] [ INFO ] [PacienteImplDaoH2:188] Actualización exitosa, se cerró conexión a la BD
+[2024-08-18 04:08:20] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:08:21] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:08:21] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:08:21] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:08:21] [ INFO ] [PacienteImplDaoH2:74] Inicia coenxión a la BD, se conaultarán todos los registros
+[2024-08-18 04:08:21] [ INFO ] [PacienteImplDaoH2:96] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:08:21] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:08:22] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:08:22] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:08:22] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:08:22] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:08:22] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:08:22] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:08:23] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:08:23] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:08:23] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:08:23] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:08:23] [ INFO ] [PacienteImplDaoH2:207] Se inició conexión a la BD, se eliminará un registro por Id
+[2024-08-18 04:08:23] [ INFO ] [PacienteImplDaoH2:215] Se ejecutó proceso de eliminación del registro con ID = 2
+[2024-08-18 04:08:23] [ INFO ] [PacienteImplDaoH2:230] Se eliminó exitosamente el registro con ID = 2, se cerró la conexión a la BD
+[2024-08-18 04:09:15] [ INFO ] [BD:44] Inicia conexión a la BD, se creará una tabla
+[2024-08-18 04:09:15] [ INFO ] [BD:54] Creación exitosa de la tabla, se cerró la conexión a la BD
+[2024-08-18 04:09:15] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:09:15] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:09:15] [ INFO ] [PacienteImplDaoH2:154] Se inicia conexión a la BD, se actualizará un registro
+[2024-08-18 04:09:16] [ INFO ] [PacienteImplDaoH2:167] Ejecución de la actualización sobre el registro con el ID = 1
+[2024-08-18 04:09:16] [ ERROR] [PacienteImplDaoH2:179] No se aplicó ningún cambio en el registro con el ID = 1
+[2024-08-18 04:09:16] [ ERROR] [PacienteImplDaoH2:182] *** Se cerró la conexión a la BD ***
+[2024-08-18 04:09:16] [ INFO ] [PacienteImplDaoH2:188] Actualización exitosa, se cerró conexión a la BD
+[2024-08-18 04:09:16] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:09:17] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:09:17] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:09:17] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:09:17] [ INFO ] [PacienteImplDaoH2:74] Inicia coenxión a la BD, se conaultarán todos los registros
+[2024-08-18 04:09:17] [ INFO ] [PacienteImplDaoH2:96] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:09:17] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:09:17] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:09:18] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:09:18] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:09:18] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:09:18] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:09:18] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:09:19] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:09:19] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:09:19] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:09:19] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:09:19] [ INFO ] [PacienteImplDaoH2:207] Se inició conexión a la BD, se eliminará un registro por Id
+[2024-08-18 04:09:19] [ INFO ] [PacienteImplDaoH2:215] Se ejecutó proceso de eliminación del registro con ID = 2
+[2024-08-18 04:09:20] [ INFO ] [PacienteImplDaoH2:230] Se eliminó exitosamente el registro con ID = 2, se cerró la conexión a la BD
+[2024-08-18 04:10:03] [ INFO ] [BD:44] Inicia conexión a la BD, se creará una tabla
+[2024-08-18 04:10:03] [ INFO ] [BD:54] Creación exitosa de la tabla, se cerró la conexión a la BD
+[2024-08-18 04:10:03] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:10:04] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:10:04] [ INFO ] [PacienteImplDaoH2:154] Se inicia conexión a la BD, se actualizará un registro
+[2024-08-18 04:10:04] [ INFO ] [PacienteImplDaoH2:167] Ejecución de la actualización sobre el registro con el ID = 1
+[2024-08-18 04:10:04] [ INFO ] [PacienteImplDaoH2:188] Actualización exitosa, se cerró conexión a la BD
+[2024-08-18 04:10:04] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:10:05] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:10:05] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:10:05] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:10:05] [ INFO ] [PacienteImplDaoH2:74] Inicia coenxión a la BD, se conaultarán todos los registros
+[2024-08-18 04:10:05] [ INFO ] [PacienteImplDaoH2:96] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:10:05] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:10:05] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:10:06] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:10:06] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:10:06] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:10:06] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:10:06] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:10:06] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:10:06] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:10:06] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:10:07] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:10:07] [ INFO ] [PacienteImplDaoH2:207] Se inició conexión a la BD, se eliminará un registro por Id
+[2024-08-18 04:10:07] [ INFO ] [PacienteImplDaoH2:215] Se ejecutó proceso de eliminación del registro con ID = 2
+[2024-08-18 04:10:07] [ INFO ] [PacienteImplDaoH2:230] Se eliminó exitosamente el registro con ID = 2, se cerró la conexión a la BD
+[2024-08-18 04:10:54] [ INFO ] [BD:44] Inicia conexión a la BD, se creará una tabla
+[2024-08-18 04:10:55] [ INFO ] [BD:54] Creación exitosa de la tabla, se cerró la conexión a la BD
+[2024-08-18 04:10:55] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:10:55] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:10:55] [ INFO ] [PacienteImplDaoH2:154] Se inicia conexión a la BD, se actualizará un registro
+[2024-08-18 04:10:55] [ INFO ] [PacienteImplDaoH2:167] Ejecución de la actualización sobre el registro con el ID = 1
+[2024-08-18 04:10:56] [ INFO ] [PacienteImplDaoH2:186] Actualización exitosa, se cerró conexión a la BD
+[2024-08-18 04:10:56] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:10:56] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:10:56] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:10:56] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:10:56] [ INFO ] [PacienteImplDaoH2:74] Inicia coenxión a la BD, se conaultarán todos los registros
+[2024-08-18 04:10:57] [ INFO ] [PacienteImplDaoH2:96] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:10:57] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:10:57] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:10:57] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:10:57] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:10:57] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:10:57] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:10:57] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:10:58] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:10:58] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:10:58] [ ERROR] [PacienteImplDaoH2:50] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:10:58] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:10:58] [ INFO ] [PacienteImplDaoH2:205] Se inició conexión a la BD, se eliminará un registro por Id
+[2024-08-18 04:10:58] [ INFO ] [PacienteImplDaoH2:213] Se ejecutó proceso de eliminación del registro con ID = 2
+[2024-08-18 04:10:59] [ INFO ] [PacienteImplDaoH2:228] Se eliminó exitosamente el registro con ID = 2, se cerró la conexión a la BD
+[2024-08-18 04:11:57] [ INFO ] [BD:44] Inicia conexión a la BD, se creará una tabla
+[2024-08-18 04:11:58] [ INFO ] [BD:54] Creación exitosa de la tabla, se cerró la conexión a la BD
+[2024-08-18 04:11:58] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:11:58] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:11:58] [ INFO ] [PacienteImplDaoH2:154] Se inicia conexión a la BD, se actualizará un registro
+[2024-08-18 04:11:58] [ INFO ] [PacienteImplDaoH2:167] Ejecución de la actualización sobre el registro con el ID = 1
+[2024-08-18 04:11:58] [ INFO ] [PacienteImplDaoH2:186] Actualización exitosa, se cerró conexión a la BD
+[2024-08-18 04:11:58] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:11:59] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:11:59] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:12:00] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:12:00] [ INFO ] [PacienteImplDaoH2:74] Inicia coenxión a la BD, se conaultarán todos los registros
+[2024-08-18 04:12:00] [ INFO ] [PacienteImplDaoH2:96] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:12:00] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:12:00] [ INFO ] [PacienteImplDaoH2:45] Se localizó en la tbala el registro con ID = 2
+[2024-08-18 04:12:00] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:12:01] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:12:01] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:12:01] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:12:01] [ INFO ] [PacienteImplDaoH2:45] Se localizó en la tbala el registro con ID = 2
+[2024-08-18 04:12:01] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:12:01] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:12:01] [ INFO ] [PacienteImplDaoH2:45] Se localizó en la tbala el registro con ID = 4
+[2024-08-18 04:12:02] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:12:02] [ INFO ] [PacienteImplDaoH2:205] Se inició conexión a la BD, se eliminará un registro por Id
+[2024-08-18 04:12:02] [ INFO ] [PacienteImplDaoH2:213] Se ejecutó proceso de eliminación del registro con ID = 2
+[2024-08-18 04:12:03] [ ERROR] [BD:48] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:12:03] [ ERROR] [BD:56] *** No fue posible cerrar la conexión a la BD ***
+[2024-08-18 04:12:03] [ ERROR] [PacienteImplDaoH2:129] *** No fue posible conectarse a la BD ***
+[2024-08-18 04:12:03] [ ERROR] [PacienteImplDaoH2:138] *** No fue posible cerrar la conexión a la BD ***
+[2024-08-18 04:12:03] [ INFO ] [PacienteImplDaoH2:228] Se eliminó exitosamente el registro con ID = 2, se cerró la conexión a la BD
+[2024-08-18 04:12:03] [ ERROR] [PacienteImplDaoH2:180] *** Se cerró la conexión a la BD ***
+[2024-08-18 04:12:03] [ ERROR] [PacienteImplDaoH2:189] *** No fue posible cerrar la conexión a la BD ***
+[2024-08-18 04:12:04] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:12:04] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:12:04] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:12:05] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:12:05] [ INFO ] [PacienteImplDaoH2:74] Inicia coenxión a la BD, se conaultarán todos los registros
+[2024-08-18 04:12:05] [ INFO ] [PacienteImplDaoH2:96] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:12:05] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:12:05] [ WARN ] [PacienteImplDaoH2:47] No se encontró ninuguna concidencia para el ID = 2
+[2024-08-18 04:12:06] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:12:06] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:12:06] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:12:06] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:12:06] [ WARN ] [PacienteImplDaoH2:47] No se encontró ninuguna concidencia para el ID = 2
+[2024-08-18 04:12:07] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:12:07] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:12:07] [ INFO ] [PacienteImplDaoH2:45] Se localizó en la tbala el registro con ID = 4
+[2024-08-18 04:12:07] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:12:07] [ INFO ] [PacienteImplDaoH2:205] Se inició conexión a la BD, se eliminará un registro por Id
+[2024-08-18 04:12:07] [ INFO ] [PacienteImplDaoH2:213] Se ejecutó proceso de eliminación del registro con ID = 2
+[2024-08-18 04:12:07] [ INFO ] [PacienteImplDaoH2:228] Se eliminó exitosamente el registro con ID = 2, se cerró la conexión a la BD
+[2024-08-18 04:12:25] [ INFO ] [BD:44] Inicia conexión a la BD, se creará una tabla
+[2024-08-18 04:12:25] [ INFO ] [BD:54] Creación exitosa de la tabla, se cerró la conexión a la BD
+[2024-08-18 04:12:25] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:12:25] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:12:25] [ INFO ] [PacienteImplDaoH2:154] Se inicia conexión a la BD, se actualizará un registro
+[2024-08-18 04:12:26] [ INFO ] [PacienteImplDaoH2:167] Ejecución de la actualización sobre el registro con el ID = 1
+[2024-08-18 04:12:26] [ INFO ] [PacienteImplDaoH2:186] Actualización exitosa, se cerró conexión a la BD
+[2024-08-18 04:12:26] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:12:26] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:12:26] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:12:27] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:12:27] [ INFO ] [PacienteImplDaoH2:74] Inicia coenxión a la BD, se conaultarán todos los registros
+[2024-08-18 04:12:27] [ INFO ] [PacienteImplDaoH2:96] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:12:27] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:12:27] [ INFO ] [PacienteImplDaoH2:45] Se localizó en la tbala el registro con ID = 2
+[2024-08-18 04:12:28] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:12:28] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:12:28] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:12:28] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:12:28] [ INFO ] [PacienteImplDaoH2:45] Se localizó en la tbala el registro con ID = 2
+[2024-08-18 04:12:28] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:12:28] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:12:28] [ INFO ] [PacienteImplDaoH2:45] Se localizó en la tbala el registro con ID = 4
+[2024-08-18 04:12:29] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:12:29] [ INFO ] [PacienteImplDaoH2:205] Se inició conexión a la BD, se eliminará un registro por Id
+[2024-08-18 04:12:29] [ INFO ] [PacienteImplDaoH2:213] Se ejecutó proceso de eliminación del registro con ID = 2
+[2024-08-18 04:12:29] [ INFO ] [PacienteImplDaoH2:228] Se eliminó exitosamente el registro con ID = 2, se cerró la conexión a la BD
+[2024-08-18 04:14:30] [ INFO ] [BD:44] Inicia conexión a la BD, se creará una tabla
+[2024-08-18 04:14:30] [ INFO ] [BD:54] Creación exitosa de la tabla, se cerró la conexión a la BD
+[2024-08-18 04:14:30] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:14:30] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:14:30] [ INFO ] [PacienteImplDaoH2:154] Se inicia conexión a la BD, se actualizará un registro
+[2024-08-18 04:14:30] [ INFO ] [PacienteImplDaoH2:167] Ejecución de la actualización sobre el registro con el ID = 1
+[2024-08-18 04:14:30] [ INFO ] [PacienteImplDaoH2:186] Actualización exitosa, se cerró conexión a la BD
+[2024-08-18 04:14:30] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:14:31] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:14:31] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:14:31] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:14:31] [ INFO ] [PacienteImplDaoH2:74] Inicia coenxión a la BD, se conaultarán todos los registros
+[2024-08-18 04:14:31] [ INFO ] [PacienteImplDaoH2:96] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:14:31] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:14:31] [ INFO ] [PacienteImplDaoH2:45] Se localizó en la tbala el registro con ID = 2
+[2024-08-18 04:14:32] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:14:32] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:14:32] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:14:32] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:14:32] [ INFO ] [PacienteImplDaoH2:45] Se localizó en la tbala el registro con ID = 2
+[2024-08-18 04:14:33] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:14:33] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:14:33] [ INFO ] [PacienteImplDaoH2:45] Se localizó en la tbala el registro con ID = 4
+[2024-08-18 04:14:33] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:14:33] [ INFO ] [PacienteImplDaoH2:205] Se inició conexión a la BD, se eliminará un registro por Id
+[2024-08-18 04:14:33] [ INFO ] [PacienteImplDaoH2:213] Se ejecutó proceso de eliminación del registro con ID = 2
+[2024-08-18 04:14:34] [ INFO ] [PacienteImplDaoH2:228] Se eliminó exitosamente el registro con ID = 2, se cerró la conexión a la BD
+[2024-08-18 04:15:37] [ INFO ] [BD:44] Inicia conexión a la BD, se creará una tabla
+[2024-08-18 04:15:38] [ INFO ] [BD:54] Creación exitosa de la tabla, se cerró la conexión a la BD
+[2024-08-18 04:15:38] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:15:38] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:15:38] [ INFO ] [PacienteImplDaoH2:154] Se inicia conexión a la BD, se actualizará un registro
+[2024-08-18 04:15:38] [ INFO ] [PacienteImplDaoH2:167] Ejecución de la actualización sobre el registro con el ID = 1
+[2024-08-18 04:15:38] [ INFO ] [PacienteImplDaoH2:186] Actualización exitosa, se cerró conexión a la BD
+[2024-08-18 04:15:38] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:15:39] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:15:39] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:15:39] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:15:39] [ INFO ] [PacienteImplDaoH2:74] Inicia coenxión a la BD, se conaultarán todos los registros
+[2024-08-18 04:15:40] [ INFO ] [PacienteImplDaoH2:96] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:15:40] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:15:40] [ INFO ] [PacienteImplDaoH2:45] Se localizó en la tbala el registro con ID = 2
+[2024-08-18 04:15:40] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:15:40] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:15:41] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:15:41] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:15:41] [ INFO ] [PacienteImplDaoH2:45] Se localizó en la tbala el registro con ID = 2
+[2024-08-18 04:15:41] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:15:41] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:15:41] [ INFO ] [PacienteImplDaoH2:45] Se localizó en la tbala el registro con ID = 4
+[2024-08-18 04:15:42] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:15:42] [ INFO ] [PacienteImplDaoH2:205] Se inició conexión a la BD, se eliminará un registro por Id
+[2024-08-18 04:15:42] [ INFO ] [PacienteImplDaoH2:213] Se ejecutó proceso de eliminación del registro con ID = 2
+[2024-08-18 04:15:42] [ INFO ] [PacienteImplDaoH2:228] Se eliminó exitosamente el registro con ID = 2, se cerró la conexión a la BD
+[2024-08-18 04:17:24] [ INFO ] [BD:44] Inicia conexión a la BD, se creará una tabla
+[2024-08-18 04:17:24] [ INFO ] [BD:54] Creación exitosa de la tabla, se cerró la conexión a la BD
+[2024-08-18 04:17:24] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:17:24] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:17:24] [ INFO ] [PacienteImplDaoH2:154] Se inicia conexión a la BD, se actualizará un registro
+[2024-08-18 04:17:25] [ INFO ] [PacienteImplDaoH2:167] Ejecución de la actualización sobre el registro con el ID = 1
+[2024-08-18 04:17:25] [ INFO ] [PacienteImplDaoH2:186] Actualización exitosa, se cerró conexión a la BD
+[2024-08-18 04:17:25] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:17:25] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:17:25] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:17:26] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:17:26] [ INFO ] [PacienteImplDaoH2:74] Inicia coenxión a la BD, se conaultarán todos los registros
+[2024-08-18 04:17:26] [ INFO ] [PacienteImplDaoH2:96] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:17:26] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:17:26] [ INFO ] [PacienteImplDaoH2:45] Se localizó en la tbala el registro con ID = 2
+[2024-08-18 04:17:26] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:17:26] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:17:27] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:17:27] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:17:27] [ INFO ] [PacienteImplDaoH2:45] Se localizó en la tbala el registro con ID = 4
+[2024-08-18 04:17:27] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:17:27] [ INFO ] [PacienteImplDaoH2:205] Se inició conexión a la BD, se eliminará un registro por Id
+[2024-08-18 04:17:27] [ INFO ] [PacienteImplDaoH2:213] Se ejecutó proceso de eliminación del registro con ID = 2
+[2024-08-18 04:17:27] [ INFO ] [PacienteImplDaoH2:228] Se eliminó exitosamente el registro con ID = 2, se cerró la conexión a la BD
+[2024-08-18 04:17:27] [ INFO ] [PacienteImplDaoH2:74] Inicia coenxión a la BD, se conaultarán todos los registros
+[2024-08-18 04:17:28] [ INFO ] [PacienteImplDaoH2:96] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:18:39] [ INFO ] [BD:44] Inicia conexión a la BD, se creará una tabla
+[2024-08-18 04:18:39] [ INFO ] [BD:54] Creación exitosa de la tabla, se cerró la conexión a la BD
+[2024-08-18 04:18:39] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:18:40] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:18:40] [ INFO ] [PacienteImplDaoH2:154] Se inicia conexión a la BD, se actualizará un registro
+[2024-08-18 04:18:40] [ INFO ] [PacienteImplDaoH2:167] Ejecución de la actualización sobre el registro con el ID = 1
+[2024-08-18 04:18:40] [ INFO ] [PacienteImplDaoH2:186] Actualización exitosa, se cerró conexión a la BD
+[2024-08-18 04:18:40] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:18:41] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:18:41] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:18:41] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:18:41] [ INFO ] [PacienteImplDaoH2:74] Inicia coenxión a la BD, se conaultarán todos los registros
+[2024-08-18 04:18:41] [ INFO ] [PacienteImplDaoH2:96] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:18:41] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:18:41] [ INFO ] [PacienteImplDaoH2:45] Se localizó en la tbala el registro con ID = 2
+[2024-08-18 04:18:42] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:18:42] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:18:42] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:18:42] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:18:42] [ INFO ] [PacienteImplDaoH2:45] Se localizó en la tbala el registro con ID = 4
+[2024-08-18 04:18:42] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:18:42] [ INFO ] [PacienteImplDaoH2:205] Se inició conexión a la BD, se eliminará un registro por Id
+[2024-08-18 04:18:42] [ INFO ] [PacienteImplDaoH2:213] Se ejecutó proceso de eliminación del registro con ID = 2
+[2024-08-18 04:18:43] [ INFO ] [PacienteImplDaoH2:228] Se eliminó exitosamente el registro con ID = 2, se cerró la conexión a la BD
+[2024-08-18 04:18:43] [ INFO ] [PacienteImplDaoH2:74] Inicia coenxión a la BD, se conaultarán todos los registros
+[2024-08-18 04:18:43] [ INFO ] [PacienteImplDaoH2:96] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:19:26] [ INFO ] [BD:44] Inicia conexión a la BD, se creará una tabla
+[2024-08-18 04:19:27] [ INFO ] [BD:54] Creación exitosa de la tabla, se cerró la conexión a la BD
+[2024-08-18 04:19:27] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:19:27] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:19:27] [ INFO ] [PacienteImplDaoH2:154] Se inicia conexión a la BD, se actualizará un registro
+[2024-08-18 04:19:27] [ INFO ] [PacienteImplDaoH2:167] Ejecución de la actualización sobre el registro con el ID = 1
+[2024-08-18 04:19:27] [ INFO ] [PacienteImplDaoH2:186] Actualización exitosa, se cerró conexión a la BD
+[2024-08-18 04:19:27] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:19:28] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:19:28] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:19:28] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:19:28] [ INFO ] [PacienteImplDaoH2:74] Inicia coenxión a la BD, se conaultarán todos los registros
+[2024-08-18 04:19:29] [ INFO ] [PacienteImplDaoH2:96] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:19:29] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:19:29] [ INFO ] [PacienteImplDaoH2:45] Se localizó en la tbala el registro con ID = 2
+[2024-08-18 04:19:29] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:19:29] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:19:29] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:19:29] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:19:29] [ INFO ] [PacienteImplDaoH2:45] Se localizó en la tbala el registro con ID = 4
+[2024-08-18 04:19:30] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:19:30] [ INFO ] [PacienteImplDaoH2:205] Se inició conexión a la BD, se eliminará un registro por Id
+[2024-08-18 04:19:30] [ INFO ] [PacienteImplDaoH2:213] Se ejecutó proceso de eliminación del registro con ID = 2
+[2024-08-18 04:19:30] [ INFO ] [PacienteImplDaoH2:228] Se eliminó exitosamente el registro con ID = 2, se cerró la conexión a la BD
+[2024-08-18 04:19:30] [ INFO ] [PacienteImplDaoH2:74] Inicia coenxión a la BD, se conaultarán todos los registros
+[2024-08-18 04:19:30] [ INFO ] [PacienteImplDaoH2:96] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:21:35] [ INFO ] [BD:44] Inicia conexión a la BD, se creará una tabla
+[2024-08-18 04:21:35] [ INFO ] [BD:54] Creación exitosa de la tabla, se cerró la conexión a la BD
+[2024-08-18 04:21:35] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:21:35] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:21:35] [ INFO ] [PacienteImplDaoH2:154] Se inicia conexión a la BD, se actualizará un registro
+[2024-08-18 04:21:35] [ INFO ] [PacienteImplDaoH2:167] Ejecución de la actualización sobre el registro con el ID = 1
+[2024-08-18 04:21:36] [ INFO ] [PacienteImplDaoH2:186] Actualización exitosa, se cerró conexión a la BD
+[2024-08-18 04:21:36] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:21:36] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:21:36] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:21:37] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:21:37] [ INFO ] [PacienteImplDaoH2:74] Inicia coenxión a la BD, se conaultarán todos los registros
+[2024-08-18 04:21:37] [ INFO ] [PacienteImplDaoH2:96] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:21:37] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:21:37] [ INFO ] [PacienteImplDaoH2:45] Se localizó en la tbala el registro con ID = 2
+[2024-08-18 04:21:37] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:21:37] [ INFO ] [PacienteImplDaoH2:112] Inicia conexión a la BD, se insertará/guardará un registro.
+[2024-08-18 04:21:38] [ INFO ] [PacienteImplDaoH2:135] Se insertó exitosamente un registro en la tabla, conexión a la BD cerrada
+[2024-08-18 04:21:38] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:21:38] [ INFO ] [PacienteImplDaoH2:45] Se localizó en la tbala el registro con ID = 4
+[2024-08-18 04:21:38] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:21:38] [ INFO ] [PacienteImplDaoH2:205] Se inició conexión a la BD, se eliminará un registro por Id
+[2024-08-18 04:21:38] [ INFO ] [PacienteImplDaoH2:213] Se ejecutó proceso de eliminación del registro con ID = 2
+[2024-08-18 04:21:38] [ INFO ] [PacienteImplDaoH2:228] Se eliminó exitosamente el registro con ID = 2, se cerró la conexión a la BD
+[2024-08-18 04:21:39] [ INFO ] [PacienteImplDaoH2:74] Inicia coenxión a la BD, se conaultarán todos los registros
+[2024-08-18 04:21:39] [ INFO ] [PacienteImplDaoH2:96] Consulta exitosa, se cerró la conexión a la BD
+[2024-08-18 04:21:39] [ INFO ] [PacienteImplDaoH2:154] Se inicia conexión a la BD, se actualizará un registro
+[2024-08-18 04:21:39] [ INFO ] [PacienteImplDaoH2:167] Ejecución de la actualización sobre el registro con el ID = 4
+[2024-08-18 04:21:39] [ INFO ] [PacienteImplDaoH2:186] Actualización exitosa, se cerró conexión a la BD
+[2024-08-18 04:21:39] [ INFO ] [PacienteImplDaoH2:32] Se inicia conexión a la BD, se consultará un registro por Id
+[2024-08-18 04:21:39] [ INFO ] [PacienteImplDaoH2:45] Se localizó en la tbala el registro con ID = 4
+[2024-08-18 04:21:40] [ INFO ] [PacienteImplDaoH2:56] Consulta exitosa, se cerró la conexión a la BD

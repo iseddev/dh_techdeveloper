@@ -4,14 +4,18 @@ import java.util.List;
 
 public interface IDao<T> {
 
-  // Insertar registro => CREATE
-  T insertRegistro(T t);
-  // Consultar todos => READ
-  List<T> selectTodos();
-  // Consultar por Id => READ
+  // ● Administración de datos de los pacientes: listar, agregar, modificar y eliminar pacientes.
+
+  // ===== Listar =====
   T selectPorId(Integer id);
-  // Actualizar un registro => UPDATE
+  List<T> selectTodos();
+
+  // ===== Agregar =====
+  T insertRegistro(T t);
+
+  // ===== Modificar =====
   T updateRegistro(T t);
-  // Eliminar un registro => DELETE
+
+  // ===== Eliminar =====
   void deletePorId(Integer id);
 }
