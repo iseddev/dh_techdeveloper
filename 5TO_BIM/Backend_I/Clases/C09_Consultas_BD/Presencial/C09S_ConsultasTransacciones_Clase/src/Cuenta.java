@@ -17,12 +17,8 @@ public class Cuenta {
       "SALDO NUMERIC(10,2) NOT NULL)";
 
   private static final String SLQ_INSERT = "INSERT INTO CUENTAS VALUES (?,?,?,?)";
-
   private static final String SQL_SELECT_ALL = "SELECT * FROM CUENTAS";
-
   private static final String SQL_UPDATE = "UPDATE CUENTAS SET SALDO=? WHERE ID=?";
-
-
 
   public static void main(String[] args) {
     //Conectarnos a la BD
@@ -87,25 +83,18 @@ public class Cuenta {
             " y titular " + rs1.getString("TITULAR") +
             ", tiene como saldo: " + rs1.getDouble("SALDO"));
       }
-
-
-
     } catch (Exception e) {
       try {
         //SE ARROJA LA EXCEPCIÓN Y SE EJECUTA EL ROLLBACK
         connection.rollback();
-      } catch (Exception ex) {
-        ex.printStackTrace();
       }
+      catch (Exception ex) { ex.printStackTrace(); }
       e.printStackTrace();
-
     } finally {
       try {
         connection.close();
         System.out.println("Conexión cerrada");
-      } catch (Exception e) {
-        e.getMessage();
-      }
+      } catch (Exception e) { e.getMessage(); }
     }
 
     // --------------------------------------------------
