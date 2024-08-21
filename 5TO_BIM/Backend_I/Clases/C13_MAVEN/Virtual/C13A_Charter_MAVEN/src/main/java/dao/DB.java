@@ -7,7 +7,7 @@ import java.sql.Statement;
 public class DB {
 
 	private static final String H2_DRIVER = "org.h2.Driver";
-	private static final String DB_PATH_NAME = "jdbc:h2:./flota_db";
+	private static final String DB_PATH_NAME = "jdbc:h2:./charter_maven_db";
 	private static final String DB_USER = "sa";
 	private static final String DB_PSWD = "";
 
