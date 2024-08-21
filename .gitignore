@@ -6,6 +6,7 @@
 *.rar
 *.mwb.bak
 *.iml
+*.jar
 
 **/out
 **/.idea
