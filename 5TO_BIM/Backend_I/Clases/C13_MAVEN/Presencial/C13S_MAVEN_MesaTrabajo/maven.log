@@ -1,0 +1,110 @@
+[2024-08-13 19:50:22] [ INFO ] [Data:25] Se estableció la conexion
+[2024-08-13 19:50:23] [ INFO ] [Data:29] Se creó la tabla
+[2024-08-13 19:50:23] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-13 19:50:23] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-13 19:50:23] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-13 19:50:23] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-13 19:50:23] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-13 19:50:23] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-13 19:50:23] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-13 19:50:23] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-13 19:50:23] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-13 19:50:23] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-13 19:50:23] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-13 19:50:23] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-13 19:50:23] [ INFO ] [OdontologoDaoH2:63] Comenzamos a listar a los odontologos
+[2024-08-13 19:50:23] [ INFO ] [OdontologoDaoH2:87] Se listaron los odontologos
+[2024-08-13 19:50:23] [ INFO ] [OdontologoDaoH2:95] Se cierra la base de datos
+[2024-08-13 19:50:23] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-13 19:50:23] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-13 19:50:23] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-13 19:50:23] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-13 19:50:23] [ INFO ] [OdontologoDao2:36] Se muestra la lista de odontologos
+[2024-08-13 19:52:30] [ INFO ] [Data:25] Se estableció la conexion
+[2024-08-13 19:52:30] [ INFO ] [Data:29] Se creó la tabla
+[2024-08-13 19:52:30] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-13 19:52:30] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-13 19:52:30] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-13 19:52:30] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-13 19:52:30] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-13 19:52:30] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-13 19:52:30] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-13 19:52:30] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-13 19:52:30] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-13 19:52:30] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-13 19:52:30] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-13 19:52:30] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-13 19:52:30] [ INFO ] [OdontologoDaoH2:63] Comenzamos a listar a los odontologos
+[2024-08-13 19:52:30] [ INFO ] [OdontologoDaoH2:87] Se listaron los odontologos
+[2024-08-13 19:52:30] [ INFO ] [OdontologoDaoH2:95] Se cierra la base de datos
+[2024-08-13 19:52:30] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-13 19:52:30] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-13 19:52:30] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-13 19:52:30] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-13 19:52:30] [ INFO ] [OdontologoDao2:36] Se muestra la lista de odontologos
+[2024-08-13 20:03:52] [ INFO ] [Data:25] Se estableció la conexion
+[2024-08-13 20:03:52] [ INFO ] [Data:29] Se creó la tabla
+[2024-08-13 20:03:52] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-13 20:03:52] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-13 20:03:52] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-13 20:03:52] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-13 20:03:52] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-13 20:03:52] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-13 20:03:52] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-13 20:03:52] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-13 20:03:52] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-13 20:03:52] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-13 20:03:52] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-13 20:03:52] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-13 20:03:52] [ INFO ] [OdontologoDaoH2:63] Comenzamos a listar a los odontologos
+[2024-08-13 20:03:52] [ INFO ] [OdontologoDaoH2:87] Se listaron los odontologos
+[2024-08-13 20:03:52] [ INFO ] [OdontologoDaoH2:95] Se cierra la base de datos
+[2024-08-13 20:03:52] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-13 20:03:52] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-13 20:03:52] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-13 20:03:52] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-13 20:03:52] [ INFO ] [OdontologoDao2:36] Se muestra la lista de odontologos
+[2024-08-13 20:04:57] [ INFO ] [Data:25] Se estableció la conexion
+[2024-08-13 20:04:57] [ INFO ] [Data:29] Se creó la tabla
+[2024-08-13 20:04:57] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-13 20:04:57] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-13 20:04:57] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-13 20:04:57] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-13 20:04:57] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-13 20:04:57] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-13 20:04:57] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-13 20:04:57] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-13 20:04:57] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-13 20:04:57] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-13 20:04:57] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-13 20:04:57] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-13 20:04:57] [ INFO ] [OdontologoDaoH2:63] Comenzamos a listar a los odontologos
+[2024-08-13 20:04:57] [ INFO ] [OdontologoDaoH2:87] Se listaron los odontologos
+[2024-08-13 20:04:57] [ INFO ] [OdontologoDaoH2:95] Se cierra la base de datos
+[2024-08-13 20:04:57] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-13 20:04:57] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-13 20:04:57] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-13 20:04:57] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-13 20:04:57] [ INFO ] [OdontologoDao2:36] Se muestra la lista de odontologos
+[2024-08-13 20:05:41] [ INFO ] [Data:25] Se estableció la conexion
+[2024-08-13 20:05:41] [ INFO ] [Data:29] Se creó la tabla
+[2024-08-13 20:05:41] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-13 20:05:41] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-13 20:05:41] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-13 20:05:41] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-13 20:05:41] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-13 20:05:41] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-13 20:05:41] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-13 20:05:41] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-13 20:05:41] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-13 20:05:41] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-13 20:05:41] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-13 20:05:41] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-13 20:05:41] [ INFO ] [OdontologoDaoH2:63] Comenzamos a listar a los odontologos
+[2024-08-13 20:05:41] [ INFO ] [OdontologoDaoH2:87] Se listaron los odontologos
+[2024-08-13 20:05:41] [ INFO ] [OdontologoDaoH2:95] Se cierra la base de datos
+[2024-08-13 20:05:41] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-13 20:05:41] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-13 20:05:41] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-13 20:05:41] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-13 20:05:41] [ INFO ] [OdontologoDao2:36] Se muestra la lista de odontologos
