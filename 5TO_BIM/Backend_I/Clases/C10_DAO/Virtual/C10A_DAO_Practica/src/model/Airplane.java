@@ -1,15 +1,14 @@
 package model;
 
 import java.time.LocalDate;
-import java.util.Date;
 
-public class Avion {
+public class Airplane {
 
 	private Integer id;
 	private String marca, modelo, matricula;
 	private LocalDate ingresoServicio;
 
-	public Avion(Integer id, String marca, String modelo, String matricula, LocalDate ingresoServicio) {
+	public Airplane(Integer id, String marca, String modelo, String matricula, LocalDate ingresoServicio) {
 		this.id = id;
 		this.marca = marca;
 		this.modelo = modelo;

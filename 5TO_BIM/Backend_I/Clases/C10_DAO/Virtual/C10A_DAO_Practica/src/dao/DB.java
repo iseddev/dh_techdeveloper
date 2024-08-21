@@ -23,10 +23,9 @@ public class DB {
 			"matricula VARCHAR(50) NOT NULL, " +
 			"ingreso_servicio DATE NOT NULL)";
 
-	public static void crearTabla() {
+	public static void createTable() {
 
 		Connection connection = null;
-
 		try {
 			connection = getConnection();
 			System.out.println("===== CONEXIÓN EXITOSA A LA BD =====");
