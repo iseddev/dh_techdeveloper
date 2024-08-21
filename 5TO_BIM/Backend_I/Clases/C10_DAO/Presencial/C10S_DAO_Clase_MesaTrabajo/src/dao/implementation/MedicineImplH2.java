@@ -1,19 +1,20 @@
 package dao.implementation;
 
 import dao.BD;
-import dao.IDAO;
-import model.Medicamento;
+import dao.IDao;
+import model.Medicine;
 import org.apache.log4j.Logger;
 
 import java.sql.*;
 
-public class MedicamentoImplDAOH2 implements IDAO<Medicamento> {
+// Implementación de la lógica para presistir los datos en la BD. En este caso usando H2 como BD.
+public class MedicineImplH2 implements IDao<Medicine> {
 
-  private static final Logger LOGGER = Logger.getLogger(MedicamentoImplDAOH2.class);
+  private static final Logger LOGGER = Logger.getLogger(MedicineImplH2.class);
 
   // ##### Generamos nuestra lógica para insertar(Crear) un registro en nuestra tabla/BD #####
   @Override
-  public Medicamento insert(Medicamento medicamento) {
+  public Medicine insertRecord(Medicine medicine) {
 
     LOGGER.info("Inicia la creación(insert) de un medicamento en la tabla");
 
@@ -29,18 +30,18 @@ public class MedicamentoImplDAOH2 implements IDAO<Medicamento> {
       PreparedStatement psInsert = connection.prepareStatement(sqlStatement, Statement.RETURN_GENERATED_KEYS);
       // Statement.RETURN_GENERATED_KEYS nos ayuda a que de forma automática se genere y asigne un ID auto-incremental
 
-      psInsert.setString(1, medicamento.getNombre());
-      psInsert.setString(2, medicamento.getLaboratorio());
-      psInsert.setInt(3, medicamento.getCantidad());
-      psInsert.setDouble(4, medicamento.getPrecio());
-      psInsert.setInt(5, medicamento.getCodigo());
+      psInsert.setString(1, medicine.getNombre());
+      psInsert.setString(2, medicine.getLaboratorio());
+      psInsert.setInt(3, medicine.getCantidad());
+      psInsert.setDouble(4, medicine.getPrecio());
+      psInsert.setInt(5, medicine.getCodigo());
       psInsert.execute();
       LOGGER.info("Ejecución correcta de la creación/inserción de un registro en la tabla");
 
       // Obtenemos la PrimaryKey de la BD que se generó y la almacenamos en un ResultSet de Java para asignarla al registro creado
       ResultSet record = psInsert.getGeneratedKeys();
       while(record.next()) {
-        medicamento.setId(record.getInt(1));
+        medicine.setId(record.getInt(1));
         LOGGER.info("Id autoincremental asignado correctamente al registro creado, ID = " + record.getInt(1));
       }
     }
@@ -59,19 +60,19 @@ public class MedicamentoImplDAOH2 implements IDAO<Medicamento> {
         ex.printStackTrace();
       }
     }
-    return medicamento;
+    return medicine;
   }
 
   // #################### Mesa de Trabajo ####################
   //  Generamos la lógica para buscar un registro por Id
   @Override
-  public Medicamento selectById(Integer id) {
+  public Medicine selectById(Integer id) {
 
     // TODO => Lógica de cómo buscar por Id
     LOGGER.info("Iniciamos la búsqueda(select) de un registro por Id");
     Connection connection = null;
 
-    Medicamento medicamento = null;
+    Medicine medicine = null;
 
     try {
       connection = BD.getConnection();
@@ -89,13 +90,13 @@ public class MedicamentoImplDAOH2 implements IDAO<Medicamento> {
       // Asignamos los valores del registro encontrado al objeto medicamento previamente inicializado en null
       if(record.next()) {
         LOGGER.info("Registro con el ID = " + id + " fue localizado en la tabla");
-        medicamento = new Medicamento(
+        medicine = new Medicine(
             record.getString(2),
             record.getString("LABORATORIO"),
             record.getInt(4),
             record.getDouble("precio"),
             record.getInt(6));
-        medicamento.setId(id);
+        medicine.setId(id);
       } else {
         LOGGER.warn("Medicamento con el id = " + id + " NO fue localizado en la tabla");
       }
@@ -115,6 +116,6 @@ public class MedicamentoImplDAOH2 implements IDAO<Medicamento> {
         ex.printStackTrace();
       }
     }
-    return medicamento;
+    return medicine;
   }
 }

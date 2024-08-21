@@ -1,15 +1,15 @@
 package model;
 
-public class Medicamento {
+public class Medicine {
 
-  private Integer id;
+  private Integer id; // Para este ejercicio, se asignará el id de forma manual
   private String nombre;
   private String laboratorio;
   private Integer cantidad;
   private Double precio;
   private Integer codigo;
 
-  public Medicamento(String nombre, String laboratorio, Integer cantidad, Double precio, Integer codigo) {
+  public Medicine(String nombre, String laboratorio, Integer cantidad, Double precio, Integer codigo) {
     this.nombre = nombre;
     this.laboratorio = laboratorio;
     this.cantidad = cantidad;
