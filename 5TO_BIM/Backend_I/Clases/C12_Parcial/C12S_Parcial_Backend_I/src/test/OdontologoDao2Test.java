@@ -1,8 +1,6 @@
 package test;
 
 import model.Odontologo;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import service.OdontologoService;
 
@@ -23,6 +21,5 @@ class OdontologoDao2Test {
     odontoServ.guardarModo2(odonto3);
     odontoServ.guardarModo2(odonto4);
     assertTrue(odontoServ.listarTodos2().size() == 4);
-
   }
 }

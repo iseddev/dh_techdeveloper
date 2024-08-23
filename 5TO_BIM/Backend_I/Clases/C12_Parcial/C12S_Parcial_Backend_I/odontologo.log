@@ -20,3 +20,25 @@
 [2024-08-09 02:52:19] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
 [2024-08-09 02:52:19] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
 [2024-08-09 02:52:19] [ INFO ] [OdontologoDao2:36] Se muestra la lista de odontologos
+[2024-08-22 20:24:03] [ INFO ] [Data:31] Se estableció la conexion
+[2024-08-22 20:24:03] [ INFO ] [Data:35] Se creó la tabla
+[2024-08-22 20:24:03] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-22 20:24:03] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-22 20:24:03] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-22 20:24:03] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-22 20:24:03] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-22 20:24:03] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-22 20:24:03] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-22 20:24:03] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-22 20:24:03] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-22 20:24:03] [ INFO ] [OdontologoDaoH2:17] Comenzamos a persistir un odontólogo
+[2024-08-22 20:24:03] [ INFO ] [OdontologoDaoH2:46] Se generó el odontologo en la base de datos
+[2024-08-22 20:24:03] [ INFO ] [OdontologoDaoH2:53] Se cierra la base de datos
+[2024-08-22 20:24:03] [ INFO ] [OdontologoDaoH2:63] Comenzamos a listar a los odontologos
+[2024-08-22 20:24:03] [ INFO ] [OdontologoDaoH2:87] Se listaron los odontologos
+[2024-08-22 20:24:03] [ INFO ] [OdontologoDaoH2:95] Se cierra la base de datos
+[2024-08-22 20:24:03] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-22 20:24:03] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-22 20:24:03] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-22 20:24:03] [ INFO ] [OdontologoDao2:24] Se agregó el odontologo al listado
+[2024-08-22 20:24:03] [ INFO ] [OdontologoDao2:36] Se muestra la lista de odontologos
