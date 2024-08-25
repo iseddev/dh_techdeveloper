@@ -1,0 +1,88 @@
+[2024-08-15 22:32:55] [ INFO ] [BD:41] Estamos creando la tabla odontologos
+[2024-08-15 22:32:55] [ INFO ] [BD:44] Estamos insertando un odontologo en la tabla odontologos
+[2024-08-24 23:05:44] [ INFO ] [BD:41] Se inicia la creación de tablas en la BD
+[2024-08-24 23:05:44] [ INFO ] [BD:46] Se inicia la creación de la tabla pacientes
+[2024-08-24 23:05:44] [ INFO ] [BD:49] Se inicia la creación de la tabla odontologos
+[2024-08-24 23:05:44] [ INFO ] [BD:53] Se insertó el odontologo 
+[2024-08-24 23:07:49] [ INFO ] [ImplPacienteDaoH2:95] Consulta exitosa del odontologo con el id 1
+[2024-08-24 23:08:11] [ INFO ] [ImplPacienteDaoH2:95] Consulta exitosa del odontologo con el id 1
+[2024-08-24 23:08:13] [ INFO ] [ImplPacienteDaoH2:95] Consulta exitosa del odontologo con el id 1
+[2024-08-24 23:08:21] [ INFO ] [BD:41] Se inicia la creación de tablas en la BD
+[2024-08-24 23:08:21] [ INFO ] [BD:46] Se inicia la creación de la tabla pacientes
+[2024-08-24 23:08:21] [ INFO ] [BD:49] Se inicia la creación de la tabla odontologos
+[2024-08-24 23:08:21] [ INFO ] [BD:53] Se insertó el odontologo 
+[2024-08-24 23:08:37] [ INFO ] [ImplPacienteDaoH2:95] Consulta exitosa del odontologo con el id 1
+[2024-08-24 23:16:43] [ INFO ] [BD:41] Se inicia la creación de tablas en la BD
+[2024-08-24 23:16:43] [ INFO ] [BD:46] Se inicia la creación de la tabla pacientes
+[2024-08-24 23:16:43] [ INFO ] [BD:49] Se inicia la creación de la tabla odontologos
+[2024-08-24 23:16:43] [ INFO ] [BD:53] Se insertó el odontologo 
+[2024-08-24 23:16:59] [ INFO ] [ImplPacienteDaoH2:95] Consulta exitosa del odontologo con el id 1
+[2024-08-25 01:06:29] [ INFO ] [BD:41] Se inicia la creación de tablas en la BD
+[2024-08-25 01:06:29] [ INFO ] [BD:46] Se inicia la creación de la tabla pacientes
+[2024-08-25 01:06:29] [ INFO ] [BD:49] Se inicia la creación de la tabla odontologos
+[2024-08-25 01:06:29] [ INFO ] [BD:53] Se insertó el odontologo 
+[2024-08-25 01:07:04] [ INFO ] [ImplPacienteDaoH2:95] Consulta exitosa del odontologo con el id 1
+[2024-08-25 01:07:15] [ INFO ] [ImplPacienteDaoH2:95] Se inicia la consulta del paciente con id 1
+[2024-08-25 01:11:12] [ INFO ] [BD:42] Se inicia la creación de tablas en la BD
+[2024-08-25 01:11:12] [ INFO ] [BD:47] Se inicia la creación de la tabla pacientes
+[2024-08-25 01:11:12] [ INFO ] [BD:50] Se inicia la creación de la tabla odontologos
+[2024-08-25 01:11:12] [ INFO ] [BD:54] Se insertó un odontologo 
+[2024-08-25 01:11:12] [ INFO ] [BD:57] Se insertó un paciente 
+[2024-08-25 01:11:29] [ INFO ] [ImplPacienteDaoH2:95] Se inicia la consulta del paciente con id 1
+[2024-08-25 01:11:33] [ INFO ] [ImplPacienteDaoH2:95] Se inicia la consulta del paciente con id 1
+[2024-08-25 01:13:29] [ INFO ] [BD:42] Se inicia la creación de tablas en la BD
+[2024-08-25 01:13:29] [ INFO ] [BD:47] Se inicia la creación de la tabla pacientes
+[2024-08-25 01:13:29] [ INFO ] [BD:50] Se inicia la creación de la tabla odontologos
+[2024-08-25 01:13:29] [ INFO ] [BD:54] Se insertó un odontologo 
+[2024-08-25 01:13:55] [ INFO ] [BD:42] Se inicia la creación de tablas en la BD
+[2024-08-25 01:13:55] [ INFO ] [BD:47] Se inicia la creación de la tabla pacientes
+[2024-08-25 01:13:55] [ INFO ] [BD:50] Se inicia la creación de la tabla odontologos
+[2024-08-25 01:13:55] [ INFO ] [BD:54] Se insertó un odontologo 
+[2024-08-25 01:13:55] [ INFO ] [BD:57] Se insertó un paciente 
+[2024-08-25 01:14:12] [ INFO ] [ImplPacienteDaoH2:95] Se inicia la consulta del paciente con id 1
+[2024-08-25 01:16:42] [ INFO ] [BD:42] Se inicia la creación de tablas en la BD
+[2024-08-25 01:16:42] [ INFO ] [BD:47] Se inicia la creación de la tabla pacientes
+[2024-08-25 01:16:42] [ INFO ] [BD:50] Se inicia la creación de la tabla odontologos
+[2024-08-25 01:16:42] [ INFO ] [BD:54] Se insertó un odontologo 
+[2024-08-25 01:16:42] [ INFO ] [BD:57] Se insertó un paciente 
+[2024-08-25 01:17:16] [ INFO ] [ImplPacienteDaoH2:95] Se inicia la consulta del paciente con id 1
+[2024-08-25 01:17:19] [ INFO ] [ImplPacienteDaoH2:95] Se inicia la consulta del paciente con id 1
+[2024-08-25 01:17:54] [ INFO ] [BD:42] Se inicia la creación de tablas en la BD
+[2024-08-25 01:17:54] [ INFO ] [BD:47] Se inicia la creación de la tabla pacientes
+[2024-08-25 01:17:54] [ INFO ] [BD:50] Se inicia la creación de la tabla odontologos
+[2024-08-25 01:17:54] [ INFO ] [BD:54] Se insertó un odontologo 
+[2024-08-25 01:18:30] [ INFO ] [BD:42] Se inicia la creación de tablas en la BD
+[2024-08-25 01:18:30] [ INFO ] [BD:47] Se inicia la creación de la tabla pacientes
+[2024-08-25 01:18:30] [ INFO ] [BD:50] Se inicia la creación de la tabla odontologos
+[2024-08-25 01:18:30] [ INFO ] [BD:54] Se insertó un odontologo 
+[2024-08-25 01:18:30] [ INFO ] [BD:57] Se insertó un paciente 
+[2024-08-25 01:21:13] [ INFO ] [BD:42] Se inicia la creación de tablas en la BD
+[2024-08-25 01:21:13] [ INFO ] [BD:47] Se inicia la creación de la tabla pacientes
+[2024-08-25 01:21:13] [ INFO ] [BD:50] Se inicia la creación de la tabla odontologos
+[2024-08-25 01:21:13] [ INFO ] [BD:54] Se insertó un odontologo 
+[2024-08-25 01:21:13] [ INFO ] [BD:57] Se insertó un paciente 
+[2024-08-25 01:21:21] [ INFO ] [ImplPacienteDaoH2:95] Se inicia la consulta del paciente con id 1
+[2024-08-25 01:22:53] [ INFO ] [ImplPacienteDaoH2:95] Se inicia la consulta del paciente con id 1
+[2024-08-25 01:23:00] [ INFO ] [BD:42] Se inicia la creación de tablas en la BD
+[2024-08-25 01:23:00] [ INFO ] [BD:47] Se inicia la creación de la tabla pacientes
+[2024-08-25 01:23:00] [ INFO ] [BD:50] Se inicia la creación de la tabla odontologos
+[2024-08-25 01:23:00] [ INFO ] [BD:54] Se insertó un odontologo 
+[2024-08-25 01:23:00] [ INFO ] [BD:57] Se insertó un paciente 
+[2024-08-25 01:23:10] [ INFO ] [ImplPacienteDaoH2:95] Se inicia la consulta del paciente con id 1
+[2024-08-25 14:42:51] [ INFO ] [BD:42] Se inicia la creación de tablas en la BD
+[2024-08-25 14:42:51] [ INFO ] [BD:47] Se inicia la creación de la tabla pacientes
+[2024-08-25 14:42:51] [ INFO ] [BD:50] Se inicia la creación de la tabla odontologos
+[2024-08-25 14:42:51] [ INFO ] [BD:54] Se insertó un odontologo 
+[2024-08-25 14:42:51] [ INFO ] [BD:57] Se insertó un paciente 
+[2024-08-25 14:43:07] [ INFO ] [ImplPacienteDaoH2:100] Se inicia la consulta del paciente con id 1
+[2024-08-25 14:43:07] [ INFO ] [ImplPacienteDaoH2:119] Consulta exitosa el paciente con id: 1
+[2024-08-25 14:43:20] [ INFO ] [ImplPacienteDaoH2:119] Consulta exitosa del odontologo con el id 1
+[2024-08-25 14:45:54] [ INFO ] [BD:42] Se inicia la creación de tablas en la BD
+[2024-08-25 14:45:54] [ INFO ] [BD:47] Se inicia la creación de la tabla pacientes
+[2024-08-25 14:45:54] [ INFO ] [BD:50] Se inicia la creación de la tabla odontologos
+[2024-08-25 14:45:54] [ INFO ] [BD:54] Se insertó un odontologo 
+[2024-08-25 14:45:54] [ INFO ] [BD:57] Se insertó un paciente 
+[2024-08-25 14:46:05] [ INFO ] [ImplPacienteDaoH2:119] Consulta exitosa del odontologo con el id 1
+[2024-08-25 14:46:16] [ INFO ] [ImplPacienteDaoH2:100] Se inicia la consulta del paciente con id 1
+[2024-08-25 14:46:16] [ INFO ] [ImplPacienteDaoH2:119] Consulta exitosa el paciente con id: 1
+[2024-08-25 14:48:56] [ INFO ] [ImplPacienteDaoH2:119] Consulta exitosa del odontologo con el id 1
