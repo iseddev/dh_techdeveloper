@@ -1,0 +1,9 @@
+[2024-09-01 01:44:42] [ INFO ] [BD:42] Se inicia la creación de tablas en la BD
+[2024-09-01 01:44:43] [ INFO ] [BD:47] Se inicia la creación de la tabla pacientes
+[2024-09-01 01:44:43] [ INFO ] [BD:50] Se inicia la creación de la tabla odontologos
+[2024-09-01 01:44:43] [ INFO ] [BD:54] Se insertó un odontologo a la tabla correspondiente
+[2024-09-01 01:44:43] [ INFO ] [BD:57] Se insertó un paciente a la tabla correspondiente
+[2024-09-01 01:44:43] [ INFO ] [BD:65] Se crearon las tablas correspondientes, se cerró la conexión a la BD
+[2024-09-01 01:45:25] [ INFO ] [ImplPacienteH2:119] Consulta exitosa del odontologo con el id 1
+[2024-09-01 01:45:37] [ INFO ] [ImplPacienteH2:101] Se inicia la consulta del paciente con id 1
+[2024-09-01 01:45:38] [ INFO ] [ImplPacienteH2:122] Consulta exitosa el paciente con id: 1
