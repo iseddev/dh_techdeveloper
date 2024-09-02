@@ -27,8 +27,14 @@ public class PacienteController {
 
   @DeleteMapping("/delete/{id}")
   public ResponseEntity<String> eliminar(@PathVariable Integer id) {
-    iPacienteService.eliminar(id);
-    return ResponseEntity.ok("Registro eliminado correctamente");
+    String response;
+    if (iPacienteService.buscarPorId(id) == null) {
+      response = "No es posible eliminar el registro ya que el id no existe";
+    } else {
+      iPacienteService.eliminar(id);
+      response = "Registro eliminado corectamente";
+    }
+    return ResponseEntity.ok(response);
   }
 
   // listarTodos
