@@ -20,12 +20,12 @@ public class PacienteController {
   //RequestParam => url ? parametro1 = X & parametro2 = X #-#-# PathVariable => url/pathVariable
 
   // buscarPorId
-  @GetMapping("/buscarId/{id}")
+  @GetMapping("/{id}")
   public ResponseEntity<Paciente> buscarPorId(@PathVariable Integer id) {
     return ResponseEntity.ok(iPacienteService.buscarPorId(id));
   }
 
-  @DeleteMapping("/delete/{id}")
+  @DeleteMapping("/eliminar/{id}")
   public ResponseEntity<String> eliminar(@PathVariable Integer id) {
     String response;
     if (iPacienteService.buscarPorId(id) == null) {
@@ -41,10 +41,5 @@ public class PacienteController {
   @GetMapping
   public ResponseEntity<List<Paciente>> listarTodos() {
     return ResponseEntity.ok(iPacienteService.listarTodos());
-  }
-
-  @PostMapping
-  public ResponseEntity<Paciente> guardar(@RequestBody Paciente paciente) {
-    return ResponseEntity.ok(iPacienteService.guardar(paciente));
   }
 }
