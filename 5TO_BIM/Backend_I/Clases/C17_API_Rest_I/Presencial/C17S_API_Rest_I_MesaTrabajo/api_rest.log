@@ -25,3 +25,13 @@
 [2024-09-01 23:25:53] [ INFO ] [BD:50] Se insertó un odontologo a la tabla correspondiente
 [2024-09-01 23:25:53] [ INFO ] [BD:53] Se insertó un paciente a la tabla correspondiente
 [2024-09-01 23:25:54] [ INFO ] [BD:61] Se crearon las tablas correspondientes, se cerró la conexión a la BD
+[2024-09-02 00:27:21] [ INFO ] [BD:43] Se está creando la tabla pacientes
+[2024-09-02 00:27:21] [ INFO ] [BD:45] Se está creando la tabla odontologos
+[2024-09-02 00:27:21] [ INFO ] [BD:50] Se insertó un odontologo a la tabla correspondiente
+[2024-09-02 00:27:21] [ INFO ] [BD:53] Se insertó un paciente a la tabla correspondiente
+[2024-09-02 00:27:22] [ INFO ] [BD:61] Se crearon las tablas correspondientes, se cerró la conexión a la BD
+[2024-09-02 00:27:34] [ INFO ] [ImplPacienteH2:68] Se inicia la consulta de todos los pacientes
+[2024-09-02 00:27:34] [ INFO ] [ImplPacienteH2:82] Paciente con el id 1 agregado a la consulta
+[2024-09-02 00:27:34] [ INFO ] [ImplPacienteH2:89] Consuta exitosa de todos los pacientes
+[2024-09-02 00:28:01] [ INFO ] [ImplPacienteH2:104] Se inicia la consulta del paciente con id 1
+[2024-09-02 00:28:01] [ INFO ] [ImplPacienteH2:125] Consulta exitosa el paciente con id: 1
