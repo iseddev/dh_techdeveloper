@@ -1,0 +1,17 @@
+[2024-09-02 23:28:01] [ INFO ] [BD:57] Estamos creando las tablas odontólogos, pacientes y domicilios
+[2024-09-02 23:28:01] [ INFO ] [BD:62] Estamos insertando un odontólogo, un paciente y un domicilio en las tablas correspondientes
+[2024-09-02 23:28:01] [ INFO ] [BD:69] Se crearon las tablas correspondientes, se cerró la conexión a la BD
+[2024-09-02 23:28:46] [ INFO ] [ImplementacionDomicilio:117] Consulta exitosa el domicilio con id: 1
+[2024-09-02 23:28:47] [ INFO ] [ImplementacionPaciente:139] Consulta exitosa el paciente con id: 1
+[2024-09-02 23:45:17] [ INFO ] [BD:57] Estamos creando las tablas odontólogos, pacientes y domicilios
+[2024-09-02 23:45:17] [ INFO ] [BD:62] Estamos insertando un odontólogo, un paciente y un domicilio en las tablas correspondientes
+[2024-09-02 23:45:17] [ INFO ] [BD:69] Se crearon las tablas correspondientes, se cerró la conexión a la BD
+[2024-09-02 23:45:44] [ INFO ] [ImplementacionDomicilio:117] Consulta exitosa el domicilio con id: 1
+[2024-09-02 23:45:44] [ INFO ] [ImplementacionPaciente:139] Consulta exitosa el paciente con id: 1
+[2024-09-03 00:14:40] [ INFO ] [BD:57] Estamos creando las tablas odontólogos, pacientes y domicilios
+[2024-09-03 00:14:40] [ INFO ] [BD:62] Estamos insertando un odontólogo, un paciente y un domicilio en las tablas correspondientes
+[2024-09-03 00:14:40] [ INFO ] [BD:69] Se crearon las tablas correspondientes, se cerró la conexión a la BD
+[2024-09-03 00:15:03] [ INFO ] [ImplementacionDomicilio:117] Consulta exitosa el domicilio con id: 1
+[2024-09-03 00:15:04] [ INFO ] [ImplementacionPaciente:139] Consulta exitosa el paciente con id: 1
+[2024-09-03 00:17:24] [ INFO ] [ImplementacionDomicilio:117] Consulta exitosa el domicilio con id: 1
+[2024-09-03 00:17:24] [ INFO ] [ImplementacionPaciente:139] Consulta exitosa el paciente con id: 1
