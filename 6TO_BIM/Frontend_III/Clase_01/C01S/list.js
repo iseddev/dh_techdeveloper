@@ -24,23 +24,27 @@ const CHARACTERS = [
 const $root = document.querySelector("#root");
 
 const createCharactersList = () => {
+	// Creating a li element for each character using React.createElement method
 	// const listElements = CHARACTERS.map((character, index) =>
 	// 	React.createElement("li", { key: `${index}-${character}`, className: "character" }, character)
 	// );
-
+	// Creating an ul element and adding previous li elements to it using React.createElement method
 	// return React.createElement("ul", null, listElements);
 
+	// Creating an ul element with each li character using JSX
 	return (
-		<ul>
+		<div>
 			<h1>Mi lista de personajes</h1>
-			{CHARACTERS.map((character, index) => {
-				return (
-					<li key={`${index}-${character}`} className="character">
-						{character}
-					</li>
-				);
-			})}
-		</ul>
+			<ul>
+				{CHARACTERS.map((character, index) => {
+					return (
+						<li key={`${index}-${character}`} className="character">
+							{character}
+						</li>
+					);
+				})}
+			</ul>
+		</div>
 	);
 };
 

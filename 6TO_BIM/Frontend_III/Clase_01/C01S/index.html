@@ -16,8 +16,11 @@
 		<script>
 			// Get the root element
 			const root = document.getElementById("root");
-			// createElement method has 3 parameters: element, properties, and children(content)
-			const title = React.createElement("h1", null, "Hello World with React");
+
+			// createElement method has 3 parameters: element, properties(configurations), and children(content)
+			// const title = React.createElement("h1", null, "Hello World with React");
+			// Adding properties to the element
+			const title = React.createElement("h1", { id: "myId", key: "123" }, "Hello World with React");
 			// Render the element
 			ReactDOM.render(title, root);
 		</script>
