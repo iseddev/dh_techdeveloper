@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Import React from CDN -->
+		<script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+		<script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+		<title>Frontend III - React Intro</title>
+	</head>
+	<body>
+		<div id="root">
+			<!-- Element rendered without React -->
+			<!-- <h1 id="title">Hello World with HTML</h1> -->
+		</div>
+		<script>
+			// Get the root element
+			const root = document.getElementById("root");
+			// createElement method has 3 parameters: element, properties, and children(content)
+			const title = React.createElement("h1", null, "Hello World with React");
+			// Render the element
+			ReactDOM.render(title, root);
+		</script>
+		<script src="review.js"></script>
+	</body>
+</html>

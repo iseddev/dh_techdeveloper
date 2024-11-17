@@ -1,4 +1,4 @@
-package com.dh.odontologia.dao.implDao;
+package com.dh.odontologia.dao.implementation;
 
 import com.dh.odontologia.dao.BD;
 import com.dh.odontologia.dao.IDao;
@@ -20,8 +20,9 @@ public class ImplOdontologoH2 implements IDao<Odontologo> {
   private static final String updateRecord = "UPDATE ODONTOLOGOS SET NOMBRE = ?, APELLIDO = ?, MATRICULA = ? WHERE ID = ?";
 
 
+  // ############################## CREATE(INSERT) A DENTIST ##############################
   @Override
-  public Odontologo guardar(Odontologo odontologo) {
+  public Odontologo insertRecord(Odontologo odontologo) {
 
     Connection connection = null;
 
@@ -30,7 +31,6 @@ public class ImplOdontologoH2 implements IDao<Odontologo> {
       LOGGER.info("Se inicia la inserción/creación de un odontólogo");
 
       PreparedStatement psInsertRecord = connection.prepareStatement(insertRecord, Statement.RETURN_GENERATED_KEYS);
-
       psInsertRecord.setString(1, odontologo.getNombre());
       psInsertRecord.setString(2, odontologo.getApellido());
       psInsertRecord.setString(3, odontologo.getMatricula());
@@ -38,9 +38,7 @@ public class ImplOdontologoH2 implements IDao<Odontologo> {
 
       ResultSet rs = psInsertRecord.getGeneratedKeys();
 
-      while (rs.next()) {
-        odontologo.setId(rs.getInt(1));
-      }
+      while (rs.next()) { odontologo.setId(rs.getInt(1)); } // Asignar el id generado al registro creado
     }
     catch (Exception e) { e.printStackTrace(); }
     finally {
@@ -55,49 +53,16 @@ public class ImplOdontologoH2 implements IDao<Odontologo> {
   }
 
 
+  // ############################## READ(GET) A DENTIST BY ID ##############################
   @Override
-  public List<Odontologo> listarTodos() {
-
-    List<Odontologo> odontologosList = new ArrayList<>();
-    Odontologo odontologo;
-
-    Connection connection = null;
-
-    try {
-
-      connection = BD.getConnection();
-      LOGGER.info("Se inicia la consulta de todos los odontólogos");
-
-      PreparedStatement psSelectAll = connection.prepareStatement(selectAll);
-      ResultSet rs = psSelectAll.executeQuery();
-
-      while (rs.next()) {
-        odontologo = new Odontologo(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getString(4));
-        odontologosList.add(odontologo);
-        LOGGER.info("Paciente con el id " + odontologo.getId() + " agregado a la consulta");
-      }
-    } catch (Exception e) { e.printStackTrace(); }
-    finally {
-      try {
-        assert connection != null;
-        connection.close();
-        LOGGER.info("Consuta exitosa de todos los odontólogos");
-      }
-      catch (Exception ex) { ex.printStackTrace(); }
-    }
-    return odontologosList;
-  }
-
-
-  @Override
-  public Odontologo consultarPorId(Integer id) {
+  public Odontologo getRecordById(Integer id) {
 
     Odontologo odontologo = null;
-
     Connection connection = null;
 
     try {
       connection = BD.getConnection();
+      LOGGER.info("Se inicia la consulta del odontólogo con id " + id);
 
       PreparedStatement psSelectById = connection.prepareStatement(selectById);
       psSelectById.setInt(1, id);
@@ -110,8 +75,8 @@ public class ImplOdontologoH2 implements IDao<Odontologo> {
         odontologo.setApellido(rs.getString(3));
         odontologo.setMatricula(rs.getString(4));
       }
-
-    } catch (Exception e) { e.printStackTrace(); }
+    }
+    catch (Exception e) { e.printStackTrace(); }
     finally {
       try {
         assert connection != null;
@@ -124,33 +89,43 @@ public class ImplOdontologoH2 implements IDao<Odontologo> {
   }
 
 
+  // ############################## READ(GET) ALL DENTISTS ##############################
   @Override
-  public void eliminarPorId(Integer id) {
+  public List<Odontologo> getAllRecords() {
+
+    List<Odontologo> odontologosList = new ArrayList<>();
+    Odontologo odontologo;
     Connection connection = null;
 
     try {
-      
       connection = BD.getConnection();
-      LOGGER.info("Se inicia la eliminación del odontólogo con id: " + id);
+      LOGGER.info("Se inicia la consulta de todos los odontólogos");
 
-      PreparedStatement psDeleteRecord = connection.prepareStatement(deleteById);
-      psDeleteRecord.setInt(1, id);
-      psDeleteRecord.executeUpdate();
+      PreparedStatement psSelectAll = connection.prepareStatement(selectAll);
+      ResultSet rs = psSelectAll.executeQuery();
 
-    } catch (Exception e) { e.printStackTrace(); }
+      while (rs.next()) {
+        odontologo = new Odontologo(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getString(4));
+        odontologosList.add(odontologo);
+        LOGGER.info("Paciente con el id " + odontologo.getId() + " agregado a la consulta");
+      }
+    }
+    catch (Exception e) { e.printStackTrace(); }
     finally {
       try {
         assert connection != null;
         connection.close();
-        LOGGER.info("Se eliminó el odontólogo con id: " + id);
+        LOGGER.info("Consuta exitosa de todos los odontólogos");
       }
       catch (Exception ex) { ex.printStackTrace(); }
     }
+    return odontologosList;
   }
 
 
+  // ############################## UPDATE A DENTIST ##############################
   @Override
-  public Odontologo actualizar(Odontologo odontologo) {
+  public void updateRecord(Odontologo odontologo) {
     
     Connection connection = null;
 
@@ -180,6 +155,31 @@ public class ImplOdontologoH2 implements IDao<Odontologo> {
       }
       catch (Exception ex) { ex.printStackTrace(); }
     }
-    return odontologo;
+  }
+
+
+  // ############################## DELETE A DENTIST BY ID ##############################
+  @Override
+  public void deleteRecordById(Integer id) {
+
+    Connection connection = null;
+
+    try {
+      connection = BD.getConnection();
+      LOGGER.info("Se inicia la eliminación del odontólogo con id: " + id);
+
+      PreparedStatement psDeleteRecord = connection.prepareStatement(deleteById);
+      psDeleteRecord.setInt(1, id);
+      psDeleteRecord.executeUpdate();
+    }
+    catch (Exception e) { e.printStackTrace(); }
+    finally {
+      try {
+        assert connection != null;
+        connection.close();
+        LOGGER.info("Se eliminó el odontólogo con id: " + id);
+      }
+      catch (Exception ex) { ex.printStackTrace(); }
+    }
   }
 }
