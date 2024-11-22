@@ -1,26 +1,35 @@
 import { useState } from "react";
 
 const List = () => {
-	const [list, setList] = useState([]);
 	const [item, setItem] = useState({
-		id: list.length + 1,
-		content: `El punto ${list.length + 1} ha sido añadido a la lista`,
+		id: 0,
+		content: "",
 	});
+	const [list, setList] = useState([]);
 
-	const updateList = () => {
-		setItem({
-			...item,
-			id: list.length + 2,
-			content: `El punto ${list.length + 2} ha sido añadido a la lista`,
+	const updateItem = () =>
+		setItem((prev) => {
+			return {
+				...prev,
+				id: list.length + 1,
+				content: `El punto ${list.length + 1} ha sido añadido a la lista`,
+			};
 		});
-		setList([...list, item]);
+
+	const updateList = () => setList((prev) => [...prev, item]);
+
+	const handleListItems = () => {
+		updateItem();
+		updateList();
 	};
 
 	return (
-		<section>
-			<button onClick={updateList}>Add item</button>
-			<ul>{list.map((item) => item.id > 0 && <li key={item.id}>{item.content}</li>)}</ul>
-		</section>
+		<>
+			<button onClick={handleListItems}>Add item</button>
+			<section>
+				<ul>{list.map((item) => item.id >= 0 && <li key={item.id}>{item.content}</li>)}</ul>
+			</section>
+		</>
 	);
 };
 
