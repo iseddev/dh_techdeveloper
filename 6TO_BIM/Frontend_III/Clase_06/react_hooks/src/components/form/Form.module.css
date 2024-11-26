@@ -1,0 +1,49 @@
+.formContainer {
+	display: flex;
+	flex-direction: column;
+	padding: 1.25rem;
+	max-width: 600px;
+	border-radius: 0.5rem;
+	margin: 0 auto;
+	margin-bottom: 1.5rem;
+}
+
+.form {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.formGroup {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	max-width: 50%;
+}
+
+.formGroup label {
+	margin-bottom: 0.25rem;
+	margin-right: 0.5rem;
+}
+
+.formGroup input {
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+	border-radius: 0.25rem;
+	width: 100%;
+}
+
+.submitButton {
+	display: block;
+	margin: 0 auto;
+	background-color: #0676c0;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.submitButton:hover {
+	background-color: #0056b3;
+}
+
+.summary {
+	font-style: 1rem;
+}

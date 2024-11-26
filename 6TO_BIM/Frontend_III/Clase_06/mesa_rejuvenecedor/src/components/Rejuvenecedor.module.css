@@ -1,0 +1,25 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+.form div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+.form div input {
+	padding: 0.8em;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.form div span {
+	color: salmon;
+}

@@ -1,0 +1,12 @@
+.counterWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.counterNumber {
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding: 0 0.75rem;
+}
