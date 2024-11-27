@@ -30,7 +30,7 @@ public class PacienteController {
   // /pacientes/id?id=1
   @GetMapping("/id")
   public String buscarPorId(Model model, @RequestParam Integer id) {
-    Paciente paciente = iPacienteService.buscarPorId(id);
+    Paciente paciente = iPacienteService.getPatientById(id);
     model.addAttribute("nombre", paciente.getNombre());
     model.addAttribute("apellido", paciente.getApellido());
 

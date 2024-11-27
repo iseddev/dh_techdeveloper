@@ -7,28 +7,20 @@ public class Paciente {
   private Integer id;
   private String nombre;
   private String apellido;
-  private String domicilio;
   private String dni;
   private LocalDate fechaAlta;
+  private Domicilio domicilio; // Esto es para Java, difiere de SQL
 
-  public Paciente(Integer id, String nombre, String apellido, String domicilio, String dni, LocalDate fechaAlta) {
+  public Paciente() {}
+
+  public Paciente(Integer id, String nombre, String apellido, String dni, LocalDate fechaAlta, Domicilio domicilio) {
     this.id = id;
     this.nombre = nombre;
     this.apellido = apellido;
-    this.domicilio = domicilio;
     this.dni = dni;
     this.fechaAlta = fechaAlta;
-  }
-
-  public Paciente(String nombre, String apellido, String domicilio, String dni, LocalDate fechaAlta) {
-    this.nombre = nombre;
-    this.apellido = apellido;
     this.domicilio = domicilio;
-    this.dni = dni;
-    this.fechaAlta = fechaAlta;
   }
-
-  public Paciente() {}
 
   public Integer getId() {
     return id;
@@ -39,15 +31,13 @@ public class Paciente {
   public String getApellido() {
     return apellido;
   }
-  public String getDomicilio() {
-    return domicilio;
-  }
   public String getDni() {
     return dni;
   }
   public LocalDate getFechaAlta() {
     return fechaAlta;
   }
+  public Domicilio getDomicilio() { return domicilio; }
 
   public void setId(Integer id) {
     this.id = id;
@@ -58,25 +48,16 @@ public class Paciente {
   public void setApellido(String apellido) {
     this.apellido = apellido;
   }
-  public void setDomicilio(String domicilio) {
-    this.domicilio = domicilio;
-  }
   public void setDni(String dni) {
     this.dni = dni;
   }
   public void setFechaAlta(LocalDate fechaAlta) {
     this.fechaAlta = fechaAlta;
   }
+  public void setDomicilio(Domicilio domicilio) { this.domicilio = domicilio; }
 
   @Override
   public String toString() {
-    return "Paciente{" +
-        "id=" + id +
-        ", nombre='" + nombre + '\'' +
-        ", apellido='" + apellido + '\'' +
-        ", domicilio='" + domicilio + '\'' +
-        ", dni='" + dni + '\'' +
-        ", fechaAlta=" + fechaAlta +
-        '}';
+    return "Paciente{" + "id=" + id + ", nombre='" + nombre + '\'' + ", apellido='" + apellido + '\'' + ", dni='" + dni + '\'' + ", fechaAlta=" + fechaAlta + ", domicilio=" + domicilio + '}';
   }
 }

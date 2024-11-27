@@ -15,9 +15,9 @@ public class ImplOdontologoH2 implements IDao<Odontologo> {
 
   private static final String selectById = "SELECT * FROM ODONTOLOGOS WHERE ID = ?";
   private static final String selectAll = "SELECT * FROM ODONTOLOGOS";
-  private static final String deleteById = "DELETE * FROM PACIENTES WHERE ID = ?";
   private static final String insertRecord = "INSERT INTO ODONTOLOGOS (NOMBRE, APELLIDO, MATRICULA) VALUES (?, ?, ?)";
   private static final String updateRecord = "UPDATE ODONTOLOGOS SET NOMBRE = ?, APELLIDO = ?, MATRICULA = ? WHERE ID = ?";
+  private static final String deleteById = "DELETE * FROM PACIENTES WHERE ID = ?";
 
 
   // ############################## CREATE(INSERT) A DENTIST ##############################

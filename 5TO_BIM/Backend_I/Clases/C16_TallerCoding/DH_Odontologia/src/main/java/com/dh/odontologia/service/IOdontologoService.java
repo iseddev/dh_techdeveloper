@@ -6,9 +6,10 @@ import java.util.List;
 
 public interface IOdontologoService {
 
-  Odontologo guardar (Odontologo odontologo);
-  Odontologo buscarPorId(Integer id);
-  void eliminar(Integer id);
-  void actualizar (Odontologo odontologo);
-  List<Odontologo> listarTodos();
+  Odontologo insertDentist(Odontologo odontologo);
+  Odontologo getDentistById(Integer id);
+  List<Odontologo> getDentistsList();
+  void updateDentist(Odontologo odontologo);
+  void deleteDentist(Integer id);
+
 }

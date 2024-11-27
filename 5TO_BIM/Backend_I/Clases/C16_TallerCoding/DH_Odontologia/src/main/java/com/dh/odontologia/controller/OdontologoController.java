@@ -31,7 +31,7 @@ public class OdontologoController {
   // /odontologos/id?id=1
   @GetMapping("/id")
   public String buscarPorId(Model model, @RequestParam Integer id) {
-    Odontologo odontologo = iOdontologoService.buscarPorId(id);
+    Odontologo odontologo = iOdontologoService.getDentistById(id);
     model.addAttribute("nombre", odontologo.getNombre());
     model.addAttribute("apellido", odontologo.getApellido());
 

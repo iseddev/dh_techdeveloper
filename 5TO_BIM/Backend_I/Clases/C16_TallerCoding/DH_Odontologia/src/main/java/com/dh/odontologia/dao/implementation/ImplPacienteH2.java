@@ -127,7 +127,8 @@ public class ImplPacienteH2 implements IDao<Paciente> {
             pacientesList.add(paciente);
         LOGGER.info("Paciente con el id " + paciente.getId() + " agregado a la consulta");
       }
-    } catch (Exception e) { e.printStackTrace(); }
+    }
+    catch (Exception e) { e.printStackTrace(); }
     finally {
       try {
         assert connection != null;
@@ -163,7 +164,8 @@ public class ImplPacienteH2 implements IDao<Paciente> {
 
       connection.setAutoCommit(true);
       // ==================================================
-    } catch (Exception e) { e.printStackTrace(); }
+    }
+    catch (Exception e) { e.printStackTrace(); }
     finally {
       try {
         assert connection != null;
@@ -187,6 +189,7 @@ public class ImplPacienteH2 implements IDao<Paciente> {
 
       PreparedStatement psDeleteRecord = connection.prepareStatement(deleteById);
       psDeleteRecord.setInt(1, id);
+      implDomicilioH2.deleteRecordById(this.getRecordById(id).getDomicilio().getId());
       psDeleteRecord.executeUpdate();
     }
     catch (Exception e) { e.printStackTrace(); }

@@ -3,20 +3,11 @@ package com.dh.odontologia.dao;
 import java.util.List;
 
 public interface IDao<T> {
-  //crud
 
-  //crear
-  T guardar (T t);
+  T insertRecord(T t);                  // CREATE
+  T getRecordById(Integer id);          // READ
+  List<T> getAllRecords();              // READ
+  void updateRecord(T t);               // UPDATE
+  void deleteRecordById(Integer id);    // DELETE
 
-  //consultar todos los T
-  List<T> listarTodos();
-
-  //consultar por id
-  T consultarPorId(Integer id);
-
-  //eliminar
-  void eliminarPorId(Integer id);
-
-  //actualizar
-  T actualizar(T t);
 }
