@@ -1,49 +1,42 @@
-package com.banckend1.ReservaTurnos.service.Impl;
+package com.banckend1.ReservaTurnos.service.impl;
 
-import com.banckend1.ReservaTurnos.dao.IOdontologoDAO;
+import com.banckend1.ReservaTurnos.repository.IDAO;
 import com.banckend1.ReservaTurnos.model.Odontologo;
 import com.banckend1.ReservaTurnos.service.IOdontologoService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 
-@Component
+@Service
 public class ImplOdontologoService implements IOdontologoService {
 
-    // Costructor
+//  @Autowired
+//  private IOdontologoDAO odontologoIDAO;
 
+  private final IDAO<Odontologo> odontologoIDAO;
+  public ImplOdontologoService(IDAO<Odontologo> odontologoIDAO) {
+    this.odontologoIDAO = odontologoIDAO;
+  }
 
-    public ImplOdontologoService(IOdontologoDAO iOdontologoDAO) {
-        this.iOdontologoDAO = iOdontologoDAO;
-    }
+  @Override
+  public Odontologo insertOdontologo(Odontologo odontologo) { return odontologoIDAO.insertRecord(odontologo); }
 
-    @Autowired
-    private IOdontologoDAO iOdontologoDAO;
+  @Override
+  public Odontologo selectOdontologo(Integer id) { return odontologoIDAO.getRecord(id); }
 
-    @Override
-    public Odontologo insertOdontologo(Odontologo odontologo) {
-        return iOdontologoDAO.save(odontologo);
-    }
+  @Override
+  public List<Odontologo> selectAll() {
+    return odontologoIDAO.getAllRecords();
+  }
 
-    @Override
-    public Odontologo selectOdontologo(Integer id) {
-        return iOdontologoDAO.findById(id).orElse(null);
-    }
+  @Override
+  public void updateOdontologo(Odontologo odontologo) {
+    odontologoIDAO.updateRecord(odontologo);
+  }
 
-    @Override
-    public void deleteOdontologo(Integer id) {
-        iOdontologoDAO.deleteById(id);
-    }
-
-    @Override
-    public void updateOdontologo(Odontologo odontologo) {
-        iOdontologoDAO.save(odontologo);
-    }
-
-    @Override
-    public List<Odontologo> selectAll() {
-        return iOdontologoDAO.findAll();
-    }
+  @Override
+  public void deleteOdontologo(Integer id) {
+    odontologoIDAO.deleteRecord(id);
+  }
 }

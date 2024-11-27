@@ -11,32 +11,31 @@ public class Turno {
     public Integer getId() {
         return id;
     }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
     public Odontologo getOdontologo() {
         return odontologo;
     }
-
-    public void setOdontologo(Odontologo odontologo) {
-        this.odontologo = odontologo;
-    }
-
     public Paciente getPaciente() {
         return paciente;
     }
-
-    public void setPaciente(Paciente paciente) {
-        this.paciente = paciente;
-    }
-
     public LocalDate getFecha() {
         return fecha;
     }
 
+    public void setId(Integer id) {
+        this.id = id;
+    }
+    public void setOdontologo(Odontologo odontologo) {
+        this.odontologo = odontologo;
+    }
+    public void setPaciente(Paciente paciente) {
+        this.paciente = paciente;
+    }
     public void setFecha(LocalDate fecha) {
         this.fecha = fecha;
+    }
+
+    @Override
+    public String toString() {
+        return "Turno{" + "id=" + id + ", odontologo=" + odontologo + ", paciente=" + paciente + ", fecha=" + fecha + '}';
     }
 }

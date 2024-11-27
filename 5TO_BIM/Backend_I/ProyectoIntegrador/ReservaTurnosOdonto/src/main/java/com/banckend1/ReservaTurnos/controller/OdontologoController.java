@@ -2,51 +2,59 @@ package com.banckend1.ReservaTurnos.controller;
 
 import com.banckend1.ReservaTurnos.model.Odontologo;
 import com.banckend1.ReservaTurnos.service.IOdontologoService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
+
 @RestController
-@RequestMapping("/odonto")
+@RequestMapping("/odontologo")
 public class OdontologoController {
-    @Autowired
-    private IOdontologoService odontoServ;
 
-    //Crear un nuevo juego
-    @PostMapping("/create")
-    public ResponseEntity<Odontologo> guardarOdontologo(@RequestBody Odontologo odontologo) {
-        Odontologo newOdontologo = odontoServ.guardar(odontologo);
-        return ResponseEntity.status(HttpStatus.CREATED).body(newOdontologo);
-    }
+//  @Autowired
+//  private IOdontologoService odontologoService;
 
-    //Traer todos los juegos
-    @GetMapping("/list")
-    public ResponseEntity<List<Odontologo>> OdontoList() {
-            List<Odontologo> listaOdonto = odontoServ.listarTodos();
-            return ResponseEntity.ok(listaOdonto);
-    }
-
-    //Traer odontologo
-    @GetMapping("/find/{id}")
-    public ResponseEntity<Odontologo> buscarOdontologo(@PathVariable Integer id){
-        return ResponseEntity.ok(odontoServ.buscarPorId(id));
-    }
-
-    //Modificar los datos de un juego
-    @PutMapping("/edit")
-    public ResponseEntity<Odontologo>editarOdontologo(@RequestBody Odontologo updateOdonto) {
-        odontoServ.actualizar(updateOdonto);
-        return ResponseEntity.status(HttpStatus.OK).body(updateOdonto);
-    }
-
-    @DeleteMapping ("/delete/{id}")
-    public ResponseEntity<?> deleteGame(@PathVariable Integer id){
-        odontoServ.eliminar(id);
-        return ResponseEntity.noContent().build();
-    }
+  private final IOdontologoService odontologoService;
+  public OdontologoController(IOdontologoService odontologoService) {
+    this.odontologoService = odontologoService;
+  }
 
 
+  // Create(insert) new Odontologo
+  @PostMapping("/create")
+  public ResponseEntity<Odontologo> createOdontologo(@RequestBody Odontologo odontologo) {
+    Odontologo newOdontologo = odontologoService.insertOdontologo(odontologo);
+    return ResponseEntity.status(HttpStatus.CREATED).body(newOdontologo);
+  }
 
+
+  // Read(select) an Odontologo
+  @GetMapping("/find/{id}")
+  public ResponseEntity<Odontologo> getOdontologo(@PathVariable Integer id){
+    return ResponseEntity.ok(odontologoService.selectOdontologo(id));
+  }
+
+
+  // Read(select) all Odontologos
+  @GetMapping("/list")
+  public ResponseEntity<List<Odontologo>> OdontoList() {
+    List<Odontologo> listaOdonto = odontologoService.selectAll();
+    return ResponseEntity.ok(listaOdonto);
+  }
+
+
+  // Update(update) an Odontologo
+  @PutMapping("/edit")
+  public ResponseEntity<Odontologo> updateOdontologo(@RequestBody Odontologo updateOdonto) {
+    odontologoService.updateOdontologo(updateOdonto);
+    return ResponseEntity.status(HttpStatus.OK).body(updateOdonto);
+  }
+
+
+  // Delete(delete) an Odontologo
+  @DeleteMapping ("/delete/{id}")
+  public ResponseEntity<?> deleteOdontologo(@PathVariable Integer id){
+    odontologoService.deleteOdontologo(id);
+    return ResponseEntity.noContent().build();
+  }
 }

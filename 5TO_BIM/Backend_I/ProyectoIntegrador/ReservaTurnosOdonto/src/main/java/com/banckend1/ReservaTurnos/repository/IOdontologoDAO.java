@@ -1,4 +1,4 @@
-package com.banckend1.ReservaTurnos.dao;
+package com.banckend1.ReservaTurnos.repository;
 
 import com.banckend1.ReservaTurnos.model.Odontologo;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -5,9 +5,11 @@ import com.banckend1.ReservaTurnos.model.Odontologo;
 import java.util.List;
 
 public interface IOdontologoService {
-    Odontologo guardar (Odontologo odontologo);
-    Odontologo buscarPorId(Integer id);
-    void eliminar(Integer id);
-    void actualizar (Odontologo odontologo);
-    List<Odontologo> listarTodos();
+
+  Odontologo insertOdontologo(Odontologo odontologo);
+  Odontologo selectOdontologo(Integer id);
+  List<Odontologo> selectAll();
+  void updateOdontologo(Odontologo odontologo);
+  void deleteOdontologo(Integer id);
+
 }

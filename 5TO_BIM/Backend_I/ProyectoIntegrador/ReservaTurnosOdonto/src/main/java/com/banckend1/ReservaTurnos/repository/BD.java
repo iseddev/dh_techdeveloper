@@ -1,4 +1,4 @@
-package com.banckend1.ReservaTurnos.dao;
+package com.banckend1.ReservaTurnos.repository;
 
 import org.apache.log4j.Logger;
 

@@ -1,7 +1,7 @@
-package com.banckend1.ReservaTurnos.dao.impl;
+package com.banckend1.ReservaTurnos.repository.impl;
 
-import com.banckend1.ReservaTurnos.dao.BD;
-import com.banckend1.ReservaTurnos.dao.IDAO;
+import com.banckend1.ReservaTurnos.repository.BD;
+import com.banckend1.ReservaTurnos.repository.IDAO;
 import com.banckend1.ReservaTurnos.model.Domicilio;
 import com.banckend1.ReservaTurnos.model.Paciente;
 import org.apache.log4j.Logger;
