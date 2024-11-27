@@ -19,15 +19,15 @@ const handleToDoChangeIsCompleted = (id, list, updateList) => {
 const List = ({ toDoList, setToDoList }) => {
 	return (
 		<ul>
-			{toDoList.map((item) => (
-				<li key={item.id}>
+			{toDoList.map((toDoItem) => (
+				<li key={toDoItem.id}>
 					<input
 						type="checkbox"
-						checked={item.completed}
-						onChange={() => handleToDoChangeIsCompleted(item.id, toDoList, setToDoList)}
+						checked={toDoItem.completed}
+						onChange={() => handleToDoChangeIsCompleted(toDoItem.id, toDoList, setToDoList)}
 					/>
-					<span>{item.description}</span>
-					<button onClick={() => handleToDoDeleteTask(item.id, toDoList, setToDoList)}>
+					<span>{toDoItem.description}</span>
+					<button onClick={() => handleToDoDeleteTask(toDoItem.id, toDoList, setToDoList)}>
 						Eliminar
 					</button>
 				</li>
