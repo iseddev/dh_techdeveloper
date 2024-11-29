@@ -15,7 +15,7 @@ const Statistics = () => {
 	// Calculate the average on every render
 	// const average = getAverage(db);
 
-	// Use useMemo to avoid recalculating the average on every render
+	// Use useMemo() to avoid recalculating the average on every render
 	const average = useMemo(() => getAverage(db), []);
 
 	console.log("Renderizado de Statistics");
