@@ -32,8 +32,7 @@ function App() {
 				<button type="button" onClick={() => setMostrarDetalle(true)}>
 					Mostrar detalle
 				</button>
-			) : null}
-			{mostrarDetalle ? (
+			) : mostrarDetalle ? (
 				<DetallePedido handleButtonCancel={handleButtonCancel} cancelado={cancelado} />
 			) : null}
 		</>

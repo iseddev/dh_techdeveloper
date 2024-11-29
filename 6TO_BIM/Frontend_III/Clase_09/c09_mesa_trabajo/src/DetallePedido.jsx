@@ -2,7 +2,7 @@ const DetallePedido = ({ handleButtonCancel, cancelado }) => {
 	return (
 		<div>
 			{cancelado ? (
-				<p>Cargando información del pedido...</p>
+				<i>Cargando información del pedido...</i>
 			) : (
 				<>
 					<ul>
