@@ -9,6 +9,7 @@ function App() {
 	return (
 		<>
 			<NavBar />
+			<h1>Mas que solo video juegos, festejemos el triunfo.</h1>
 			<Outlet />
 			<Footer />
 		</>
