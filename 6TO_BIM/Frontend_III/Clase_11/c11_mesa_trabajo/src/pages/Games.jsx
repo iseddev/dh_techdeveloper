@@ -5,6 +5,7 @@ import fetchGames from "../data/fetchGames";
 
 import Card from "../components/Card";
 
+// const apiURL = "https://www.freetogame.com/api/games?category=sci-fi";
 const apiURL =
 	"https://api.allorigins.win/get?url=" +
 	encodeURIComponent("https://www.freetogame.com/api/games?category=sci-fi");
