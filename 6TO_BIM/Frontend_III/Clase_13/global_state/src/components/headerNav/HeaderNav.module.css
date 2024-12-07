@@ -1,0 +1,32 @@
+.headerNav {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 2rem;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	top: 0;
+	margin-bottom: 1rem;
+}
+
+.headerNav_list {
+	display: flex;
+
+	& li {
+		list-style: none;
+		margin-right: 1rem;
+
+		& a {
+			text-decoration: none;
+			color: var(--color-text);
+			font-weight: 600;
+			letter-spacing: 0.04rem;
+			transition: color 0.3s ease-in-out;
+
+			&:hover {
+				color: #4caf50;
+			}
+		}
+	}
+}
