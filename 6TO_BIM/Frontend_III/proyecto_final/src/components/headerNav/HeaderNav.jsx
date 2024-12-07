@@ -6,9 +6,9 @@ const HeaderNav = () => {
 	return (
 		<nav className={styles.headerNav}>
 			<Link to="/">
-				<h2>Final Frontend III</h2>
+				<h2 className={styles.headerNav__title}>Final Frontend III</h2>
 			</Link>
-			<ul className={styles.headerNav_list}>
+			<ul className={styles.headerNav__list}>
 				<li>
 					<Link to="/">Home</Link>
 				</li>
