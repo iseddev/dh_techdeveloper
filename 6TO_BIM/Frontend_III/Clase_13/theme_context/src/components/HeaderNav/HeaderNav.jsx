@@ -3,9 +3,7 @@ import { useContext } from "react";
 import ThemeContext from "../../context/ThemeContext";
 
 const HeaderNav = () => {
-	// Use the useContext hook to get the theme and the handleChangeTheme function from the ThemeContext
-	const { providerContextValue } = useContext(ThemeContext);
-	const { theme, handleChangeTheme } = providerContextValue;
+	const { theme, handleChangeTheme } = useContext(ThemeContext);
 
 	return (
 		<div>
