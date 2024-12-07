@@ -1,0 +1,20 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 2rem 0;
+	border-top: 1px rgba(247, 247, 247, 0.1) solid;
+}
+
+.footerItem {
+	width: 33.333333%;
+}
+
+.footerItem:first-child {
+	display: flex;
+	justify-content: start;
+}
+
+.footerItem:last-child {
+	display: flex;
+	justify-content: end;
+}
