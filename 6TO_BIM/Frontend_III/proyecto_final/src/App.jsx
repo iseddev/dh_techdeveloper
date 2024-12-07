@@ -1,7 +1,12 @@
 import "./App.css";
+import Layout from "./components/layout/Layout";
 
 function App() {
-	return <h1>Proyecto Integrador Final - Frontend III</h1>;
+	return (
+		<Layout>
+			<h1>Proyecto Integrador Final - Frontend III</h1>
+		</Layout>
+	);
 }
 
 export default App;
