@@ -1,0 +1,16 @@
+.charactersGrid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+	gap: 2rem;
+	row-gap: 6rem;
+	justify-content: center;
+	align-items: center;
+}
+
+.charactersLoading {
+	flex-grow: 1;
+
+	& h3 {
+		font-size: 1.75rem;
+	}
+}

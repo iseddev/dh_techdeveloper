@@ -1,0 +1,138 @@
+.characterCard,
+.cardDetailed {
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 1rem 2rem;
+	border-radius: 0.75rem;
+	background-color: var(--light-color);
+	color: var(--dark-color);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin: 0 auto;
+}
+
+.characterCard__container {
+	position: relative;
+	top: -4rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.characterCard__image {
+	height: 18rem;
+	transform: scale(1);
+	transition: transform 0.4s ease-in-out;
+
+	&:hover {
+		transform: scale(1.2);
+	}
+}
+
+.characterCard__info {
+	padding: 1rem 0;
+	text-align: center;
+
+	& h2 {
+		font-size: 1.5rem;
+		font-weight: 700;
+	}
+}
+
+.characterCard__button {
+	font-weight: 600;
+	background-color: var(--bg-primary-color);
+	transition: background-color 0.3s ease-in-out;
+
+	&:hover {
+		background-color: var(--bg-primary-color-hover);
+	}
+}
+
+/* Card Detailed by single character */
+.cardDetailed {
+	width: 90%;
+	background-color: var(--bg-primary-color);
+	color: var(--light-color);
+	padding: 1rem;
+	margin-bottom: 2rem;
+}
+.cardDetailed__container {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 1rem;
+}
+
+.cardDetailed__imageContainer {
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cardDetailed__image {
+	height: 30rem;
+	padding: 1rem 0;
+}
+
+.cardDetailed__info {
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 1em;
+
+	& h2 {
+		width: 100%;
+		font-size: 2rem;
+		font-weight: 700;
+		text-align: center;
+		margin-bottom: 2.2rem;
+	}
+}
+
+.cardDetailed__pills {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1rem;
+	row-gap: 2.5rem;
+}
+
+.cardDetailed__pill {
+	position: relative;
+	background-color: var(--dark-accent-color);
+	padding: 0.8rem 1.4rem;
+	border-radius: 0.75rem;
+
+	& span {
+		position: absolute;
+		left: 0;
+		transform: translate(0%, -100%);
+		text-transform: uppercase;
+		font-size: 0.65rem;
+		font-weight: 600;
+		line-height: 1.1;
+		letter-spacing: 0.04rem;
+		background-color: var(--light-color);
+		color: var(--dark-color);
+		padding: 0.3rem 0.8rem;
+		border-radius: 1rem;
+	}
+}
+
+.cardDetailed__buttons {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	margin-bottom: 1rem;
+
+	& button {
+		background-color: var(--dark-accent-color);
+
+		&:hover {
+			background-color: var(--light-accent-color);
+		}
+	}
+}

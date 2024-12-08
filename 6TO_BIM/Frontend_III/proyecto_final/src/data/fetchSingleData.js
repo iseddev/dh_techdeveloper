@@ -1,12 +1,11 @@
-async function fetchData(url, setData) {
+async function fetchSingleData(url, setData) {
 	try {
 		const response = await fetch(url);
 		const data = await response.json();
-		const items = data.items;
-		setData(items);
+		setData(data);
 	} catch (error) {
 		console.log(error);
 	}
 }
 
-export default fetchData;
+export default fetchSingleData;

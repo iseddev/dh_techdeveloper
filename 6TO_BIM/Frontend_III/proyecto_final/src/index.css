@@ -17,6 +17,8 @@
 	--accent-color: #cd5ff8;
 	--bg-primary-color: #623686;
 	--bg-primary-color-hover: #6d20c5;
+	--dark-accent-color: hsl(283, 91%, 25%);
+	--light-accent-color: hsl(283, 91%, 20%);
 }
 
 *,
