@@ -5,8 +5,8 @@
 	height: auto;
 	padding: 1rem 2rem;
 	border-radius: 0.75rem;
-	background-color: var(--light-color);
-	color: var(--dark-color);
+	background-color: var(--dark-accent-color);
+	color: var(--light-color);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	margin: 0 auto;
 }
@@ -52,7 +52,6 @@
 /* Card Detailed by single character */
 .cardDetailed {
 	width: 90%;
-	background-color: var(--bg-primary-color);
 	color: var(--light-color);
 	padding: 1rem;
 	margin-bottom: 2rem;
@@ -101,15 +100,17 @@
 }
 
 .cardDetailed__pill {
+	display: block;
 	position: relative;
-	background-color: var(--dark-accent-color);
-	padding: 0.8rem 1.4rem;
+	background-color: var(--bg-primary-color-hover);
+	padding: 1rem 2rem;
 	border-radius: 0.75rem;
+	color: var(--light-color);
 
 	& span {
 		position: absolute;
 		left: 0;
-		transform: translate(0%, -100%);
+		transform: translate(5%, -150%);
 		text-transform: uppercase;
 		font-size: 0.65rem;
 		font-weight: 600;
@@ -129,10 +130,10 @@
 	margin-bottom: 1rem;
 
 	& button {
-		background-color: var(--dark-accent-color);
+		background-color: var(--bg-primary-color);
 
 		&:hover {
-			background-color: var(--light-accent-color);
+			background-color: var(--bg-primary-color-hover);
 		}
 	}
 }

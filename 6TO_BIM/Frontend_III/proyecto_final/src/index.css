@@ -14,11 +14,11 @@
 
 	--light-color: #f5f5f5;
 	--dark-color: #0a0416;
-	--accent-color: #cd5ff8;
-	--bg-primary-color: #623686;
-	--bg-primary-color-hover: #6d20c5;
-	--dark-accent-color: hsl(283, 91%, 25%);
-	--light-accent-color: hsl(283, 91%, 20%);
+	--accent-color: hsl(202, 91%, 73%);
+	--dark-accent-color: hsl(202, 91%, 23%);
+	--light-accent-color: hsl(202, 91%, 68%);
+	--bg-primary-color: hsl(257, 58%, 23%);
+	--bg-primary-color-hover: hsl(257, 58%, 13%);
 }
 
 *,
