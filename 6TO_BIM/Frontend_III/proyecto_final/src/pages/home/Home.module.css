@@ -1,0 +1,28 @@
+.homeHeader {
+	margin-bottom: 1rem;
+}
+.homeHeader__title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-bottom: 0.4rem;
+}
+
+.homeHeader__subtitle {
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: var(--accent-color);
+}
+
+.homeContent__details {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 1rem;
+	padding: 1rem 0;
+}
+
+.homeContent__details h3 {
+	font-size: 1.2rem;
+	font-weight: 400;
+	margin-bottom: 1.2rem;
+}

@@ -2,5 +2,25 @@
 	width: 100%;
 	max-width: 1280px;
 	margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
 	text-align: center;
+}
+
+p {
+	font-size: 1.125em;
+	line-height: 1.5;
+}
+
+code {
+	font-family: "Fira Code", monospace;
+	font-size: 0.9rem;
+	font-weight: 600;
 }

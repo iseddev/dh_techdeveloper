@@ -14,7 +14,13 @@
 	justify-content: start;
 }
 
+.footerItem:nth-child(2) {
+	display: flex;
+	justify-content: center;
+}
+
 .footerItem:last-child {
 	display: flex;
 	justify-content: end;
+	color: var(--bg-primary-color);
 }

@@ -8,7 +8,7 @@
 .headerNav__title {
 	font-size: 1.5rem;
 	font-weight: 700;
-	color: #ddd;
+	color: var(--accent-color);
 }
 
 .headerNav__list {
@@ -28,9 +28,17 @@
 		transition: all 0.4s ease-in-out;
 		border-radius: 0.4rem;
 
-		&:hover {
-			background-color: #ddd;
-			color: #222;
+		&::after {
+			content: "";
+			display: block;
+			width: 0;
+			height: 3px;
+			background-color: var(--accent-color);
+			transition: width 0.4s ease-in-out;
+		}
+
+		&:hover::after {
+			width: 100%;
 		}
 	}
 }
