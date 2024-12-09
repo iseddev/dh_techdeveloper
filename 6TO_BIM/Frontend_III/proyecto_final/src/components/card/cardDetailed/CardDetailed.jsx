@@ -1,8 +1,10 @@
-import styles from "../card/Card.module.css";
+import styles from "../Card.module.css";
+import CardButtonFavorite from "../cardButtonFavorite/CardButtonFavorite";
 
 const CardDetailed = ({ data }) => {
 	return (
 		<div className={styles.cardDetailed}>
+			<CardButtonFavorite />
 			<div className={styles.cardDetailed__container}>
 				<div className={styles.cardDetailed__imageContainer}>
 					<img className={styles.cardDetailed__image} src={data.image} alt={data.name} />

@@ -16,6 +16,9 @@ const HeaderNav = () => {
 					<Link to="/characters">Characters</Link>
 				</li>
 				<li>
+					<Link to="/favorites">Favorites</Link>
+				</li>
+				<li>
 					<Link to="/contact">Contact</Link>
 				</li>
 			</ul>

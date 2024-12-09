@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import fetchSingleData from "../../../data/fetchSingleData";
 
 import Layout from "../../../components/layout/Layout";
-import CardDetailed from "../../../components/cardDetailed/CardDetailed";
+import CardDetailed from "../../../components/card/cardDetailed/CardDetailed";
 
 const Character = () => {
 	const [character, setCharacter] = useState([]);
