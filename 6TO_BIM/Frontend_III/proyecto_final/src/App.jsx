@@ -20,7 +20,7 @@ function App() {
 					<Route path="/characters" element={<Characters />} />
 					<Route path="/character/:id" element={<Character />} />
 					<Route path="/favorites" element={<Favorites />} />
-					<Route path="/contact" element={<Contact />} />
+					<Route path="/community" element={<Contact />} />
 					<Route path="*" element={<NotFound />} />
 				</Routes>
 			</FavoritesProvider>
