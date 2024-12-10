@@ -19,7 +19,7 @@ const Card = ({ data, onClick }) => {
 					<p>Gender: {data.gender}</p>
 					<p>Team: {data.affiliation}</p>
 				</div>
-				<button className={styles.characterCard__button} onClick={onClick}>
+				<button className={styles.mainButton} onClick={onClick}>
 					Ver detalle
 				</button>
 			</div>

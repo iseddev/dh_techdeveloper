@@ -39,10 +39,16 @@ const CardDetailed = ({ data }) => {
 				</div>
 			</div>
 			<div className={styles.cardDetailed__buttons}>
-				<button disabled={data.id === 1} onClick={() => goToCharacter(data.id - 1)}>
+				<button
+					className={styles.mainButton}
+					disabled={data.id === 1}
+					onClick={() => goToCharacter(data.id - 1)}>
 					Previous Character
 				</button>
-				<button disabled={data.id === maxCharacters} onClick={() => goToCharacter(data.id + 1)}>
+				<button
+					className={styles.mainButton}
+					disabled={data.id === maxCharacters}
+					onClick={() => goToCharacter(data.id + 1)}>
 					Next Character
 				</button>
 			</div>

@@ -39,16 +39,6 @@
 	}
 }
 
-.characterCard__button {
-	font-weight: 600;
-	background-color: var(--bg-primary-color);
-	transition: background-color 0.3s ease-in-out;
-
-	&:hover {
-		background-color: var(--bg-primary-color-hover);
-	}
-}
-
 /* Card Detailed by single character */
 .cardDetailed {
 	width: 90%;
@@ -124,17 +114,19 @@
 	}
 }
 
+.mainButton {
+	padding: 0.8rem 2rem;
+	font-weight: 600;
+	background-color: var(--bg-primary-color);
+	transition: background-color 0.3s ease-in-out;
+
+	&:hover {
+		background-color: var(--bg-primary-color-hover);
+	}
+}
+
 .cardDetailed__buttons {
 	display: flex;
 	justify-content: center;
 	gap: 1rem;
-	margin-bottom: 1rem;
-
-	& button {
-		background-color: var(--bg-primary-color);
-
-		&:hover {
-			background-color: var(--bg-primary-color-hover);
-		}
-	}
 }

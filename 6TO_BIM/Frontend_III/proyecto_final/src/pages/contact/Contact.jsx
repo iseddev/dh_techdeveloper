@@ -2,47 +2,74 @@ import { useState } from "react";
 
 import Layout from "../../components/layout/Layout";
 
+import { isValidText, isValidEmail } from "../../data/validateData";
+
+import styles from "./Contact.module.css";
+import button from "../../components/card/Card.module.css";
+
 const Contact = () => {
 	const [userName, setUserName] = useState("");
-	const [userAge, setUserAge] = useState("");
+	const [userAlias, setUserAlias] = useState("");
 	const [email, setEmail] = useState("");
+	const [invalidUserNameMessage, setInvalidUserNameMessage] = useState("");
+	const [invalidAliasMessage, setInvalidAliasMessage] = useState("");
+	const [invalidEmailMessage, setInvalidEmailMessage] = useState("");
 
-	const handleChangeFullName = (e) => setUserName(e.target.value);
-	const handleChangeUserAge = (e) => setUserAge(e.target.value);
-	const handleChangeEmail = (e) => setEmail(e.target.value);
+	const handleChangeName = (e) => {
+		isValidText(e.target.value)
+			? setInvalidUserNameMessage("")
+			: setInvalidUserNameMessage("This field must contain at least one alphabetic character");
+		setUserName(e.target.value);
+	};
 
-	const isValidText = (text) => text.trim().length > 0;
-	const isValidAge = (age) => age > 0 && age < 100 && age.length > 0;
+	const handleChangeAlias = (e) => {
+		isValidText(e.target.value)
+			? setInvalidAliasMessage("")
+			: setInvalidAliasMessage("This field must contain at least 3 alphabetic character");
+		setUserAlias(e.target.value);
+	};
 
-	// Luego obtener los datos y validarlos. En caso de que las validaciones salgan bien, mostrar un mensaje de éxito, caso contrario, mostrar un mensaje de error.
+	const handleChangeEmail = (e) => {
+		isValidEmail(e.target.value)
+			? setInvalidEmailMessage("")
+			: setInvalidEmailMessage("This field must contain a valid email");
+		setEmail(e.target.value);
+	};
+
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		if (isValidText(userName) && isValidAge(userAge) && isValidText(email)) {
-			alert("Correctly validated data");
+		if (isValidText(userName) && isValidText(userAlias) && isValidEmail(email)) {
+			alert("Welcome to our community!");
 			setUserName("");
-			setUserAge("");
+			setUserAlias("");
 			setEmail("");
 		} else alert("Some of the data is wrong");
 	};
 
 	return (
 		<Layout mainTitle={"Join us!"}>
-			<h2>¡Únete a nuestra comunidad!</h2>
-			<form onSubmit={handleSubmit}>
-				<input
-					type="text"
-					value={userName}
-					placeholder="Full name"
-					onChange={handleChangeFullName}
-				/>
-				<input type="number" value={userAge} placeholder="Age" onChange={handleChangeUserAge} />
-				<input
-					type="text"
-					value={email}
-					placeholder="Favorite Pokemon"
-					onChange={handleChangeEmail}
-				/>
-				<button type="submit">Validate Data</button>
+			<h2 className={styles.formTitle}>Join to our amazing community!</h2>
+			<form className={styles.mainForm} onSubmit={handleSubmit}>
+				<div className={styles.formField}>
+					<input type="text" value={userName} placeholder="Full name" onChange={handleChangeName} />
+					<span className={styles.errorMessage}>{invalidUserNameMessage}</span>
+				</div>
+				<div className={styles.formField}>
+					<input
+						type="text"
+						value={userAlias}
+						placeholder="Nick name"
+						onChange={handleChangeAlias}
+					/>
+					<span className={styles.errorMessage}>{invalidAliasMessage}</span>
+				</div>
+				<div className={styles.formField}>
+					<input type="email" value={email} placeholder="Email" onChange={handleChangeEmail} />
+					<span className={styles.errorMessage}>{invalidEmailMessage}</span>
+				</div>
+				<button className={button.mainButton} type="submit">
+					Join
+				</button>
 			</form>
 		</Layout>
 	);

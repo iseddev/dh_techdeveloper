@@ -1,0 +1,38 @@
+.mainForm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1.25rem;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.formTitle {
+	font-size: 1.6rem;
+	color: var(--light-color);
+	margin-bottom: 0.8rem;
+}
+
+.formField {
+	width: 100%;
+	color: var(--light-color);
+	& input {
+		color: var(--light-color);
+		width: inherit;
+		padding: 0.8rem 0.6rem;
+		border: 1px solid #ccc;
+		border-radius: 0.25rem;
+		font-size: 1.1rem;
+		background-color: var(--dark-accent-color);
+
+		&::placeholder {
+			color: inherit;
+		}
+	}
+}
+
+.errorMessage {
+	color: orange;
+	font-size: 1.1rem;
+}
