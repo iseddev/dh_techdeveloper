@@ -1,3 +1,5 @@
+const maxCharacters = 30;
+
 async function fetchData(url, setData) {
 	try {
 		const response = await fetch(url);
@@ -9,4 +11,4 @@ async function fetchData(url, setData) {
 	}
 }
 
-export default fetchData;
+export { fetchData, maxCharacters };

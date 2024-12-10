@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo, useContext } from "react";
 
-import fetchData from "../../data/fetchData";
+import { fetchData, maxCharacters } from "../../data/fetchData";
 
 import FavoritesContext from "../../context/FavoritesContext";
 import Layout from "../../components/layout/Layout";
@@ -8,7 +8,7 @@ import Card from "../../components/card/Card";
 
 import styles from "./Characters.module.css";
 
-const apiURL = "https://dragonball-api.com/api/characters?page=1&limit=24";
+const apiURL = `https://dragonball-api.com/api/characters?page=1&limit=${maxCharacters}`;
 
 const Characters = () => {
 	const [characters, setCharacters] = useState([]);

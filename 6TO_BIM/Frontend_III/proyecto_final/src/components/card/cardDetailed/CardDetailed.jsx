@@ -1,7 +1,15 @@
-import styles from "../Card.module.css";
+import { useContext } from "react";
+
+import FavoritesContext from "../../../context/FavoritesContext";
+import { maxCharacters } from "../../../data/fetchData";
+
 import CardButtonFavorite from "../cardButtonFavorite/CardButtonFavorite";
 
+import styles from "../Card.module.css";
+
 const CardDetailed = ({ data }) => {
+	const { goToCharacter } = useContext(FavoritesContext);
+
 	return (
 		<div className={styles.cardDetailed}>
 			<CardButtonFavorite data={data} />
@@ -31,8 +39,12 @@ const CardDetailed = ({ data }) => {
 				</div>
 			</div>
 			<div className={styles.cardDetailed__buttons}>
-				<button>Previous Character</button>
-				<button>Next Character</button>
+				<button disabled={data.id === 1} onClick={() => goToCharacter(data.id - 1)}>
+					Previous Character
+				</button>
+				<button disabled={data.id === maxCharacters} onClick={() => goToCharacter(data.id + 1)}>
+					Next Character
+				</button>
 			</div>
 		</div>
 	);
