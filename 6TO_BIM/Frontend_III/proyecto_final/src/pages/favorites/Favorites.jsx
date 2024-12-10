@@ -14,7 +14,7 @@ const Favorites = () => {
 		() => (
 			<>
 				{favorites.length === 0 ? (
-					<p>No tienes personajes favoritos.</p>
+					<p className={styles.noFavorites}>No tienes personajes favoritos.</p>
 				) : (
 					<div className={styles.charactersGrid}>
 						{favorites.map((favorite) => (

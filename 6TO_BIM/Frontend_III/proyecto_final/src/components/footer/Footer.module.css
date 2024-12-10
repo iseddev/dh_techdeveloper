@@ -22,5 +22,6 @@
 .footerItem:last-child {
 	display: flex;
 	justify-content: end;
-	color: var(--bg-primary-color);
+	color: var(--accent-color);
+	font-weight: 600;
 }

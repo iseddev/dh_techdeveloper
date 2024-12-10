@@ -20,6 +20,7 @@
 	--light-accent-color: hsl(202, 91%, 68%);
 	--bg-primary-color: hsl(257, 58%, 23%);
 	--bg-primary-color-hover: hsl(257, 58%, 13%);
+	--nav-container-bg: rgba(5, 10, 48, 0.9);
 }
 
 *,
@@ -40,6 +41,7 @@ body {
 	place-items: center;
 	min-width: 320px;
 	min-height: 100vh;
+	padding-top: 6rem;
 }
 
 button {
