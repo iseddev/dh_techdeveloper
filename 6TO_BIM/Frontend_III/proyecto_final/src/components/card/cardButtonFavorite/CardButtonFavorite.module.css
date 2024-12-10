@@ -1,4 +1,4 @@
-.cardButton__favoriteContainer {
+.isNotFavorite {
 	position: absolute;
 	width: 2.6rem;
 	height: 2.6rem;
@@ -26,14 +26,7 @@
 	}
 }
 
-.favoriteIcon__outline {
-	border: 1px solid transparent;
-	& > svg {
-		fill: transparent;
-	}
-}
-
-.favoriteIcon__fill {
+.isFavorite {
 	border: 1px solid var(--yellow-color);
 	& > svg {
 		fill: var(--yellow-color);

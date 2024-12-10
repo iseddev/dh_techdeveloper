@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom";
 
-import styles from "./Card.module.css";
 import CardButtonFavorite from "./cardButtonFavorite/CardButtonFavorite";
+
+import styles from "./Card.module.css";
 
 const Card = ({ data, onClick }) => {
 	return (
 		<div className={styles.characterCard}>
-			<CardButtonFavorite />
+			<CardButtonFavorite data={data} />
 			<div className={styles.characterCard__container}>
 				<Link to={`/character/${data.id}`}>
 					<img className={styles.characterCard__image} src={data.image} alt={data.name} />
 				</Link>
-				{/* <img className={styles.characterCard__image} src={data.image} alt={data.name} /> */}
 				<div className={styles.characterCard__info}>
 					<h2>{data.name}</h2>
 					<p>{data.race}</p>

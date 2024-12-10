@@ -1,8 +1,27 @@
+import { useContext } from "react";
+
+import FavoritesContext from "../../../context/FavoritesContext";
+
 import styles from "./CardButtonFavorite.module.css";
 
-const CardButtonFavorite = () => {
+const CardButtonFavorite = ({ data }) => {
+	const { favorites, addToFavorites, removeFromFavorites } = useContext(FavoritesContext);
+
+	const toggleFavorite = () => {
+		if (favorites.some((fav) => fav.id === data.id)) {
+			removeFromFavorites(data);
+		} else {
+			addToFavorites(data);
+		}
+	};
+
 	return (
-		<button type="button" className={styles.cardButton__favoriteContainer}>
+		<button
+			type="button"
+			className={`${styles.isNotFavorite} ${
+				favorites.some((fav) => fav.id === data.id) ? styles.isFavorite : ""
+			}`}
+			onClick={() => toggleFavorite()}>
 			<svg
 				width="100%"
 				height="100%"

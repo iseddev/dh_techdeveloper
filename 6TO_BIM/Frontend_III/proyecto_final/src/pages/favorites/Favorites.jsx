@@ -1,24 +1,37 @@
-import Layout from "../../components/layout/Layout";
+import { useContext, useCallback, useMemo } from "react";
+import { useNavigate } from "react-router-dom";
 
-const Favorites = ({ favorites }) => {
-	return (
-		<Layout>
+import FavoritesContext from "../../context/FavoritesContext";
+
+import Layout from "../../components/layout/Layout";
+import Card from "../../components/card/Card";
+
+import styles from "../characters/Characters.module.css";
+
+const Favorites = () => {
+	const { favorites } = useContext(FavoritesContext);
+	const navigate = useNavigate();
+
+	const goToCharacter = useCallback((id) => navigate(`/character/${id}`), [navigate]);
+
+	const favoriteCharacters = useMemo(() => {
+		return (
 			<main>
 				<h2>Favoritos</h2>
-				<p>En esta sección se mostrarán los personajes favoritos.</p>
-				{/* Logic to add favorites characters */}
 				{favorites.length === 0 ? (
-					<p>No personajes favoritos.</p>
+					<p>No tienes personajes favoritos.</p>
 				) : (
-					<ul>
+					<div className={styles.charactersGrid}>
 						{favorites.map((favorite) => (
-							<li key={favorite.id}>{favorite.name}</li>
+							<Card key={favorite.id} data={favorite} onClick={() => goToCharacter(favorite.id)} />
 						))}
-					</ul>
+					</div>
 				)}
 			</main>
-		</Layout>
-	);
+		);
+	}, [favorites, goToCharacter]);
+
+	return <Layout>{favoriteCharacters}</Layout>;
 };
 
 export default Favorites;
