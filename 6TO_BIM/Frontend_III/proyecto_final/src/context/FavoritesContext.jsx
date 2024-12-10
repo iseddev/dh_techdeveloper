@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const FavoritesContext = createContext();
@@ -8,6 +8,17 @@ export const FavoritesProvider = ({ children }) => {
 
 	const navigate = useNavigate();
 
+	useEffect(() => {
+		const storedFavorites = JSON.parse(localStorage.getItem("favorites"));
+		storedFavorites && setFavorites(storedFavorites);
+	}, []);
+
+	useEffect(() => {
+		favorites.length > 0
+			? localStorage.setItem("favorites", JSON.stringify(favorites))
+			: localStorage.removeItem("favorites");
+	}, [favorites]);
+
 	const addToFavorites = (character) => {
 		setFavorites((prevState) => {
 			if (prevState.find((fav) => fav.id === character.id)) return prevState;
@@ -15,9 +26,8 @@ export const FavoritesProvider = ({ children }) => {
 		});
 	};
 
-	const removeFromFavorites = (character) => {
+	const removeFromFavorites = (character) =>
 		setFavorites((prevState) => prevState.filter((fav) => fav.id !== character.id));
-	};
 
 	const goToCharacter = (id) => navigate(`/character/${id}`);
 
