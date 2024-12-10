@@ -1,11 +1,7 @@
 import Layout from "../../components/layout/Layout";
 
 const Contact = () => {
-	return (
-		<Layout>
-			<h1>Contact</h1>
-		</Layout>
-	);
+	return <Layout mainTitle="Contact"></Layout>;
 };
 
 export default Contact;

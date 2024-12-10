@@ -5,11 +5,14 @@ import Footer from "../footer/Footer";
 
 import styles from "./Layout.module.css";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, mainTitle }) => {
 	return (
 		<div className={styles.layout}>
 			<HeaderNav />
-			{children}
+			<main>
+				<h1>{mainTitle}</h1>
+				{children}
+			</main>
 			<Outlet />
 			<Footer />
 		</div>

@@ -13,8 +13,8 @@ import "./App.css";
 
 function App() {
 	return (
-		<FavoritesProvider>
-			<BrowserRouter>
+		<BrowserRouter>
+			<FavoritesProvider>
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/characters" element={<Characters />} />
@@ -23,8 +23,8 @@ function App() {
 					<Route path="/contact" element={<Contact />} />
 					<Route path="*" element={<NotFound />} />
 				</Routes>
-			</BrowserRouter>
-		</FavoritesProvider>
+			</FavoritesProvider>
+		</BrowserRouter>
 	);
 }
 

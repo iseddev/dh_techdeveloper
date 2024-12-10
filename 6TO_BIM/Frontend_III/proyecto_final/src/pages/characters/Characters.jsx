@@ -1,8 +1,8 @@
-import { useState, useEffect, useCallback, useMemo } from "react";
-import { useNavigate } from "react-router-dom";
+import { useState, useEffect, useMemo, useContext } from "react";
 
 import fetchData from "../../data/fetchData";
 
+import FavoritesContext from "../../context/FavoritesContext";
 import Layout from "../../components/layout/Layout";
 import Card from "../../components/card/Card";
 
@@ -15,7 +15,7 @@ const Characters = () => {
 	const [isLoading, setIsLoading] = useState(true);
 	const [isFirstLoad, setIsFirstLoad] = useState(true);
 
-	const navigate = useNavigate();
+	const { goToCharacter } = useContext(FavoritesContext);
 
 	useEffect(() => {
 		if (isFirstLoad) {
@@ -24,8 +24,6 @@ const Characters = () => {
 		}
 		setIsLoading(false);
 	}, [isFirstLoad]);
-
-	const goToCharacter = useCallback((id) => navigate(`/character/${id}`), [navigate]);
 
 	const content = useMemo(() => {
 		if (isLoading) return <h3>Cargando datos ...</h3>;
@@ -42,7 +40,7 @@ const Characters = () => {
 	}, [characters, goToCharacter, isLoading]);
 
 	return (
-		<Layout>
+		<Layout mainTitle="Dragon Ball Z - Best Characters">
 			<div
 				className={!isLoading || !isFirstLoad ? styles.charactersGrid : styles.charactersLoading}>
 				{content}

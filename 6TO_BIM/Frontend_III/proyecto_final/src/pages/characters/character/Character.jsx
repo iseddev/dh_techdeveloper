@@ -18,7 +18,7 @@ const Character = () => {
 	}, [characterURL]);
 
 	return (
-		<Layout>
+		<Layout mainTitle="Character Details">
 			<CardDetailed data={character} />
 		</Layout>
 	);

@@ -1,5 +1,4 @@
-import { useContext, useCallback, useMemo } from "react";
-import { useNavigate } from "react-router-dom";
+import { useContext, useMemo } from "react";
 
 import FavoritesContext from "../../context/FavoritesContext";
 
@@ -9,15 +8,11 @@ import Card from "../../components/card/Card";
 import styles from "../characters/Characters.module.css";
 
 const Favorites = () => {
-	const { favorites } = useContext(FavoritesContext);
-	const navigate = useNavigate();
+	const { favorites, goToCharacter } = useContext(FavoritesContext);
 
-	const goToCharacter = useCallback((id) => navigate(`/character/${id}`), [navigate]);
-
-	const favoriteCharacters = useMemo(() => {
-		return (
-			<main>
-				<h2>Favoritos</h2>
+	const favoriteCharacters = useMemo(
+		() => (
+			<>
 				{favorites.length === 0 ? (
 					<p>No tienes personajes favoritos.</p>
 				) : (
@@ -27,11 +22,12 @@ const Favorites = () => {
 						))}
 					</div>
 				)}
-			</main>
-		);
-	}, [favorites, goToCharacter]);
+			</>
+		),
+		[favorites, goToCharacter]
+	);
 
-	return <Layout>{favoriteCharacters}</Layout>;
+	return <Layout mainTitle="Favorite Characters">{favoriteCharacters}</Layout>;
 };
 
 export default Favorites;
